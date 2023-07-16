@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "362313946683",
+    "project_id": "public-apis-73605",
+    "storage_bucket": "public-apis-73605.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:362313946683:android:47ad948a8ffff2e8e22e1e",
+        "android_client_info": {
+          "package_name": "com.darshankomu.public_apis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "362313946683-cuglgkpc5lnomnl62hkaco34krivrlab.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeUcR1u2f4RwGtPVBDHjtICqVxEHdJsns"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "362313946683-cuglgkpc5lnomnl62hkaco34krivrlab.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
