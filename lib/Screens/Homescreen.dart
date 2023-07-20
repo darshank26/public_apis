@@ -33,6 +33,12 @@ class _HomeScreenState extends State<HomeScreen> {
     GridItem(title: 'Item 4', imagePath: 'assets/images/animal.jpg'),
     GridItem(title: 'Item 5', imagePath: 'assets/images/animal.jpg'),
     GridItem(title: 'Item 6', imagePath: 'assets/images/animal.jpg'),
+    GridItem(title: 'Item 1', imagePath: 'assets/images/animal.jpg'),
+    GridItem(title: 'Item 2', imagePath: 'assets/images/animal.jpg'),
+    GridItem(title: 'Item 3', imagePath: 'assets/images/animal.jpg'),
+    GridItem(title: 'Item 4', imagePath: 'assets/images/animal.jpg'),
+    GridItem(title: 'Item 5', imagePath: 'assets/images/animal.jpg'),
+    GridItem(title: 'Item 6', imagePath: 'assets/images/animal.jpg'),
   ];
 
   Future<void>? _launched;
@@ -79,13 +85,13 @@ class _HomeScreenState extends State<HomeScreen> {
     const String toLaunch = 'http://darshankomu.com/apps/Marathi%20Aarti%20Sangrah/privacypolicy.html';
 
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.grey.shade400,
       appBar: AppBar(
-        backgroundColor: kprimarycolor,
+        backgroundColor: Colors.black,
         elevation: 10,
         title: Align(
           alignment: Alignment.center,
-          child: Text("Public Api\'s",
+          child: Text("Public API",
               style: GoogleFonts.openSans(
                   letterSpacing: 0.8,
                   fontSize: 22,
@@ -94,7 +100,6 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
         centerTitle: true,
       ),
-      // Image.asset(items[index].imagePath,width: double.infinity, fit: BoxFit.fill,),
 
       body: Padding(
         padding: const EdgeInsets.all( 4.0),
@@ -113,8 +118,14 @@ class _HomeScreenState extends State<HomeScreen> {
               borderRadius: BorderRadius.circular(10.0),
             ),
             elevation: 5,
-            margin: EdgeInsets.all(10),
-            child: Image.asset(items[index].imagePath,width: double.infinity, height: 100, fit: BoxFit.fill,),
+            margin: EdgeInsets.all(5),
+            child: Container(
+              padding: EdgeInsets.all(2), // Border width
+              decoration: BoxDecoration(color: Colors.black, borderRadius: BorderRadius.circular(0)),
+              child: ClipRRect(
+                  borderRadius: BorderRadius.circular(8.0),
+                  child: Image.asset(items[index].imagePath,width: double.infinity, height: 100, fit: BoxFit.fill,))
+            ),
 
           ),
         );
