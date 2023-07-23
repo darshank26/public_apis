@@ -167,47 +167,6 @@ class _MyAppState extends State<MyApp> {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Public Api\'s',
-      theme : ThemeData(
-        brightness: Brightness.light,
-        primaryColor: kprimarycolor,
-        primaryTextTheme: TextTheme(
-          bodyText1: TextStyle(),
-          bodyText2: TextStyle(),
-          subtitle1: TextStyle(),
-        ).apply(
-          bodyColor:kprimarycolor,
-          displayColor: kprimarycolor,
-          decorationColor: kprimarycolor,
-        ),
-        scaffoldBackgroundColor: ksecondcolor,
-        primaryIconTheme: IconThemeData(
-          color:const Color(0xfffB2EBF2),
-        ),
-        primarySwatch: Colors.blue,
-        accentColor: Colors.yellow,
-
-        tabBarTheme: TabBarTheme(
-          labelColor: Color(0xfffB2EBF2),
-          unselectedLabelColor: Color(0xfffB2EBF2),
-        ),
-        appBarTheme: AppBarTheme(
-          color: kprimarycolor,
-        ),
-        buttonTheme: ButtonThemeData(),
-        textTheme: TextTheme(
-          bodyText1: TextStyle(),
-          bodyText2: TextStyle(),
-          subtitle1: TextStyle(),
-        ).apply(
-          bodyColor: Colors.blue[700],
-          displayColor: Colors.blue[700],
-          decorationColor: Color(0xff247188),
-        ),
-        iconTheme: IconThemeData(color: Color(0xff2a77a0),),
-        buttonColor: Color(0xff2a77a0),
-
-      ),
-
       home: IntroSplashScreen(),
     );
   }
@@ -232,15 +191,12 @@ class _SplashScreenState extends State<IntroSplashScreen> {
       title: 'Chanakya Neeti Hindi',
       home: Scaffold(
         body: Container(
-          color: kprimarycolor,
           child: Stack(
             children: [
               Image.asset('assets/images/back.jpg' , fit: BoxFit.cover,
                 height: double.infinity,
                 width: double.infinity,
                 alignment: Alignment.center,),
-
-
               Align(
                 alignment: Alignment.bottomCenter,
                 child: Container(
