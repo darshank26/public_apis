@@ -169,11 +169,9 @@ class _HomeScreenState extends State<HomeScreen> {
                       borderRadius: BorderRadius.only(topLeft: Radius.circular(8),topRight: Radius.circular(8)),
                       child: GestureDetector(
                           onTap: () {
-                            if(index == 0)
-                            {
+
                               Navigator.push(context, PageTransition(type: PageTransitionType.fade, child: ListScreen(listIndex : index+1)));
 
-                            }
                           },
                           child: Image.asset(items[index].imagePath,width: double.infinity, height: 100, fit: BoxFit.cover,)))
                 ),
