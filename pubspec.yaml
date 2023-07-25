@@ -28,6 +28,9 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  sqflite:
+  path_provider:
+  shared_preferences: ^2.0.0
   google_fonts: ^2.1.0
   onesignal_flutter: ^3.0.0-beta3
   firebase_auth: ^4.2.10

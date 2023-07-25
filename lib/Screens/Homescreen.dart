@@ -6,6 +6,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:launch_review/launch_review.dart';
 import 'package:page_transition/page_transition.dart';
+import 'package:public_apis/Screens/Listscreen.dart';
 import 'package:share/share.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -124,7 +125,7 @@ class _HomeScreenState extends State<HomeScreen> {
     const String toLaunch = 'http://darshankomu.com/apps/Marathi%20Aarti%20Sangrah/privacypolicy.html';
 
     return Scaffold(
-      backgroundColor: Colors.grey.shade300,
+      backgroundColor: Colors.black,
       appBar: AppBar(
         backgroundColor: Colors.black,
         elevation: 10,
@@ -154,22 +155,34 @@ class _HomeScreenState extends State<HomeScreen> {
           child: Container(
             padding: const EdgeInsets.all(0),
             decoration: BoxDecoration(
+              border: Border.all(
+                width: 3,
+
+              ),
               borderRadius: BorderRadius.circular(10),
-              color: Colors.white,
+              color: Colors.black,
             ),
             child: Column(
               children: [
                 Expanded(
                   child: ClipRRect(
                       borderRadius: BorderRadius.only(topLeft: Radius.circular(8),topRight: Radius.circular(8)),
-                      child: Image.asset(items[index].imagePath,width: double.infinity, height: 100, fit: BoxFit.fill,))
+                      child: GestureDetector(
+                          onTap: () {
+                            if(index == 0)
+                            {
+                              Navigator.push(context, PageTransition(type: PageTransitionType.fade, child: ListScreen(listIndex : index+1)));
+
+                            }
+                          },
+                          child: Image.asset(items[index].imagePath,width: double.infinity, height: 100, fit: BoxFit.cover,)))
                 ),
                 const SizedBox(height: 0.3),
             Text(
                  items[index].title,
                   textAlign: TextAlign.center,
                   style: TextStyle(
-                    color: Colors.black,
+                    color: Colors.white,
                     fontSize: 20,
                     fontWeight: FontWeight.w600,
                   ),
