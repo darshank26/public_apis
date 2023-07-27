@@ -192,6 +192,107 @@ class _ListScreenState extends State<ListScreen> {
 
     ];
 
+  final List<List<String>> data_8 = [
+  ["A Bíblia Digital", "Do not worry about managing the multiple versions of the Bible", "https://www.abibliadigital.com.br/en","apiKey", "HTTPS", ""],
+  ["Bhagavad Gita", "Open Source Shrimad Bhagavad Gita API including 21+ authors translation in Sanskrit/English/Hindi","https://docs.bhagavadgitaapi.in/", "apiKey", "HTTPS", "CORS"],
+  ["Bhagavad Gita", "Bhagavad Gita text", "https://bhagavadgita.io/api/","OAuth", "HTTPS", "CORS"],
+  ["Bhagavad Gita telugu", "Bhagavad Gita API in telugu and odia languages", "https://gita-api.vercel.app/","", "HTTPS", "CORS"],
+  ["Bible-api", "Free Bible API with multiple languages", "https://bible-api.com/","", "HTTPS", "CORS"],
+  ["British National Bibliography", "Books","https://www.bl.uk/collection-metadata/metadata-services/linked-open-bnb", "", "", "Unknown"],
+  ["Crossref Metadata Search", "Books & Articles Metadata", "https://github.com/CrossRef/rest-api-doc","", "HTTPS", "Unknown"],
+  ["Ganjoor", "Classic Persian poetry works including access to related manuscripts, recitations and music tracks", "https://api.ganjoor.net/index.html","OAuth", "HTTPS", "CORS"],
+  ["Google Books", "Books", "https://developers.google.com/books/","OAuth", "HTTPS", "Unknown"],
+  ["GurbaniNow", "Fast and Accurate Gurbani RESTful API", "https://github.com/GurbaniNow/api","", "HTTPS", "Unknown"],
+  ["Gutendex", "Web-API for fetching data from Project Gutenberg Books Library", "https://gutendex.com/","", "HTTPS", "Unknown"],
+  ["Open Library", "Books, book covers and related data", "https://openlibrary.org/developers/api","", "HTTPS", "No"],
+  ["Penguin Publishing", "Books, book covers and related data", "http://www.penguinrandomhouse.biz/webservices/rest/","", "HTTPS", "CORS"],
+  ["PoetryDB", "Enables you to get instant data from our vast poetry collection", "https://github.com/thundercomb/poetrydb#readme","", "HTTPS", "CORS"],
+  ["Quran", "RESTful Quran API with multiple languages", "https://quran.api-docs.io/","", "HTTPS", "CORS"],
+  ["Quran Cloud", "A RESTful Quran API to retrieve an Ayah, Surah, Juz or the entire Holy Quran", "https://alquran.cloud/api","", "HTTPS", "CORS"],
+  ["Quran-api", "Free Quran API Service with 90+ different languages and 400+ translations", "https://github.com/fawazahmed0/quran-api#readme","", "HTTPS", "CORS"],
+  ["Rig Veda", "Gods and poets, their categories, and the verse meters, with the mandal and sukta number", "https://aninditabasu.github.io/indica/html/rv.html","", "HTTPS", "Unknown"],
+  ["The Bible", "Everything you need from the Bible in one discoverable place","https://docs.api.bible/" ,"apiKey", "HTTPS", "Unknown"],
+  ["Thirukkural", "1330 Thirukkural poems and explanation in Tamil and English","https://api-thirukkural.web.app/" ,"", "HTTPS", "CORS"],
+  ["Vedic Society", "Descriptions of all nouns (names, places, animals, things) from vedic literature"," https://aninditabasu.github.io/indica/html/vs.html","", "HTTPS", "Unknown"],
+  ["Wizard World", "Get information from the Harry Potter universe", "https://wizard-world-api.herokuapp.com/swagger/index.html","", "HTTPS", "CORS"],
+  ["Wolne Lektury", "API for obtaining information about e-books available on the WolneLektury.pl website","https://wolnelektury.pl/api/" ,"", "HTTPS", "Unknown"]
+  ];
+
+
+
+  final List<List<String>> data_9 = [
+    ["Apache Superset", "API to manage your BI dashboards and data sources on Superset", "https://superset.apache.org/docs/api/","apiKey", "HTTPS", "CORS"],
+    ["Charity Search", "Non-profit charity data", "https://charityapi.orghunter.com/","apiKey", "", "Unknown"],
+    ["Clearbit Logo", "Search for company logos and embed them in your projects","https://dashboard.clearbit.com/docs#logo-api", "apiKey", "HTTPS", "Unknown"],
+    ["Domainsdb.info", "Registered Domain Names Search", "https://domainsdb.info/","", "HTTPS", ""],
+    ["Freelancer", "Hire freelancers to get work done", "https://developers.freelancer.com/","OAuth", "HTTPS", "Unknown"],
+    ["Gmail", "Flexible, RESTful access to the user's inbox", "https://developers.google.com/gmail/api/guides","OAuth", "HTTPS", "Unknown"],
+    ["Google Analytics", "Collect, configure and analyze your data to reach the right audience", "https://developers.google.com/analytics/","OAuth", "HTTPS", "Unknown"],
+    ["Instatus", "Post to and update maintenance and incidents on your status page through an HTTP REST API", "https://instatus.com/help/api","apiKey", "HTTPS", "Unknown"],
+    ["Mailchimp", "Send marketing campaigns and transactional mails", "https://mailchimp.com/developer/","apiKey", "HTTPS", "Unknown"],
+    ["mailjet", "Marketing email can be sent and mail templates made in MJML or HTML can be sent using API", "https://www.mailjet.com/","apiKey", "HTTPS", "Unknown"],
+    ["markerapi", "Trademark Search","https://markerapi.com/", "", "", "Unknown"],
+    ["ORB Intelligence", "Company lookup", "https://api.orb-intelligence.com/docs/","apiKey", "HTTPS", "Unknown"],
+    ["Redash", "Access your queries and dashboards on Redash","https://redash.io/help/user-guide/integrations-and-api/api/", "apiKey", "HTTPS", "CORS"],
+    ["Smartsheet", "Allows you to programmatically access and Smartsheet data and account information", "https://smartsheet.redoc.ly/","OAuth", "HTTPS", ""],
+    ["Square", "Easy way to take payments, manage refunds, and help customers checkout online", "https://developer.squareup.com/reference/square","OAuth", "HTTPS", "Unknown"],
+    ["SwiftKanban", "Kanban software, Visualize Work, Increase Organizations Lead Time, Throughput & Productivity", "https://www.nimblework.com/knowledge-base/swiftkanban/article/api-for-swift-kanban-web-services/#restapi","apiKey", "HTTPS", "Unknown"],
+    ["Tenders in Hungary", "Get data for procurements in Hungary in JSON format","https://tenders.guru/hu/api", "", "HTTPS", "Unknown"],
+    ["Tenders in Poland", "Get data for procurements in Poland in JSON format","https://tenders.guru/pl/api", "", "HTTPS", "Unknown"],
+    ["Tenders in Romania", "Get data for procurements in Romania in JSON format", "https://tenders.guru/ro/api","", "HTTPS", "Unknown"],
+    ["Tenders in Spain", "Get data for procurements in Spain in JSON format", "https://tenders.guru/es/api","", "HTTPS", "Unknown"],
+    ["Tenders in Ukraine", "Get data for procurements in Ukraine in JSON format", "https://tenders.guru/ua/api","", "HTTPS", "Unknown"],
+    ["Tomba email finder", "Email Finder for B2B sales and email marketing and email verifier","https://tomba.io/api", "apiKey", "HTTPS", "CORS"],
+    ["Trello", "Boards, lists and cards to help you organize and prioritize your projects", "https://developer.atlassian.com/cloud/trello/","OAuth", "HTTPS", "Unknown"]
+  ];
+
+
+  final List<List<String>> data_10 = [
+    ["Abstract Public Holidays", "Data on national, regional, and religious holidays via API", "https://www.abstractapi.com/api/holidays-api","apiKey", "HTTPS", "CORS"],
+    ["Calendarific", "Worldwide Holidays", "https://calendarific.com/","apiKey", "HTTPS", "Unknown"],
+    ["Checkiday - National Holiday API", "Industry-leading Holiday API. Over 5,000 holidays and thousands of descriptions. Trusted by the World’s leading companies", "https://apilayer.com/marketplace/checkiday-api","apiKey", "HTTPS", "Unknown"],
+    ["Church Calendar", "Catholic liturgical calendar", "http://calapi.inadiutorium.cz/","", "", "Unknown"],
+    ["Czech Namedays Calendar", "Lookup for a name and returns nameday date","https://svatky.adresa.info/", "", "", "Unknown"],
+    ["Festivo Public Holidays", "Fastest and most advanced public holiday and observance service on the market","https://docs.getfestivo.com/docs/products/public-holidays-api/intro/", "apiKey", "HTTPS", "CORS"],
+    ["Google Calendar", "Display, create and modify Google calendar events","https://developers.google.com/google-apps/calendar/", "OAuth", "HTTPS", "Unknown"],
+    ["Hebrew Calendar", "Convert between Gregorian and Hebrew, fetch Shabbat and Holiday times, etc","https://www.hebcal.com/home/developer-apis", "", "", "Unknown"],
+    ["Holidays", "Historical data regarding holidays", "https://holidayapi.com/","apiKey", "HTTPS", "Unknown"],
+    ["LectServe", "Protestant liturgical calendar", "https://www.lectserve.com/","", "", "Unknown"],
+    ["Nager.Date", "Public holidays for more than 90 countries", "https://date.nager.at/","", "HTTPS", ""],
+    ["Namedays Calendar", "Provides namedays for multiple countries","https://nameday.abalin.net/", "", "HTTPS", "CORS"],
+    ["Non-Working Days", "Database of ICS files for non working days", "https://github.com/gadael/icsdb","", "HTTPS", "Unknown"],
+    ["Non-Working Days", "Simple REST API for checking working, non-working or short days for Russia, CIS, USA and other","https://www.isdayoff.ru/", "", "HTTPS", "CORS"],
+    ["Russian Calendar", "Check if a date is a Russian holiday or not", "https://github.com/egno/work-calendar","", "HTTPS", ""],
+    ["UK Bank Holidays", "Bank holidays in England and Wales, Scotland and Northern Ireland", "https://www.gov.uk/bank-holidays.json","", "HTTPS", "Unknown"]
+
+  ];
+
+  final List<List<String>> data_11 = [
+
+  ["AnonFiles", "Upload and share your files anonymously", "https://anonfiles.com/docs/api","", "HTTPS", "Unknown"],
+  ["BayFiles", "Upload and share your files","https://bayfiles.com/docs/api", "", "HTTPS", "Unknown"],
+  ["Box", "File Sharing and Storage","https://developer.box.com/", "OAuth", "HTTPS", "Unknown"],
+  ["ddownload", "File Sharing and Storage","https://ddownload.com/api", "apiKey", "HTTPS", "Unknown"],
+  ["Dropbox", "File Sharing and Storage","https://www.dropbox.com/developers", "OAuth", "HTTPS", "Unknown"],
+  ["File.io", "Super simple file sharing, convenient, anonymous and secure","https://www.file.io/", "", "HTTPS", "Unknown"],
+  ["Filestack", "Filestack File Uploader & File Upload API","https://www.filestack.com/", "apiKey", "HTTPS", "Unknown"],
+  ["GoFile", "Unlimited size file uploads for free", "https://gofile.io/api","apiKey", "HTTPS", "Unknown"],
+  ["Google Drive", "File Sharing and Storage","https://developers.google.com/drive/" ,"OAuth", "HTTPS", "Unknown"],
+  ["Gyazo", "Save & Share screen captures instantly", "https://gyazo.com/api/docs","apiKey", "HTTPS", "Unknown"],
+  ["Imgbb", "Simple and quick private image sharing", "https://api.imgbb.com/","apiKey", "HTTPS", "Unknown"],
+  ["OneDrive", "File Sharing and Storage", "https://developer.microsoft.com/en-us/onedrive","OAuth", "HTTPS", "Unknown"],
+  ["Pantry", "Free JSON storage for small projects", "https://getpantry.cloud/","", "HTTPS", "CORS"],
+  ["Pastebin", "Plain Text Storage", "https://pastebin.com/doc_api","apiKey", "HTTPS", "Unknown"],
+  ["Pinata", "IPFS Pinning Services API","https://docs.pinata.cloud/", "apiKey", "HTTPS", "Unknown"],
+  ["Quip", "File Sharing and Storage for groups", "https://quip.com/dev/automation/documentation","apiKey", "HTTPS", "CORS"],
+  ["Storj", "Decentralized Open-Source Cloud Storage", "https://docs.storj.io/dcs/","apiKey", "HTTPS", "Unknown"],
+  ["The Null Pointer", "No-bullshit file hosting and URL shortening service", "https://0x0.st/","", "HTTPS", "Unknown"],
+  ["Web3 Storage", "File Sharing and Storage for Free with 1TB Space","https://web3.storage/", "apiKey", "HTTPS", "CORS"]
+  ];
+
+
+
+
 
   @override
   Widget build(BuildContext context) {
@@ -803,6 +904,478 @@ class _ListScreenState extends State<ListScreen> {
              itemCount: data_7.length,
              itemBuilder: (BuildContext context, int index) {
                List<String> row = data_7[index];
+               return Card(
+                 child: Container(
+                   decoration: BoxDecoration(
+                     color: Colors.black,
+                     border: Border.all(
+                       color: Colors.grey.shade300,
+                       width: 0.5, // Set border width
+                     ),
+                     borderRadius: BorderRadius.all(
+                         Radius.circular(
+                             5.0) //                 <--- border radius here
+                     ),
+                   ),
+                   child: ListTile(
+                     title: Padding(
+                       padding: const EdgeInsets.only(top: 8.0),
+                       child: Text(row[0],
+                           style: GoogleFonts.openSans(textStyle: TextStyle(
+                             fontSize: 22,
+                             color: Colors.white,
+                             fontWeight: FontWeight.w800,))
+                       ),
+                     ), // Display item name
+                     subtitle: Column(
+                       mainAxisAlignment: MainAxisAlignment.start,
+                       crossAxisAlignment: CrossAxisAlignment.start,
+                       children: [
+                         Padding(
+                           padding: const EdgeInsets.only(top: 8.0, bottom: 8.0),
+                           child: Text(
+                               row[1],
+                               style: GoogleFonts.openSans(textStyle: TextStyle(
+                                 fontSize: 13,
+                                 color: Colors.grey,
+                                 fontWeight: FontWeight.w600,))
+                           ),
+                         ),
+                         Row(
+                           mainAxisAlignment: MainAxisAlignment.start,
+                           children: [
+                             if(row[3] !="")
+                               _buildChipOne(row[3], Color(0xff3f3f3f)) ,
+                             SizedBox(width: 5,),
+                             if(row[4] !="")
+                               _buildChipTwo(row[4], Color(0xff3f3f3f)),
+                             SizedBox(width: 5,),
+
+                             if(row[5] !="")
+                               _buildChipThree(row[5], Color(0xff3f3f3f)),
+                             SizedBox(width: 5,),
+
+                           ],
+                         ),
+                         SizedBox(height: 5,),
+
+
+
+                       ],
+                     ),
+                     trailing: Row(
+                       mainAxisSize: MainAxisSize.min,
+                       children: [
+                         IconButton(
+                           icon: Icon(
+                               Icons.launch, color: Colors.white, size: 22),
+                           onPressed: () {
+                             _open(row[2]);
+
+                           },
+                         ),
+
+                         IconButton(
+                           icon: Icon(
+                               Icons.bookmark_border, color: Colors.white,
+                               size: 22),
+                           onPressed: () {
+
+                           },
+                         ),
+                       ],
+                     ),
+                   ),
+                 ),
+               );
+             },
+           ),
+         ),
+         bottomNavigationBar: Row(
+           mainAxisAlignment: MainAxisAlignment.center,
+           children: [
+             if (_isBannerAdReady)
+               Container(
+                 width: _bannerAd.size.width.toDouble(),
+                 height: _bannerAd.size.height.toDouble(),
+                 child: AdWidget(ad: _bannerAd),
+               ),
+           ],
+         ),
+
+       );
+     }
+     else
+     if(widget.listIndex == 7) {
+       return Scaffold(
+         backgroundColor: Colors.black,
+         appBar: AppBar(
+           iconTheme: IconThemeData(
+             color: Colors.white, //change your color here
+           ),
+           backgroundColor: Colors.black,
+           title: Text('Books',style: TextStyle(color: Colors.white)),
+         ),
+         body: Padding(
+           padding: const EdgeInsets.all(8.0),
+           child: ListView.builder(
+             itemCount: data_8.length,
+             itemBuilder: (BuildContext context, int index) {
+               List<String> row = data_8[index];
+               return Card(
+                 child: Container(
+                   decoration: BoxDecoration(
+                     color: Colors.black,
+                     border: Border.all(
+                       color: Colors.grey.shade300,
+                       width: 0.5, // Set border width
+                     ),
+                     borderRadius: BorderRadius.all(
+                         Radius.circular(
+                             5.0) //                 <--- border radius here
+                     ),
+                   ),
+                   child: ListTile(
+                     title: Padding(
+                       padding: const EdgeInsets.only(top: 8.0),
+                       child: Text(row[0],
+                           style: GoogleFonts.openSans(textStyle: TextStyle(
+                             fontSize: 22,
+                             color: Colors.white,
+                             fontWeight: FontWeight.w800,))
+                       ),
+                     ), // Display item name
+                     subtitle: Column(
+                       mainAxisAlignment: MainAxisAlignment.start,
+                       crossAxisAlignment: CrossAxisAlignment.start,
+                       children: [
+                         Padding(
+                           padding: const EdgeInsets.only(top: 8.0, bottom: 8.0),
+                           child: Text(
+                               row[1],
+                               style: GoogleFonts.openSans(textStyle: TextStyle(
+                                 fontSize: 13,
+                                 color: Colors.grey,
+                                 fontWeight: FontWeight.w600,))
+                           ),
+                         ),
+                         Row(
+                           mainAxisAlignment: MainAxisAlignment.start,
+                           children: [
+                             if(row[3] !="")
+                               _buildChipOne(row[3], Color(0xff3f3f3f)) ,
+                             SizedBox(width: 5,),
+                             if(row[4] !="")
+                               _buildChipTwo(row[4], Color(0xff3f3f3f)),
+                             SizedBox(width: 5,),
+
+                             if(row[5] !="")
+                               _buildChipThree(row[5], Color(0xff3f3f3f)),
+                             SizedBox(width: 5,),
+
+                           ],
+                         ),
+                         SizedBox(height: 5,),
+
+
+
+                       ],
+                     ),
+                     trailing: Row(
+                       mainAxisSize: MainAxisSize.min,
+                       children: [
+                         IconButton(
+                           icon: Icon(
+                               Icons.launch, color: Colors.white, size: 22),
+                           onPressed: () {
+                             _open(row[2]);
+
+                           },
+                         ),
+
+                         IconButton(
+                           icon: Icon(
+                               Icons.bookmark_border, color: Colors.white,
+                               size: 22),
+                           onPressed: () {
+
+                           },
+                         ),
+                       ],
+                     ),
+                   ),
+                 ),
+               );
+             },
+           ),
+         ),
+         bottomNavigationBar: Row(
+           mainAxisAlignment: MainAxisAlignment.center,
+           children: [
+             if (_isBannerAdReady)
+               Container(
+                 width: _bannerAd.size.width.toDouble(),
+                 height: _bannerAd.size.height.toDouble(),
+                 child: AdWidget(ad: _bannerAd),
+               ),
+           ],
+         ),
+
+       );
+     }
+     else
+     if(widget.listIndex == 8) {
+       return Scaffold(
+         backgroundColor: Colors.black,
+         appBar: AppBar(
+           iconTheme: IconThemeData(
+             color: Colors.white, //change your color here
+           ),
+           backgroundColor: Colors.black,
+           title: Text('Business',style: TextStyle(color: Colors.white)),
+         ),
+         body: Padding(
+           padding: const EdgeInsets.all(8.0),
+           child: ListView.builder(
+             itemCount: data_9.length,
+             itemBuilder: (BuildContext context, int index) {
+               List<String> row = data_9[index];
+               return Card(
+                 child: Container(
+                   decoration: BoxDecoration(
+                     color: Colors.black,
+                     border: Border.all(
+                       color: Colors.grey.shade300,
+                       width: 0.5, // Set border width
+                     ),
+                     borderRadius: BorderRadius.all(
+                         Radius.circular(
+                             5.0) //                 <--- border radius here
+                     ),
+                   ),
+                   child: ListTile(
+                     title: Padding(
+                       padding: const EdgeInsets.only(top: 8.0),
+                       child: Text(row[0],
+                           style: GoogleFonts.openSans(textStyle: TextStyle(
+                             fontSize: 22,
+                             color: Colors.white,
+                             fontWeight: FontWeight.w800,))
+                       ),
+                     ), // Display item name
+                     subtitle: Column(
+                       mainAxisAlignment: MainAxisAlignment.start,
+                       crossAxisAlignment: CrossAxisAlignment.start,
+                       children: [
+                         Padding(
+                           padding: const EdgeInsets.only(top: 8.0, bottom: 8.0),
+                           child: Text(
+                               row[1],
+                               style: GoogleFonts.openSans(textStyle: TextStyle(
+                                 fontSize: 13,
+                                 color: Colors.grey,
+                                 fontWeight: FontWeight.w600,))
+                           ),
+                         ),
+                         Row(
+                           mainAxisAlignment: MainAxisAlignment.start,
+                           children: [
+                             if(row[3] !="")
+                               _buildChipOne(row[3], Color(0xff3f3f3f)) ,
+                             SizedBox(width: 5,),
+                             if(row[4] !="")
+                               _buildChipTwo(row[4], Color(0xff3f3f3f)),
+                             SizedBox(width: 5,),
+
+                             if(row[5] !="")
+                               _buildChipThree(row[5], Color(0xff3f3f3f)),
+                             SizedBox(width: 5,),
+
+                           ],
+                         ),
+                         SizedBox(height: 5,),
+
+
+
+                       ],
+                     ),
+                     trailing: Row(
+                       mainAxisSize: MainAxisSize.min,
+                       children: [
+                         IconButton(
+                           icon: Icon(
+                               Icons.launch, color: Colors.white, size: 22),
+                           onPressed: () {
+                             _open(row[2]);
+
+                           },
+                         ),
+
+                         IconButton(
+                           icon: Icon(
+                               Icons.bookmark_border, color: Colors.white,
+                               size: 22),
+                           onPressed: () {
+
+                           },
+                         ),
+                       ],
+                     ),
+                   ),
+                 ),
+               );
+             },
+           ),
+         ),
+         bottomNavigationBar: Row(
+           mainAxisAlignment: MainAxisAlignment.center,
+           children: [
+             if (_isBannerAdReady)
+               Container(
+                 width: _bannerAd.size.width.toDouble(),
+                 height: _bannerAd.size.height.toDouble(),
+                 child: AdWidget(ad: _bannerAd),
+               ),
+           ],
+         ),
+
+       );
+     }
+     else
+     if(widget.listIndex == 9) {
+       return Scaffold(
+         backgroundColor: Colors.black,
+         appBar: AppBar(
+           iconTheme: IconThemeData(
+             color: Colors.white, //change your color here
+           ),
+           backgroundColor: Colors.black,
+           title: Text('Calendar',style: TextStyle(color: Colors.white)),
+         ),
+         body: Padding(
+           padding: const EdgeInsets.all(8.0),
+           child: ListView.builder(
+             itemCount: data_10.length,
+             itemBuilder: (BuildContext context, int index) {
+               List<String> row = data_10[index];
+               return Card(
+                 child: Container(
+                   decoration: BoxDecoration(
+                     color: Colors.black,
+                     border: Border.all(
+                       color: Colors.grey.shade300,
+                       width: 0.5, // Set border width
+                     ),
+                     borderRadius: BorderRadius.all(
+                         Radius.circular(
+                             5.0) //                 <--- border radius here
+                     ),
+                   ),
+                   child: ListTile(
+                     title: Padding(
+                       padding: const EdgeInsets.only(top: 8.0),
+                       child: Text(row[0],
+                           style: GoogleFonts.openSans(textStyle: TextStyle(
+                             fontSize: 22,
+                             color: Colors.white,
+                             fontWeight: FontWeight.w800,))
+                       ),
+                     ), // Display item name
+                     subtitle: Column(
+                       mainAxisAlignment: MainAxisAlignment.start,
+                       crossAxisAlignment: CrossAxisAlignment.start,
+                       children: [
+                         Padding(
+                           padding: const EdgeInsets.only(top: 8.0, bottom: 8.0),
+                           child: Text(
+                               row[1],
+                               style: GoogleFonts.openSans(textStyle: TextStyle(
+                                 fontSize: 13,
+                                 color: Colors.grey,
+                                 fontWeight: FontWeight.w600,))
+                           ),
+                         ),
+                         Row(
+                           mainAxisAlignment: MainAxisAlignment.start,
+                           children: [
+                             if(row[3] !="")
+                               _buildChipOne(row[3], Color(0xff3f3f3f)) ,
+                             SizedBox(width: 5,),
+                             if(row[4] !="")
+                               _buildChipTwo(row[4], Color(0xff3f3f3f)),
+                             SizedBox(width: 5,),
+
+                             if(row[5] !="")
+                               _buildChipThree(row[5], Color(0xff3f3f3f)),
+                             SizedBox(width: 5,),
+
+                           ],
+                         ),
+                         SizedBox(height: 5,),
+
+
+
+                       ],
+                     ),
+                     trailing: Row(
+                       mainAxisSize: MainAxisSize.min,
+                       children: [
+                         IconButton(
+                           icon: Icon(
+                               Icons.launch, color: Colors.white, size: 22),
+                           onPressed: () {
+                             _open(row[2]);
+
+                           },
+                         ),
+
+                         IconButton(
+                           icon: Icon(
+                               Icons.bookmark_border, color: Colors.white,
+                               size: 22),
+                           onPressed: () {
+
+                           },
+                         ),
+                       ],
+                     ),
+                   ),
+                 ),
+               );
+             },
+           ),
+         ),
+         bottomNavigationBar: Row(
+           mainAxisAlignment: MainAxisAlignment.center,
+           children: [
+             if (_isBannerAdReady)
+               Container(
+                 width: _bannerAd.size.width.toDouble(),
+                 height: _bannerAd.size.height.toDouble(),
+                 child: AdWidget(ad: _bannerAd),
+               ),
+           ],
+         ),
+
+       );
+     }
+     else
+     if(widget.listIndex == 10) {
+       return Scaffold(
+         backgroundColor: Colors.black,
+         appBar: AppBar(
+           iconTheme: IconThemeData(
+             color: Colors.white, //change your color here
+           ),
+           backgroundColor: Colors.black,
+           title: Text('Cloud Storage',style: TextStyle(color: Colors.white)),
+         ),
+         body: Padding(
+           padding: const EdgeInsets.all(8.0),
+           child: ListView.builder(
+             itemCount: data_11.length,
+             itemBuilder: (BuildContext context, int index) {
+               List<String> row = data_11[index];
                return Card(
                  child: Container(
                    decoration: BoxDecoration(
