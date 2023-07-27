@@ -31,7 +31,7 @@ dependencies:
   sqflite:
   path_provider:
   shared_preferences: ^2.0.0
-  google_fonts: ^2.1.0
+  google_fonts: ^4.0.4
   onesignal_flutter: ^3.0.0-beta3
   firebase_auth: ^4.2.10
   firebase_core: ^2.7.1
