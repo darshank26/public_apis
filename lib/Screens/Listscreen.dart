@@ -290,6 +290,63 @@ class _ListScreenState extends State<ListScreen> {
   ["Web3 Storage", "File Sharing and Storage for Free with 1TB Space","https://web3.storage/", "apiKey", "HTTPS", "CORS"]
   ];
 
+  final List<List<String>> data_12 = [
+
+  ["0x", "API for querying token and pool stats across various liquidity pools","https://0x.org/api", "", "HTTPS", "CORS"],
+  ["1inch", "API for querying decentralized exchange","https://1inch.io/api/", "", "HTTPS", "Unknown"],
+  ["Alchemy Ethereum", "Ethereum Node-as-a-Service Provider","https://docs.alchemy.com/", "apiKey", "HTTPS", "CORS"],
+  ["apilayer coinlayer", "Real-time Crypto Currency Exchange Rates","https://coinlayer.com/", "apiKey", "HTTPS", "Unknown"],
+  ["Binance", "Exchange for Trading Cryptocurrencies based in China", "https://github.com/binance/binance-spot-api-docs","apiKey", "HTTPS", "Unknown"],
+  ["Bitcambio", "Get the list of all traded assets in the exchange","https://nova.bitcambio.com.br/api/v3/docs#a-public", "", "HTTPS", "Unknown"],
+  ["BitcoinAverage", "Digital Asset Price Data for the blockchain industry","https://apiv2.bitcoinaverage.com/", "apiKey", "HTTPS", "Unknown"],
+  ["BitcoinCharts", "Financial and Technical Data related to the Bitcoin Network", "https://bitcoincharts.com/about/exchanges/","No", "HTTPS", "Unknown"],
+  ["Bitfinex", "Cryptocurrency Trading Platform","https://docs.bitfinex.com/docs", "apiKey", "HTTPS", "Unknown"],
+  ["Bitmex", "Real-Time Cryptocurrency derivatives trading platform based in Hong Kong","https://www.bitmex.com/app/apiOverview", "apiKey", "HTTPS", "Unknown"],
+  ["Bittrex", "Next Generation Crypto Trading Platform","https://bittrex.github.io/api/v3", "apiKey", "HTTPS", "Unknown"],
+  ["Block", "Bitcoin Payment, Wallet & Transaction Data", "https://block.io/docs/basic","apiKey", "HTTPS", "Unknown"],
+  ["Blockchain", "Bitcoin Payment, Wallet & Transaction Data", "https://www.blockchain.com/explorer/api","apiKey", "Yes", "Unknown"],
+  ["blockfrost Cardano", "Interaction with the Cardano mainnet and several testnets", "https://blockfrost.io/","apiKey", "HTTPS", "Unknown"],
+
+    ["Brave NewCoin", "Real-time and historic crypto data from more than 200+ exchanges", "apiKey", "HTTPS", "Unknown"],
+  ["BtcTurk", "Real-time cryptocurrency data, graphs and API that allows buy&sell", "apiKey", "HTTPS", "CORS"],
+  ["Bybit", "Cryptocurrency data feed and algorithmic trading", "apiKey", "HTTPS", "Unknown"],
+  ["CoinAPI", "All Currency Exchanges integrate under a single api", "apiKey", "HTTPS", ""],
+  ["Coinbase", "Bitcoin, Bitcoin Cash, Litecoin and Ethereum Prices", "apiKey", "HTTPS", "Unknown"],
+  ["Coinbase Pro", "Cryptocurrency Trading Platform", "apiKey", "HTTPS", "Unknown"],
+  ["CoinCap", "Real-time Cryptocurrency prices through a RESTful API", "", "HTTPS", "Unknown"],
+  ["CoinDCX", "Cryptocurrency Trading Platform", "apiKey", "HTTPS", "Unknown"],
+  ["CoinDesk", "CoinDesk's Bitcoin Price Index (BPI) in multiple currencies", "", "HTTPS", "Unknown"],
+  ["CoinGecko", "Cryptocurrency Price, Market, and Developer/Social Data", "", "HTTPS", "CORS"],
+  ["Coinigy", "Interacting with Coinigy Accounts and Exchange Directly", "apiKey", "HTTPS", "Unknown"],
+  ["Coinlib", "Crypto Currency Prices", "apiKey", "HTTPS", "Unknown"],
+  ["Coinlore", "Cryptocurrencies prices, volume and more", "", "HTTPS", "Unknown"],
+  ["CoinMarketCap", "Cryptocurrencies Prices", "apiKey", "HTTPS", "Unknown"],
+  ["Coinpaprika", "Cryptocurrencies prices, volume and more", "", "YeHTTPSs", "CORS"],
+  ["CoinRanking", "Live Cryptocurrency data", "apiKey", "HTTPS", "Unknown"],
+  ["Coinremitter", "Cryptocurrencies Payment & Prices", "apiKey", "HTTPS", "Unknown"],
+  ["CoinStats", "Crypto Tracker", "No", "Yes", "Unknown"],
+  ["CryptAPI", "Cryptocurrency Payment Processor", "", "HTTPS", "Unknown"],
+  ["CryptingUp", "Cryptocurrency data", "", "HTTPS", "Unknown"],
+  ["CryptoCompare", "Cryptocurrencies Comparison", "", "HTTPS", "Unknown"],
+  ["CryptoMarket", "Cryptocurrencies Trading platform", "apiKey", "HTTPS", "CORS"],
+  ["Cryptonator", "Cryptocurrencies Exchange Rates", "", "HTTPS", "Unknown"],
+  ["dYdX", "Decentralized cryptocurrency exchange", "apiKey", "HTTPS", "Unknown"],
+  ["Ethplorer", "Ethereum tokens, balances, addresses, history of transactions, contracts, and custom structures", "apiKey", "HTTPS", "Unknown"],
+  ["EXMO", "Cryptocurrencies exchange based in UK", "apiKey", "HTTPS", "Unknown"],
+  ["FTX", "Complete REST, websocket, and FTX APIs to suit your algorithmic trading needs", "apiKey", "HTTPS", "CORS"],
+  ["Gateio", "API provides spot, margin and futures trading operations", "apiKey", "HTTPS", "Unknown"],
+  ["Gemini", "Cryptocurrencies Exchange", "", "HTTPS", "Unknown"],
+  ["Hirak Exchange Rates", "Exchange rates between 162 currency & 300 crypto currency update each 5 min, accurate, no limits", "apiKey", "HTTPS", "Unknown"],
+  ["Huobi", "Seychelles based cryptocurrency exchange", "apiKey", "HTTPS", "Unknown"],
+  ["icy.tools", "GraphQL based NFT API", "apiKey", "HTTPS", "Unknown"],
+  ["Indodax", "Trade your Bitcoin and other assets with rupiah", "apiKey", "HTTPS", "Unknown"],
+  ["INFURA Ethereum", "Interaction with the Ethereum mainnet and several testnets", "apiKey", "HTTPS", "CORS"],
+  ["Kraken", "Cryptocurrencies Exchange", "apiKey", "HTTPS", "Unknown"],
+  ["KuCoin", "Cryptocurrency Trading Platform", "apiKey", "HTTPS", "Unknown"],
+  ["Localbitcoins", "P2P platform to buy and sell Bitcoins", "", "HTTPS", "Unknown"],
+  ["Mempool", "Bitcoin API Service focusing on the transaction fee", "", "HTTPS", ""]
+  ];
+
 
 
 
