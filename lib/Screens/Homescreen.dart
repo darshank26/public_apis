@@ -39,6 +39,7 @@ class _HomeScreenState extends State<HomeScreen> {
     GridItem(title: 'Calendar', imagePath: 'assets/images/9.jpg'),
     GridItem(title: 'Cloud Storage', imagePath: 'assets/images/10.jpg'),
     GridItem(title: 'Continuous Integration', imagePath: 'assets/images/11.jpg'),
+    GridItem(title: 'Cryptocurrency', imagePath: 'assets/images/51.jpg'),
     GridItem(title: 'Currency Exchange', imagePath: 'assets/images/12.jpg'),
     GridItem(title: 'Data Validation', imagePath: 'assets/images/13.jpg'),
     GridItem(title: 'Development', imagePath: 'assets/images/14.jpg'),

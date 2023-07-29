@@ -292,6 +292,18 @@ class _ListScreenState extends State<ListScreen> {
 
   final List<List<String>> data_12 = [
 
+    ["Azure DevOps Health", "Resource health helps you diagnose and get support when an Azure issue impacts your resources", "https://learn.microsoft.com/en-us/rest/api/resourcehealth/","apiKey", "", ""],
+    ["Bitrise", "Build tool and processes integrations to create efficient development pipelines","https://api-docs.bitrise.io/","apiKey", "HTTPS", "Unknown"],
+    ["Buddy", "The fastest continuous integration and continuous delivery platform","https://buddy.works/docs/api/getting-started/overview", "OAuth", "HTTPS", "Unknown"],
+    ["CircleCI", "Automate the software development process using continuous integration and continuous delivery","https://circleci.com/docs/api/v1/index.html#circleci-v1-api-overview", "apiKey", "HTTPS", "Unknown"],
+    ["Codeship", "Codeship is a Continuous Integration Platform in the cloud","https://docs.cloudbees.com/docs/cloudbees-codeship/latest/api-overview/", "apiKey", "HTTPS", "Unknown"],
+    ["Travis CI", "Sync your GitHub projects with Travis CI to test your code in minutes","https://docs.travis-ci.com/api/", "apiKey", "HTTPS", "Unknown"]
+
+  ];
+
+
+  final List<List<String>> data_13 = [
+
   ["0x", "API for querying token and pool stats across various liquidity pools","https://0x.org/api", "", "HTTPS", "CORS"],
   ["1inch", "API for querying decentralized exchange","https://1inch.io/api/", "", "HTTPS", "Unknown"],
   ["Alchemy Ethereum", "Ethereum Node-as-a-Service Provider","https://docs.alchemy.com/", "apiKey", "HTTPS", "CORS"],
@@ -304,49 +316,82 @@ class _ListScreenState extends State<ListScreen> {
   ["Bitmex", "Real-Time Cryptocurrency derivatives trading platform based in Hong Kong","https://www.bitmex.com/app/apiOverview", "apiKey", "HTTPS", "Unknown"],
   ["Bittrex", "Next Generation Crypto Trading Platform","https://bittrex.github.io/api/v3", "apiKey", "HTTPS", "Unknown"],
   ["Block", "Bitcoin Payment, Wallet & Transaction Data", "https://block.io/docs/basic","apiKey", "HTTPS", "Unknown"],
-  ["Blockchain", "Bitcoin Payment, Wallet & Transaction Data", "https://www.blockchain.com/explorer/api","apiKey", "Yes", "Unknown"],
+  ["Blockchain", "Bitcoin Payment, Wallet & Transaction Data", "https://www.blockchain.com/explorer/api","apiKey", "HTTPS", "Unknown"],
   ["blockfrost Cardano", "Interaction with the Cardano mainnet and several testnets", "https://blockfrost.io/","apiKey", "HTTPS", "Unknown"],
+  ["Brave NewCoin", "Real-time and historic crypto data from more than 200+ exchanges","https://bravenewcoin.com/developers", "apiKey", "HTTPS", "Unknown"],
+  ["BtcTurk", "Real-time cryptocurrency data, graphs and API that allows buy&sell","https://docs.btcturk.com/", "apiKey", "HTTPS", "CORS"],
+  ["Bybit", "Cryptocurrency data feed and algorithmic trading", "https://bybit-exchange.github.io/docs/linear/#t-introduction","apiKey", "HTTPS", "Unknown"],
+  ["CoinAPI", "All Currency Exchanges integrate under a single api","https://docs.coinapi.io/", "apiKey", "HTTPS", ""],
+  ["Coinbase", "Bitcoin, Bitcoin Cash, Litecoin and Ethereum Prices","https://www.coinbase.com/cloud", "apiKey", "HTTPS", "Unknown"],
+  ["Coinbase Pro", "Cryptocurrency Trading Platform", "https://docs.cloud.coinbase.com/exchange/docs/welcome#api","apiKey", "HTTPS", "Unknown"],
+  ["CoinCap", "Real-time Cryptocurrency prices through a RESTful API", "https://docs.coincap.io/", "", "HTTPS", "Unknown"],
+  ["CoinDCX", "Cryptocurrency Trading Platform", "https://docs.coindcx.com/#terms-and-conditions","apiKey", "HTTPS", "Unknown"],
+  ["CoinDesk", "CoinDesk's Bitcoin Price Index (BPI) in multiple currencies", "https://old.coindesk.com/coindesk-api/","", "HTTPS", "Unknown"],
+  ["CoinGecko", "Cryptocurrency Price, Market, and Developer/Social Data", "http://www.coingecko.com/api", "","HTTPS", "CORS"],
+  ["Coinigy", "Interacting with Coinigy Accounts and Exchange Directly", "https://coinigy.docs.apiary.io/#","apiKey", "HTTPS", "Unknown"],
+  ["Coinlib", "Crypto Currency Prices", "https://coinlib.io/apidocs","apiKey", "HTTPS", "Unknown"],
+  ["Coinlore", "Cryptocurrencies prices, volume and more", "https://www.coinlore.com/cryptocurrency-data-api","", "HTTPS", "Unknown"],
 
-    ["Brave NewCoin", "Real-time and historic crypto data from more than 200+ exchanges", "apiKey", "HTTPS", "Unknown"],
-  ["BtcTurk", "Real-time cryptocurrency data, graphs and API that allows buy&sell", "apiKey", "HTTPS", "CORS"],
-  ["Bybit", "Cryptocurrency data feed and algorithmic trading", "apiKey", "HTTPS", "Unknown"],
-  ["CoinAPI", "All Currency Exchanges integrate under a single api", "apiKey", "HTTPS", ""],
-  ["Coinbase", "Bitcoin, Bitcoin Cash, Litecoin and Ethereum Prices", "apiKey", "HTTPS", "Unknown"],
-  ["Coinbase Pro", "Cryptocurrency Trading Platform", "apiKey", "HTTPS", "Unknown"],
-  ["CoinCap", "Real-time Cryptocurrency prices through a RESTful API", "", "HTTPS", "Unknown"],
-  ["CoinDCX", "Cryptocurrency Trading Platform", "apiKey", "HTTPS", "Unknown"],
-  ["CoinDesk", "CoinDesk's Bitcoin Price Index (BPI) in multiple currencies", "", "HTTPS", "Unknown"],
-  ["CoinGecko", "Cryptocurrency Price, Market, and Developer/Social Data", "", "HTTPS", "CORS"],
-  ["Coinigy", "Interacting with Coinigy Accounts and Exchange Directly", "apiKey", "HTTPS", "Unknown"],
-  ["Coinlib", "Crypto Currency Prices", "apiKey", "HTTPS", "Unknown"],
-  ["Coinlore", "Cryptocurrencies prices, volume and more", "", "HTTPS", "Unknown"],
-  ["CoinMarketCap", "Cryptocurrencies Prices", "apiKey", "HTTPS", "Unknown"],
-  ["Coinpaprika", "Cryptocurrencies prices, volume and more", "", "YeHTTPSs", "CORS"],
-  ["CoinRanking", "Live Cryptocurrency data", "apiKey", "HTTPS", "Unknown"],
-  ["Coinremitter", "Cryptocurrencies Payment & Prices", "apiKey", "HTTPS", "Unknown"],
-  ["CoinStats", "Crypto Tracker", "No", "Yes", "Unknown"],
-  ["CryptAPI", "Cryptocurrency Payment Processor", "", "HTTPS", "Unknown"],
-  ["CryptingUp", "Cryptocurrency data", "", "HTTPS", "Unknown"],
-  ["CryptoCompare", "Cryptocurrencies Comparison", "", "HTTPS", "Unknown"],
-  ["CryptoMarket", "Cryptocurrencies Trading platform", "apiKey", "HTTPS", "CORS"],
-  ["Cryptonator", "Cryptocurrencies Exchange Rates", "", "HTTPS", "Unknown"],
-  ["dYdX", "Decentralized cryptocurrency exchange", "apiKey", "HTTPS", "Unknown"],
-  ["Ethplorer", "Ethereum tokens, balances, addresses, history of transactions, contracts, and custom structures", "apiKey", "HTTPS", "Unknown"],
-  ["EXMO", "Cryptocurrencies exchange based in UK", "apiKey", "HTTPS", "Unknown"],
-  ["FTX", "Complete REST, websocket, and FTX APIs to suit your algorithmic trading needs", "apiKey", "HTTPS", "CORS"],
-  ["Gateio", "API provides spot, margin and futures trading operations", "apiKey", "HTTPS", "Unknown"],
-  ["Gemini", "Cryptocurrencies Exchange", "", "HTTPS", "Unknown"],
-  ["Hirak Exchange Rates", "Exchange rates between 162 currency & 300 crypto currency update each 5 min, accurate, no limits", "apiKey", "HTTPS", "Unknown"],
-  ["Huobi", "Seychelles based cryptocurrency exchange", "apiKey", "HTTPS", "Unknown"],
-  ["icy.tools", "GraphQL based NFT API", "apiKey", "HTTPS", "Unknown"],
-  ["Indodax", "Trade your Bitcoin and other assets with rupiah", "apiKey", "HTTPS", "Unknown"],
-  ["INFURA Ethereum", "Interaction with the Ethereum mainnet and several testnets", "apiKey", "HTTPS", "CORS"],
-  ["Kraken", "Cryptocurrencies Exchange", "apiKey", "HTTPS", "Unknown"],
-  ["KuCoin", "Cryptocurrency Trading Platform", "apiKey", "HTTPS", "Unknown"],
-  ["Localbitcoins", "P2P platform to buy and sell Bitcoins", "", "HTTPS", "Unknown"],
-  ["Mempool", "Bitcoin API Service focusing on the transaction fee", "", "HTTPS", ""]
+  ["CoinMarketCap", "Cryptocurrencies Prices", "https://coinmarketcap.com/api/","apiKey", "HTTPS", "Unknown"],
+  ["Coinpaprika", "Cryptocurrencies prices, volume and more", "https://api.coinpaprika.com/", "","HTTPS", "CORS"],
+  ["CoinRanking", "Live Cryptocurrency data", "https://developers.coinranking.com/api/documentation","apiKey", "HTTPS", "Unknown"],
+  ["Coinremitter", "Cryptocurrencies Payment & Prices", "https://coinremitter.com/docs","apiKey", "HTTPS", "Unknown"],
+  ["CoinStats", "Crypto Tracker","https://documenter.getpostman.com/view/5734027/RzZ6Hzr3?version=latest", "No", "HTTPS", "Unknown"],
+  ["CryptAPI", "Cryptocurrency Payment Processor", "https://docs.cryptapi.io/", "","HTTPS", "Unknown"],
+  ["CryptingUp", "Cryptocurrency data", "https://www.cryptingup.com/apidoc/#introduction", "","HTTPS", "Unknown"],
+  ["CryptoCompare", "Cryptocurrencies Comparison", "https://min-api.cryptocompare.com/", "","HTTPS", "Unknown"],
+  ["CryptoMarket", "Cryptocurrencies Trading platform", "https://api.exchange.cryptomkt.com/","apiKey", "HTTPS", "CORS"],
+  ["Cryptonator", "Cryptocurrencies Exchange Rates", "https://www.cryptonator.com/api/", "","HTTPS", "Unknown"],
+  ["dYdX", "Decentralized cryptocurrency exchange","https://dydxprotocol.github.io/v3-teacher/#terms-of-service-and-privacy-policy" ,"apiKey", "HTTPS", "Unknown"],
+  ["Ethplorer", "Ethereum tokens, balances, addresses, history of transactions, contracts, and custom structures","https://github.com/EverexIO/Ethplorer/wiki/Ethplorer-API", "apiKey", "HTTPS", "Unknown"],
+  ["EXMO", "Cryptocurrencies exchange based in UK", "https://documenter.getpostman.com/view/10287440/SzYXWKPi","apiKey", "HTTPS", "Unknown"],
+  ["FTX", "Complete REST, websocket, and FTX APIs to suit your algorithmic trading needs", "https://docs.ftx.com/","apiKey", "HTTPS", "CORS"],
+  ["Gateio", "API provides spot, margin and futures trading operations", "https://www.gate.io/api2","apiKey", "HTTPS", "Unknown"],
+  ["Gemini", "Cryptocurrencies Exchange", "https://docs.gemini.com/rest-api/","", "HTTPS", "Unknown"],
+  ["Hirak Exchange Rates", "Exchange rates between 162 currency & 300 crypto currency update each 5 min, accurate, no limits","https://rates.hirak.site/", "apiKey", "HTTPS", "Unknown"],
+  ["Huobi", "Seychelles based cryptocurrency exchange", "https://huobiapi.github.io/docs/spot/v1/en/","apiKey", "HTTPS", "Unknown"],
+  ["icy.tools", "GraphQL based NFT API","https://developers.icy.tools/", "apiKey", "HTTPS", "Unknown"],
+  ["Indodax", "Trade your Bitcoin and other assets with rupiah", "https://github.com/btcid/indodax-official-api-docs","apiKey", "HTTPS", "Unknown"],
+  ["INFURA Ethereum", "Interaction with the Ethereum mainnet and several testnets","https://www.infura.io/product/ethereum", "apiKey", "HTTPS", "CORS"],
+  ["Kraken", "Cryptocurrencies Exchange","https://docs.kraken.com/rest/", "apiKey", "HTTPS", "Unknown"],
+  ["KuCoin", "Cryptocurrency Trading Platform","https://docs.kucoin.com/#hftrading", "apiKey", "HTTPS", "Unknown"],
+  ["Localbitcoins", "P2P platform to buy and sell Bitcoins", "https://localbitcoins.com/api-docs/", "","HTTPS", "Unknown"],
+  ["Mempool", "Bitcoin API Service focusing on the transaction fee", "https://mempool.space/api", "","HTTPS", ""],
+  ["MercadoBitcoin", "Brazilian Cryptocurrency Information","https://www.mercadobitcoin.com.br/api-doc/", "", "HTTPS", "Unknown"],
+  ["Messari", "Provides API endpoints for thousands of crypto assets","https://messari.io/", "", "HTTPS", "Unknown"],
+  ["Nexchange", "Automated cryptocurrency exchange service","https://nexchange2.docs.apiary.io/", "", "", "CORS"],
+  ["Nomics", "Historical and realtime cryptocurrency prices and market data","https://nomics.com/docs/", "apiKey", "HTTPS", "CORS"],
+  ["NovaDax", "NovaDAX API to access all market data, trading management endpoints","https://doc.novadax.com/en-US/#introduction", "apiKey", "HTTPS", "Unknown"],
+  ["OKEx", "Cryptocurrency exchange based in Seychelles","https://www.okx.com/docs-v5/", "apiKey", "HTTPS", "Unknown"],
+  ["Poloniex", "US based digital asset exchange","https://docs.poloniex.com/#introduction", "apiKey", "HTTPS", "Unknown"],
+  ["Solana JSON RPC", "Provides various endpoints to interact with the Solana Blockchain","https://docs.solana.com/api/http", "", "HTTPS", "Unknown"],
+  ["Technical Analysis", "Cryptocurrency prices and technical analysis", "https://technical-analysis-api.com/","apiKey", "", ""],
+  ["VALR", "Cryptocurrency Exchange based in South Africa","https://docs.valr.com/", "apiKey", "HTTPS", "Unknown"],
+  ["WorldCoinIndex", "Cryptocurrencies Prices", "https://www.worldcoinindex.com/apiservice","apiKey", "HTTPS", "Unknown"],
+  ["ZMOK", "Ethereum JSON RPC API and Web3 provider","https://zmok.io/", "", "HTTPS", "Unknown"]
+
   ];
 
+  final List<List<String>> data_14 = [
+
+  ["1Forge", "Forex currency market data","https://1forge.com/api", "apiKey", "HTTPS", "Unknown"],
+  ["Amdoren", "Free currency API with over 150 currencies","https://www.amdoren.com/currency-api/", "apiKey", "HTTPS", "Unknown"],
+  ["apilayer fixer.io", "Exchange rates and currency conversion","https://fixer.io/", "apiKey", "", "Unknown"],
+  ["Bank of Russia", "Exchange rates and currency conversion","https://www.cbr.ru/development/SXML/", "", "HTTPS", "Unknown"],
+  ["Currency-api", "Free Currency Exchange Rates API with 150+ Currencies & No Rate Limits","https://github.com/fawazahmed0/currency-api#readme", "", "HTTPS", "CORS"],
+  ["CurrencyFreaks", "Provides current and historical currency exchange rates with free plan 1K requests/month", "https://currencyfreaks.com/","apiKey", "HTTPS", "CORS"],
+  ["Currencylayer", "Exchange rates and currency conversion", "https://currencylayer.com/documentation","apiKey", "HTTPS", "Unknown"],
+  ["CurrencyScoop", "Real-time and historical currency rates JSON API","https://currencyscoop.com/api-documentation", "apiKey", "HTTPS", "CORS"],
+  ["Czech National Bank", "A collection of exchange rates", "https://www.cnb.cz/cs/financni_trhy/devizovy_trh/kurzy_devizoveho_trhu/denni_kurz.xml","", "HTTPS", "Unknown"],
+  ["Economia.Awesome", "Portuguese free currency prices and conversion with no rate limits","https://docs.awesomeapi.com.br/api-de-moedas", "", "HTTPS", "Unknown"],
+  ["ExchangeRate-API", "Free currency conversion","https://www.exchangerate-api.com/", "apiKey", "HTTPS", "CORS"],
+  ["Exchangerate.host", "Free foreign exchange & crypto rates API", "https://exchangerate.host/#/","", "HTTPS", "Unknown"],
+  ["Exchangeratesapi.io", "Exchange rates with currency conversion", "https://exchangeratesapi.io/","apiKey", "HTTPS", "CORS"],
+  ["Frankfurter", "Exchange rates, currency conversion and time series", "https://www.frankfurter.app/docs/","", "HTTPS", "CORS"],
+  ["FreeForexAPI", "Real-time foreign exchange rates for major currency pairs","https://freeforexapi.com/Home/Api", "", "HTTPS", ""],
+  ["National Bank of Poland", "A collection of currency exchange rates (data in XML and JSON)", "http://api.nbp.pl/en.html","", "HTTPS", "CORS"],
+  ["VATComply.com", "Exchange rates, geolocation and VAT number validation", "https://www.vatcomply.com/documentation","", "HTTPS", "CORS"]
+];
 
 
 
@@ -717,7 +762,7 @@ class _ListScreenState extends State<ListScreen> {
              color: Colors.white, //change your color here
            ),
            backgroundColor: Colors.black,
-           title: Text('Anrt & Design',style: TextStyle(color: Colors.white)),
+           title: Text('Art & Design',style: TextStyle(color: Colors.white)),
          ),
          body: Padding(
            padding: const EdgeInsets.all(8.0),
@@ -1433,6 +1478,360 @@ class _ListScreenState extends State<ListScreen> {
              itemCount: data_11.length,
              itemBuilder: (BuildContext context, int index) {
                List<String> row = data_11[index];
+               return Card(
+                 child: Container(
+                   decoration: BoxDecoration(
+                     color: Colors.black,
+                     border: Border.all(
+                       color: Colors.grey.shade300,
+                       width: 0.5, // Set border width
+                     ),
+                     borderRadius: BorderRadius.all(
+                         Radius.circular(
+                             5.0) //                 <--- border radius here
+                     ),
+                   ),
+                   child: ListTile(
+                     title: Padding(
+                       padding: const EdgeInsets.only(top: 8.0),
+                       child: Text(row[0],
+                           style: GoogleFonts.openSans(textStyle: TextStyle(
+                             fontSize: 22,
+                             color: Colors.white,
+                             fontWeight: FontWeight.w800,))
+                       ),
+                     ), // Display item name
+                     subtitle: Column(
+                       mainAxisAlignment: MainAxisAlignment.start,
+                       crossAxisAlignment: CrossAxisAlignment.start,
+                       children: [
+                         Padding(
+                           padding: const EdgeInsets.only(top: 8.0, bottom: 8.0),
+                           child: Text(
+                               row[1],
+                               style: GoogleFonts.openSans(textStyle: TextStyle(
+                                 fontSize: 13,
+                                 color: Colors.grey,
+                                 fontWeight: FontWeight.w600,))
+                           ),
+                         ),
+                         Row(
+                           mainAxisAlignment: MainAxisAlignment.start,
+                           children: [
+                             if(row[3] !="")
+                               _buildChipOne(row[3], Color(0xff3f3f3f)) ,
+                             SizedBox(width: 5,),
+                             if(row[4] !="")
+                               _buildChipTwo(row[4], Color(0xff3f3f3f)),
+                             SizedBox(width: 5,),
+
+                             if(row[5] !="")
+                               _buildChipThree(row[5], Color(0xff3f3f3f)),
+                             SizedBox(width: 5,),
+
+                           ],
+                         ),
+                         SizedBox(height: 5,),
+
+
+
+                       ],
+                     ),
+                     trailing: Row(
+                       mainAxisSize: MainAxisSize.min,
+                       children: [
+                         IconButton(
+                           icon: Icon(
+                               Icons.launch, color: Colors.white, size: 22),
+                           onPressed: () {
+                             _open(row[2]);
+
+                           },
+                         ),
+
+                         IconButton(
+                           icon: Icon(
+                               Icons.bookmark_border, color: Colors.white,
+                               size: 22),
+                           onPressed: () {
+
+                           },
+                         ),
+                       ],
+                     ),
+                   ),
+                 ),
+               );
+             },
+           ),
+         ),
+         bottomNavigationBar: Row(
+           mainAxisAlignment: MainAxisAlignment.center,
+           children: [
+             if (_isBannerAdReady)
+               Container(
+                 width: _bannerAd.size.width.toDouble(),
+                 height: _bannerAd.size.height.toDouble(),
+                 child: AdWidget(ad: _bannerAd),
+               ),
+           ],
+         ),
+
+       );
+     }
+     else
+     if(widget.listIndex == 11) {
+       return Scaffold(
+         backgroundColor: Colors.black,
+         appBar: AppBar(
+           iconTheme: IconThemeData(
+             color: Colors.white, //change your color here
+           ),
+           backgroundColor: Colors.black,
+           title: Text('Continuos Integration',style: TextStyle(color: Colors.white)),
+         ),
+         body: Padding(
+           padding: const EdgeInsets.all(8.0),
+           child: ListView.builder(
+             itemCount: data_12.length,
+             itemBuilder: (BuildContext context, int index) {
+               List<String> row = data_12[index];
+               return Card(
+                 child: Container(
+                   decoration: BoxDecoration(
+                     color: Colors.black,
+                     border: Border.all(
+                       color: Colors.grey.shade300,
+                       width: 0.5, // Set border width
+                     ),
+                     borderRadius: BorderRadius.all(
+                         Radius.circular(
+                             5.0) //                 <--- border radius here
+                     ),
+                   ),
+                   child: ListTile(
+                     title: Padding(
+                       padding: const EdgeInsets.only(top: 8.0),
+                       child: Text(row[0],
+                           style: GoogleFonts.openSans(textStyle: TextStyle(
+                             fontSize: 22,
+                             color: Colors.white,
+                             fontWeight: FontWeight.w800,))
+                       ),
+                     ), // Display item name
+                     subtitle: Column(
+                       mainAxisAlignment: MainAxisAlignment.start,
+                       crossAxisAlignment: CrossAxisAlignment.start,
+                       children: [
+                         Padding(
+                           padding: const EdgeInsets.only(top: 8.0, bottom: 8.0),
+                           child: Text(
+                               row[1],
+                               style: GoogleFonts.openSans(textStyle: TextStyle(
+                                 fontSize: 13,
+                                 color: Colors.grey,
+                                 fontWeight: FontWeight.w600,))
+                           ),
+                         ),
+                         Row(
+                           mainAxisAlignment: MainAxisAlignment.start,
+                           children: [
+                             if(row[3] !="")
+                               _buildChipOne(row[3], Color(0xff3f3f3f)) ,
+                             SizedBox(width: 5,),
+                             if(row[4] !="")
+                               _buildChipTwo(row[4], Color(0xff3f3f3f)),
+                             SizedBox(width: 5,),
+
+                             if(row[5] !="")
+                               _buildChipThree(row[5], Color(0xff3f3f3f)),
+                             SizedBox(width: 5,),
+
+                           ],
+                         ),
+                         SizedBox(height: 5,),
+
+
+
+                       ],
+                     ),
+                     trailing: Row(
+                       mainAxisSize: MainAxisSize.min,
+                       children: [
+                         IconButton(
+                           icon: Icon(
+                               Icons.launch, color: Colors.white, size: 22),
+                           onPressed: () {
+                             _open(row[2]);
+
+                           },
+                         ),
+
+                         IconButton(
+                           icon: Icon(
+                               Icons.bookmark_border, color: Colors.white,
+                               size: 22),
+                           onPressed: () {
+
+                           },
+                         ),
+                       ],
+                     ),
+                   ),
+                 ),
+               );
+             },
+           ),
+         ),
+         bottomNavigationBar: Row(
+           mainAxisAlignment: MainAxisAlignment.center,
+           children: [
+             if (_isBannerAdReady)
+               Container(
+                 width: _bannerAd.size.width.toDouble(),
+                 height: _bannerAd.size.height.toDouble(),
+                 child: AdWidget(ad: _bannerAd),
+               ),
+           ],
+         ),
+
+       );
+     }
+     else
+     if(widget.listIndex == 12) {
+       return Scaffold(
+         backgroundColor: Colors.black,
+         appBar: AppBar(
+           iconTheme: IconThemeData(
+             color: Colors.white, //change your color here
+           ),
+           backgroundColor: Colors.black,
+           title: Text('Cryptocurrency',style: TextStyle(color: Colors.white)),
+         ),
+         body: Padding(
+           padding: const EdgeInsets.all(8.0),
+           child: ListView.builder(
+             itemCount: data_13.length,
+             itemBuilder: (BuildContext context, int index) {
+               List<String> row = data_13[index];
+               return Card(
+                 child: Container(
+                   decoration: BoxDecoration(
+                     color: Colors.black,
+                     border: Border.all(
+                       color: Colors.grey.shade300,
+                       width: 0.5, // Set border width
+                     ),
+                     borderRadius: BorderRadius.all(
+                         Radius.circular(
+                             5.0) //                 <--- border radius here
+                     ),
+                   ),
+                   child: ListTile(
+                     title: Padding(
+                       padding: const EdgeInsets.only(top: 8.0),
+                       child: Text(row[0],
+                           style: GoogleFonts.openSans(textStyle: TextStyle(
+                             fontSize: 22,
+                             color: Colors.white,
+                             fontWeight: FontWeight.w800,))
+                       ),
+                     ), // Display item name
+                     subtitle: Column(
+                       mainAxisAlignment: MainAxisAlignment.start,
+                       crossAxisAlignment: CrossAxisAlignment.start,
+                       children: [
+                         Padding(
+                           padding: const EdgeInsets.only(top: 8.0, bottom: 8.0),
+                           child: Text(
+                               row[1],
+                               style: GoogleFonts.openSans(textStyle: TextStyle(
+                                 fontSize: 13,
+                                 color: Colors.grey,
+                                 fontWeight: FontWeight.w600,))
+                           ),
+                         ),
+                         Row(
+                           mainAxisAlignment: MainAxisAlignment.start,
+                           children: [
+                             if(row[3] !="")
+                               _buildChipOne(row[3], Color(0xff3f3f3f)) ,
+                             SizedBox(width: 5,),
+                             if(row[4] !="")
+                               _buildChipTwo(row[4], Color(0xff3f3f3f)),
+                             SizedBox(width: 5,),
+
+                             if(row[5] !="")
+                               _buildChipThree(row[5], Color(0xff3f3f3f)),
+                             SizedBox(width: 5,),
+
+                           ],
+                         ),
+                         SizedBox(height: 5,),
+
+
+
+                       ],
+                     ),
+                     trailing: Row(
+                       mainAxisSize: MainAxisSize.min,
+                       children: [
+                         IconButton(
+                           icon: Icon(
+                               Icons.launch, color: Colors.white, size: 22),
+                           onPressed: () {
+                             _open(row[2]);
+
+                           },
+                         ),
+
+                         IconButton(
+                           icon: Icon(
+                               Icons.bookmark_border, color: Colors.white,
+                               size: 22),
+                           onPressed: () {
+
+                           },
+                         ),
+                       ],
+                     ),
+                   ),
+                 ),
+               );
+             },
+           ),
+         ),
+         bottomNavigationBar: Row(
+           mainAxisAlignment: MainAxisAlignment.center,
+           children: [
+             if (_isBannerAdReady)
+               Container(
+                 width: _bannerAd.size.width.toDouble(),
+                 height: _bannerAd.size.height.toDouble(),
+                 child: AdWidget(ad: _bannerAd),
+               ),
+           ],
+         ),
+
+       );
+     }
+     else
+     if(widget.listIndex == 13) {
+       return Scaffold(
+         backgroundColor: Colors.black,
+         appBar: AppBar(
+           iconTheme: IconThemeData(
+             color: Colors.white, //change your color here
+           ),
+           backgroundColor: Colors.black,
+           title: Text('Currency Exchange',style: TextStyle(color: Colors.white)),
+         ),
+         body: Padding(
+           padding: const EdgeInsets.all(8.0),
+           child: ListView.builder(
+             itemCount: data_14.length,
+             itemBuilder: (BuildContext context, int index) {
+               List<String> row = data_14[index];
                return Card(
                  child: Container(
                    decoration: BoxDecoration(
