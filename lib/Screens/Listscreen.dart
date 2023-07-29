@@ -393,6 +393,143 @@ class _ListScreenState extends State<ListScreen> {
   ["VATComply.com", "Exchange rates, geolocation and VAT number validation", "https://www.vatcomply.com/documentation","", "HTTPS", "CORS"]
 ];
 
+  final List<List<String>> data_15 = [
+
+  ["Lob.com", "US Address Verification", "https://www.lob.com/", "apiKey", "HTTPS", "Unknown"],
+  ["Postman Echo", "Test api server to receive and return value from HTTP method","https://www.postman-echo.com/", "", "HTTPS", "Unknown"],
+  ["PurgoMalum", "Content validator against profanity & obscenity", "http://www.purgomalum.com/","", "", "Unknown"],
+  ["US Autocomplete", "Enter address data quickly with real-time address suggestions","https://www.smarty.com/docs/cloud/us-autocomplete-pro-api", "apiKey", "HTTPS", "CORS"],
+  ["US Extract", "Extract postal addresses from any text including emails","https://www.smarty.com/products/apis/us-extract-api", "apiKey", "HTTPS", "CORS"],
+  ["US Street Address", "Validate and append data for any US postal address", "https://www.smarty.com/docs/cloud/us-street-api","apiKey", "HTTPS", "CORS"],
+  ["vatlayer", "VAT number validation","https://vatlayer.com/documentation", "apiKey", "HTTPS", "Unknown"]
+
+  ];
+
+  final List<List<String>> data_16 = [
+
+
+    ["24 Pull Requests", "Project to promote open source collaboration during December", "" ,"", "HTTPS", "CORS"],
+  ["Abstract Screenshot", "Take programmatic screenshots of web pages from any website", "","apiKey", "HTTPS", "CORS"],
+  ["Agify.io", "Estimates the age from a first name","", "", "HTTPS", "CORS"],
+  ["API Grátis", "Multiples services and public APIs","", "", "HTTPS", "Unknown"],
+  ["ApicAgent", "Extract device details from user-agent string","", "", "HTTPS", "CORS"],
+  ["ApiFlash", "Chrome based screenshot API for developers", "","apiKey", "HTTPS", "Unknown"],
+  ["apilayer userstack", "Secure User-Agent String Lookup JSON API", "","OAuth", "HTTPS", "Unknown"],
+  ["APIs.guru", "Wikipedia for Web APIs, OpenAPI/Swagger specs for public APIs", "","", "HTTPS", "Unknown"],
+  ["Azure DevOps", "The Azure DevOps basic components of a REST API request/response pair", "","apiKey", "HTTPS", "Unknown"],
+  ["Base", "Building quick backends", "","apiKey", "HTTPS", "CORS"],
+  ["Beeceptor", "Build a mock Rest API endpoint in seconds", "","", "HTTPS", "CORS"],
+  ["Bitbucket", "Bitbucket API","", "OAuth", "HTTPS", "Unknown"],
+  ["Blague.xyz", "La plus grande API de Blagues FR/The biggest FR jokes API", "","apiKey", "HTTPS", "CORS"],
+  ["Blitapp", "Schedule screenshots of web pages and sync them to your cloud", "","apiKey", "HTTPS", "Unknown"],
+  ["Blynk-Cloud", "Control IoT Devices from Blynk IoT Cloud","", "apiKey", "", "Unknown"],
+  ["Bored", "Find random activities to fight boredom", "","", "HTTPS", "Unknown"],
+  ["Brainshop.ai", "Make A Free A.I Brain", "","apiKey", "HTTPS", "CORS"],
+  ["Browshot", "Easily make screenshots of web pages in any screen size, as any device", "","apiKey", "HTTPS", "CORS"],
+  ["CDNJS", "Library info on CDNJS", "","", "HTTPS", "Unknown"],
+  ["Changelogs.md", "Structured changelog metadata from open source projects","", "", "HTTPS", "Unknown"],
+  ["Ciprand", "Secure random string generator", "","", "HTTPS", ""],
+  ["Cloudflare Trace", "Get IP Address, Timestamp, User Agent, Country Code, IATA, HTTP Version, TLS/SSL Version & More","", "", "HTTPS", "CORS"],
+  ["Codex", "Online Compiler for Various Languages", "","", "HTTPS", "Unknown"],
+  ["Contentful Images", "Used to retrieve and apply transformations to images", "","apiKey", "HTTPS", "CORS"],
+  ["CORS Proxy", "Get around the dreaded CORS error by using this proxy as a middle man", "","", "HTTPS", "CORS"],
+  ["CountAPI", "Free and simple counting service. You can use it to track page hits and specific events", "","", "HTTPS", "CORS"],
+  ["Databricks", "Service to manage your databricks account,clusters, notebooks, jobs and workspaces", "","apiKey", "HTTPS", "CORS"],
+  ["DigitalOcean Status", "Status of all DigitalOcean services", "","", "HTTPS", "Unknown"],
+  ["Docker Hub", "Interact with Docker Hub", "","apiKey", "HTTPS", "CORS"],
+  ["DomainDb Info", "Domain name search to find all domains containing particular words/phrases/etc","", "", "HTTPS", "Unknown"],
+  ["ExtendsClass JSON Storage", "A simple JSON store API", "","", "HTTPS", "CORS"],
+  ["GeekFlare", "Provide numerous capabilities for important testing and monitoring methods for websites","", "apiKey", "HTTPS", "Unknown"],
+  ["Genderize.io", "Estimates a gender from a first name","", "", "HTTPS", "CORS"],
+  ["GETPing", "Trigger an email notification with a simple GET request", "","apiKey", "HTTPS", "Unknown"],
+  ["Ghost", "Get Published content into your Website, App or other embedded media","", "apiKey", "HTTPS", "CORS"],
+  ["GitHub", "Make use of GitHub repositories, code and user info programmatically","", "OAuth", "HTTPS", "CORS"],
+  ["Gitlab", "Automate GitLab interaction programmatically","", "OAuth", "HTTPS", "Unknown"],
+  ["Gitter", "Chat for Developers", "","OAuth", "HTTPS", "Unknown"],
+  ["Glitterly", "Image generation API","", "apiKey", "HTTPS", "CORS"],
+  ["Google Docs", "API to read, write, and format Google Docs documents", "","OAuth", "HTTPS", "Unknown"],
+  ["Google Firebase", "Google's mobile application development platform that helps build, improve, and grow app", "","apiKey", "HTTPS", "CORS"],
+  ["Google Fonts", "Metadata for all families served by Google Fonts","", "apiKey", "HTTPS", "Unknown"],
+  ["Google Keep", "API to read, write, and format Google Keep notes", "","OAuth", "HTTPS", "Unknown"],
+  ["Google Sheets", "API to read, write, and format Google Sheets data", "","OAuth", "HTTPS", "Unknown"],
+  ["Google Slides", "API to read, write, and format Google Slides presentations", "","OAuth", "HTTPS", "Unknown"],
+  ["Gorest", "Online REST API for Testing and Prototyping", "","OAuth", "HTTPS", "Unknown"],
+  ["Hasura", "GraphQL and REST API Engine with built in Authorization", "","apiKey", "HTTPS", "CORS"],
+  ["Heroku", "REST API to programmatically create apps, provision add-ons and perform other task on Heroku", "","OAuth", "HTTPS", "CORS"],
+  ["host-t.com", "Basic DNS query via HTTP GET request","", "", "HTTPS", ""],
+  ["Host.io", "Domains Data API for Developers", "","apiKey", "HTTPS", "CORS"],
+  ["HTTP2.Pro", "Test endpoints for client and server HTTP/2 protocol support","", "", "HTTPS", "Unknown"],
+  ["Httpbin", "A Simple HTTP Request & Response Service","", "", "HTTPS", "CORS"],
+  ["Httpbin Cloudflare", "A Simple HTTP Request & Response Service with HTTP/3 Support by Cloudflare","", "", "HTTPS", "CORS"],
+  ["Hunter", "API for domain search, professional email finder, author finder and email verifier","", "apiKey", "HTTPS", "Unknown"],
+  ["IBM Text to Speech", "Convert text to speech", "","apiKey", "HTTPS", "CORS"],
+  ["Icanhazepoch", "Get Epoch time", "","", "HTTPS", "CORS"],
+  ["Icanhazip", "IP Address API","", "", "HTTPS", "CORS"],
+  ["IFTTT", "IFTTT Connect API","", "", "HTTPS", "Unknown"],
+  ["Image-Charts", "Generate charts, QR codes and graph images","", "", "HTTPS", "CORS"],
+  ["import.io", "Retrieve structured data from a website or RSS feed", "","apiKey", "HTTPS", "Unknown"],
+  ["ip-fast.com", "IP address, country and city","", "", "HTTPS", "CORS"],
+  ["IP2WHOIS Information Lookup", "WHOIS domain name lookup", "","apiKey", "HTTPS", "Unknown"],
+  ["ipfind.io", "Geographic location of an IP address or any domain name along with some other useful information","", "apiKey", "HTTPS", "CORS"],
+  ["IPify", "A simple IP Address API", "","", "HTTPS", "Unknown"],
+  ["IPinfo", "Another simple IP Address API", "","", "HTTPS", "Unknown"],
+  ["jsDelivr", "Package info and download stats on jsDelivr CDN", "","", "HTTPS", "CORS"],
+  ["JSON 2 JSONP", "Convert JSON to JSONP (on-the-fly) for easy cross-domain data requests using client-side JavaScript", "","", "HTTPS", "Unknown"],
+  ["JSONbin.io", "Free JSON storage service. Ideal for small scale Web apps, Websites and Mobile apps", "","apiKey", "HTTPS", "CORS"],
+  ["Kroki", "Creates diagrams from textual descriptions", "","", "HTTPS", "CORS"],
+  ["License-API", "Unofficial REST API for choosealicense.com","", "", "HTTPS", ""],
+  ["Logs.to", "Generate logs", "","apiKey", "HTTPS", "Unknown"],
+  ["Lua Decompiler", "Online Lua 5.1 Decompiler","", "", "HTTPS", "CORS"],
+  ["MAC address vendor lookup", "Retrieve vendor details and other information regarding a given MAC address or an OUI","", "apiKey", "HTTPS", "CORS"],
+  ["Micro DB", "Simple database service","", "apiKey", "HTTPS", "Unknown"],
+  ["MicroENV", "Fake Rest API for developers", "","", "HTTPS", "Unknown"],
+  ["Mocky", "Mock user defined test JSON for REST API endpoints", "","", "HTTPS", "CORS"],
+  ["MY IP", "Get IP address information","", "", "HTTPS", "Unknown"],
+  ["Nationalize.io", "Estimate the nationality of a first name","", "", "HTTPS", "CORS"],
+  ["Netlify", "Netlify is a hosting service for the programmable web","", "OAuth", "HTTPS", "Unknown"],
+  ["NetworkCalc", "Network calculators, including subnets, DNS, binary, and security tools","", "", "HTTPS", "CORS"],
+  ["npm Registry", "Query information about your favorite Node.js libraries programatically", "","", "HTTPS", "Unknown"],
+  ["OneSignal", "Self-serve customer engagement solution for Push Notifications, Email, SMS & In-App","", "apiKey", "HTTPS", "Unknown"],
+  ["Open Page Rank", "API for calculating and comparing metrics of different websites using Page Rank algorithm","", "apiKey", "HTTPS", "Unknown"],
+  ["OpenAPIHub", "The All-in-one API Platform", "X-Mashape-Key","", "HTTPS", "Unknown"],
+  ["OpenGraphr", "Really simple API to retrieve Open Graph data from an URL", "","apiKey", "HTTPS", "Unknown"],
+  ["oyyi", "API for Fake Data, image/video conversion, optimization, pdf optimization and thumbnail generation","", "", "HTTPS", "CORS"],
+  ["PageCDN", "Public API for javascript, css and font libraries on PageCDN", "","apiKey", "HTTPS", "CORS"],
+  ["Postman", "Tool for testing APIs","", "apiKey", "HTTPS", "Unknown"],
+  ["ProxyCrawl", "Scraping and crawling anticaptcha service", "apiKey", "","HTTPS", "Unknown"],
+  ["ProxyKingdom", "Rotating Proxy API that produces a working proxy on every request", "","apiKey", "HTTPS", "CORS"],
+  ["Pusher Beams", "Push notifications for Android & iOS", "","apiKey", "HTTPS", "Unknown"],
+  ["QR code", "Create an easy to read QR code and URL shortener", "","", "HTTPS", "CORS"],
+  ["QR code", "Generate and decode / read QR code graphics", "","", "HTTPS", "Unknown"],
+  ["Qrcode Monkey", "Integrate custom and unique looking QR codes into your system or workflow","", "", "HTTPS", "Unknown"],
+  ["QuickChart", "Generate chart and graph images","", "No", "HTTPS", "CORS"],
+  ["Random Stuff", "Can be used to get AI Response, jokes, memes, and much more at lightning-fast speed", "","apiKey", "HTTPS", "CORS"],
+  ["Rejax", "Reverse AJAX service to notify clients","", "apiKey", "HTTPS", ""],
+  ["ReqRes", "A hosted REST-API ready to respond to your AJAX requests","", "", "HTTPS", "Unknown"],
+  ["RSS feed to JSON", "Returns RSS feed in JSON format using feed URL","", "", "HTTPS", "CORS"],
+  ["SavePage.io", "A free, RESTful API used to screenshot any desktop, or mobile website", "","apiKey", "HTTPS", "CORS"],
+  ["ScrapeNinja", "Scraping API with Chrome fingerprint and residential proxies","", "apiKey", "HTTPS", "Unknown"],
+  ["ScraperApi", "Easily build scalable web scrapers", "","apiKey", "HTTPS", "Unknown"],
+  ["scraperBox", "Undetectable web scraping API", "","apiKey", "HTTPS", "CORS"],
+  ["scrapestack", "Real-time, Scalable Proxy & Web Scraping REST API", "","apiKey", "HTTPS", "Unknown"],
+  ["ScrapingAnt", "Headless Chrome scraping with a simple API","", "apiKey", "HTTPS", "Unknown"],
+  ["ScrapingDog", "Proxy API for Web scraping", "","apiKey", "HTTPS", "Unknown"],
+  ["ScreenshotAPI.net", "Create pixel-perfect website screenshots","", "apiKey", "HTTPS", "CORS"],
+  ["Serialif Color", "Color conversion, complementary, grayscale and contrasted text","", "", "HTTPS", ""],
+  ["serpstack", "Real-Time & Accurate Google Search Results API","", "apiKey", "HTTPS", "CORS"],
+  ["Sheetsu", "Easy google sheets integration", "","apiKey", "HTTPS", "Unknown"],
+  ["SHOUTCLOUD", "ALL-CAPS AS A SERVICE","", "", "", "Unknown"],
+  ["Sonar", "Project Sonar DNS Enumeration API","", "", "HTTPS", "CORS"],
+  ["SonarQube", "SonarQube REST APIs to detect bugs, code smells & security vulnerabilities", "","OAuth", "HTTPS", "Unknown"],
+  ["StackExchange", "Q&A forum for developers", "","OAuth", "HTTPS", "Unknown"],
+  ["Statically", "A free CDN for developers", "","", "HTTPS", "CORS"],
+  ["Supportivekoala", "Autogenerate images with template", "","apiKey", "HTTPS", "CORS"],
+  ["Tyk", "Api and service management platform", "","apiKey", "HTTPS", "CORS"],
+  ["Wandbox", "Code compiler supporting 35+ languages mentioned at wandbox.org", "","", "HTTPS", "Unknown"],
+  ["WebScraping.AI", "Web Scraping API with built-in proxies and JS rendering","", "apiKey", "HTTPS", "CORS"],
+  ["ZenRows", "Web Scraping API that bypasses anti-bot solutions while offering JS rendering, and rotating proxies", "","apiKey", "HTTPS", "Unknown"],
+];
+
 
 
 
@@ -1832,6 +1969,124 @@ class _ListScreenState extends State<ListScreen> {
              itemCount: data_14.length,
              itemBuilder: (BuildContext context, int index) {
                List<String> row = data_14[index];
+               return Card(
+                 child: Container(
+                   decoration: BoxDecoration(
+                     color: Colors.black,
+                     border: Border.all(
+                       color: Colors.grey.shade300,
+                       width: 0.5, // Set border width
+                     ),
+                     borderRadius: BorderRadius.all(
+                         Radius.circular(
+                             5.0) //                 <--- border radius here
+                     ),
+                   ),
+                   child: ListTile(
+                     title: Padding(
+                       padding: const EdgeInsets.only(top: 8.0),
+                       child: Text(row[0],
+                           style: GoogleFonts.openSans(textStyle: TextStyle(
+                             fontSize: 22,
+                             color: Colors.white,
+                             fontWeight: FontWeight.w800,))
+                       ),
+                     ), // Display item name
+                     subtitle: Column(
+                       mainAxisAlignment: MainAxisAlignment.start,
+                       crossAxisAlignment: CrossAxisAlignment.start,
+                       children: [
+                         Padding(
+                           padding: const EdgeInsets.only(top: 8.0, bottom: 8.0),
+                           child: Text(
+                               row[1],
+                               style: GoogleFonts.openSans(textStyle: TextStyle(
+                                 fontSize: 13,
+                                 color: Colors.grey,
+                                 fontWeight: FontWeight.w600,))
+                           ),
+                         ),
+                         Row(
+                           mainAxisAlignment: MainAxisAlignment.start,
+                           children: [
+                             if(row[3] !="")
+                               _buildChipOne(row[3], Color(0xff3f3f3f)) ,
+                             SizedBox(width: 5,),
+                             if(row[4] !="")
+                               _buildChipTwo(row[4], Color(0xff3f3f3f)),
+                             SizedBox(width: 5,),
+
+                             if(row[5] !="")
+                               _buildChipThree(row[5], Color(0xff3f3f3f)),
+                             SizedBox(width: 5,),
+
+                           ],
+                         ),
+                         SizedBox(height: 5,),
+
+
+
+                       ],
+                     ),
+                     trailing: Row(
+                       mainAxisSize: MainAxisSize.min,
+                       children: [
+                         IconButton(
+                           icon: Icon(
+                               Icons.launch, color: Colors.white, size: 22),
+                           onPressed: () {
+                             _open(row[2]);
+
+                           },
+                         ),
+
+                         IconButton(
+                           icon: Icon(
+                               Icons.bookmark_border, color: Colors.white,
+                               size: 22),
+                           onPressed: () {
+
+                           },
+                         ),
+                       ],
+                     ),
+                   ),
+                 ),
+               );
+             },
+           ),
+         ),
+         bottomNavigationBar: Row(
+           mainAxisAlignment: MainAxisAlignment.center,
+           children: [
+             if (_isBannerAdReady)
+               Container(
+                 width: _bannerAd.size.width.toDouble(),
+                 height: _bannerAd.size.height.toDouble(),
+                 child: AdWidget(ad: _bannerAd),
+               ),
+           ],
+         ),
+
+       );
+     }
+     else
+     if(widget.listIndex == 14) {
+       return Scaffold(
+         backgroundColor: Colors.black,
+         appBar: AppBar(
+           iconTheme: IconThemeData(
+             color: Colors.white, //change your color here
+           ),
+           backgroundColor: Colors.black,
+           title: Text('Data Validation',style: TextStyle(color: Colors.white)),
+         ),
+         body: Padding(
+           padding: const EdgeInsets.all(8.0),
+           child: ListView.builder(
+             itemCount: data_15.length,
+             itemBuilder: (BuildContext context, int index) {
+               List<String> row = data_15[index];
                return Card(
                  child: Container(
                    decoration: BoxDecoration(
