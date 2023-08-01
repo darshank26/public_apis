@@ -1319,44 +1319,44 @@ class _ListScreenState extends State<ListScreen> {
 
 
   final List<List<String>> data_41 = [
-    ["Application Environment Verification", "Android library and API to verify the safety of user devices, detect rooted devices and other risks", "apiKey", "Yes", "Yes"],
-    ["BinaryEdge", "Provide access to BinaryEdge 40fy scanning platform", "apiKey", "Yes", "Yes"],
-    ["BitWarden", "Best open-source password manager", "OAuth", "Yes", "Unknown"],
-    ["Botd", "Botd is a browser library for JavaScript bot detection", "apiKey", "Yes", "Yes"],
-    ["Bugcrowd", "Bugcrowd API for interacting and tracking the reported issues programmatically", "apiKey", "Yes", "Unknown"],
-    ["Censys", "Search engine for Internet-connected hosts and devices", "apiKey", "Yes", "No"],
-    ["Classify", "Encrypting & decrypting text messages", "No", "Yes", "Yes"],
-    ["Complete Criminal Checks", "Provides data of offenders from all U.S. States and Puerto Rico", "apiKey", "Yes", "Yes"],
-    ["CRXcavator", "Chrome extension risk scoring", "apiKey", "Yes", "Unknown"],
-    ["Dehash.lt", "Hash decryption MD5, SHA1, SHA3, SHA256, SHA384, SHA512", "No", "Yes", "Unknown"],
-    ["EmailRep", "Email address threat and risk prediction", "No", "Yes", "Unknown"],
-    ["Escape", "An API for escaping different kinds of queries", "No", "Yes", "No"],
-    ["FilterLists", "Lists of filters for adblockers and firewalls", "No", "Yes", "Unknown"],
-    ["FingerprintJS Pro", "Fraud detection API offering highly accurate browser fingerprinting", "apiKey", "Yes", "Yes"],
-    ["FraudLabs Pro", "Screen order information using AI to detect frauds", "apiKey", "Yes", "Unknown"],
-    ["FullHunt", "Searchable attack surface database of the entire internet", "apiKey", "Yes", "Unknown"],
-    ["GitGuardian", "Scan files for secrets (API Keys, database credentials)", "apiKey", "Yes", "No"],
-    ["GreyNoise", "Query IPs in the GreyNoise dataset and retrieve a subset of the full IP context data", "apiKey", "Yes", "Unknown"],
-    ["HackerOne", "The industry’s first hacker API that helps increase productivity towards creative bug bounty hunting", "apiKey", "Yes", "Unknown"],
-    ["Hashable", "A REST API to access high-level cryptographic functions and methods", "No", "Yes", "Yes"],
-    ["HaveIBeenPwned", "Passwords which have previously been exposed in data breaches", "apiKey", "Yes", "Unknown"],
-    ["Intelligence X", "Perform OSINT via Intelligence X", "apiKey", "Yes", "Unknown"],
-    ["LoginRadius", "Managed User Authentication Service", "apiKey", "Yes", "Yes"],
-    ["Microsoft Security Response Center (MSRC)", "Programmatic interfaces to engage with the Microsoft Security Response Center (MSRC)", "No", "Yes", "Unknown"],
-    ["Mozilla http scanner", "Mozilla observatory http scanner", "No", "Yes", "Unknown"],
-    ["Mozilla tls scanner", "Mozilla observatory tls scanner", "No", "Yes", "Unknown"],
-    ["National Vulnerability Database", "U.S. National Vulnerability Database", "No", "Yes", "Unknown"],
-    ["Passwordinator", "Generate random passwords of varying complexities", "No", "Yes", "Yes"],
-    ["PhishStats", "Phishing database", "No", "Yes", "Unknown"],
-    ["Privacy.com", "Generate merchant-specific and one-time use credit card numbers that link back to your bank", "apiKey", "Yes", "Unknown"],
-    ["Pulsedive", "Scan, search and collect threat intelligence data in real-time", "apiKey", "Yes", "Unknown"],
-    ["SecurityTrails", "Domain and IP related information such as current and historical WHOIS and DNS records", "apiKey", "Yes", "Unknown"],
-    ["Shodan", "Search engine for Internet-connected devices", "apiKey", "Yes", "Unknown"],
-    ["Spyse", "Access data on all Internet assets and build powerful attack surface management applications", "apiKey", "Yes", "Unknown"],
-    ["Threat Jammer", "Risk scoring service from curated threat intelligence data", "apiKey", "Yes", "Unknown"],
-    ["UK Police", "UK Police data", "No", "Yes", "Unknown"],
-    ["Virushee", "Virushee file/data scanning", "No", "Yes", "Yes"],
-    ["VulDB", "VulDB API allows initiating queries for one or more items along with transactional bots", "apiKey", "Yes", "Unknown"]
+    ["Application Environment Verification", "Android library and API to verify the safety of user devices, detect rooted devices and other risks","https://github.com/fingerprintjs/aev", "apiKey", "HTTPS", "CORS"],
+    ["BinaryEdge", "Provide access to BinaryEdge 40fy scanning platform","https://docs.binaryedge.io/api-v2.html", "apiKey", "HTTPS", "CORS"],
+    ["BitWarden", "Best open-source password manager","https://bitwarden.com/help/api/", "OAuth", "HTTPS", "Unknown"],
+    ["Botd", "Botd is a browser library for JavaScript bot detection", "https://github.com/fingerprintjs/botd","apiKey", "HTTPS", "CORS"],
+    ["Bugcrowd", "Bugcrowd API for interacting and tracking the reported issues programmatically", "https://docs.bugcrowd.com/api/getting-started/","apiKey", "HTTPS", "Unknown"],
+    ["Censys", "Search engine for Internet-connected hosts and devices","https://search.censys.io/api", "apiKey", "HTTPS", ""],
+    ["Classify", "Encrypting & decrypting text messages","https://classify-web.herokuapp.com/#/api", "", "HTTPS", "CORS"],
+    ["Complete Criminal Checks", "Provides data of offenders from all U.S. States and Puerto Rico", "https://completecriminalchecks.com/Developers/","apiKey", "HTTPS", "CORS"],
+    ["CRXcavator", "Chrome extension risk scoring","https://crxcavator.io/apidocs", "apiKey", "HTTPS", "Unknown"],
+    ["Dehash.lt", "Hash decryption MD5, SHA1, SHA3, SHA256, SHA384, SHA512","https://github.com/Dehash-lt/api", "", "HTTPS", "Unknown"],
+    ["EmailRep", "Email address threat and risk prediction","https://docs.sublimesecurity.com/reference/emailrep-introduction", "", "HTTPS", "Unknown"],
+    ["Escape", "An API for escaping different kinds of queries","https://github.com/polarspetroll/EscapeAPI", "", "HTTPS", ""],
+    ["FilterLists", "Lists of filters for adblockers and firewalls", "https://filterlists.com/","", "HTTPS", "Unknown"],
+    ["FingerprintJS Pro", "Fraud detection API offering highly accurate browser fingerprinting","https://dev.fingerprint.com/docs", "apiKey", "HTTPS", "CORS"],
+    ["FraudLabs Pro", "Screen order information using AI to detect frauds", "https://www.fraudlabspro.com/developer/api/screen-order","apiKey", "HTTPS", "Unknown"],
+    ["FullHunt", "Searchable attack surface database of the entire internet","https://api-docs.fullhunt.io/#introduction", "apiKey", "HTTPS", "Unknown"],
+    ["GitGuardian", "Scan files for secrets (API Keys, database credentials)", "https://api.gitguardian.com/docs","apiKey", "HTTPS", ""],
+    ["GreyNoise", "Query IPs in the GreyNoise dataset and retrieve a subset of the full IP context data", "https://docs.greynoise.io/reference/get_v3-community-ip","apiKey", "HTTPS", "Unknown"],
+    ["HackerOne", "The industry’s first hacker API that helps increase productivity towards creative bug bounty hunting","https://api.hackerone.com/", "apiKey", "HTTPS", "Unknown"],
+    ["Hashable", "A REST API to access high-level cryptographic functions and methods","https://hashable.space/pages/api/", "", "HTTPS", "CORS"],
+    ["HaveIBeenPwned", "Passwords which have previously been exposed in data breaches","https://haveibeenpwned.com/API/v3", "apiKey", "HTTPS", "Unknown"],
+    ["Intelligence X", "Perform OSINT via Intelligence X","https://github.com/IntelligenceX/SDK/blob/master/Intelligence%20X%20API.pdf", "apiKey", "HTTPS", "Unknown"],
+    ["LoginRadius", "Managed User Authentication Service", "https://www.loginradius.com/docs/","apiKey", "HTTPS", "CORS"],
+    ["Microsoft Security Response Center (MSRC)", "Programmatic interfaces to engage with the Microsoft Security Response Center (MSRC)","https://msrc.microsoft.com/report/developer", "", "HTTPS", "Unknown"],
+    ["Mozilla http scanner", "Mozilla observatory http scanner","https://github.com/mozilla/http-observatory/blob/master/httpobs/docs/api.md", "", "HTTPS", "Unknown"],
+    ["Mozilla tls scanner", "Mozilla observatory tls scanner", "https://github.com/mozilla/tls-observatory#api-endpoints","", "HTTPS", "Unknown"],
+    ["National Vulnerability Database", "U.S. National Vulnerability Database","https://nvd.nist.gov/vuln/Data-Feeds/JSON-feed-changelog", "", "HTTPS", "Unknown"],
+    ["Passwordinator", "Generate random passwords of varying complexities","https://github.com/fawazsullia/password-generator/", "", "HTTPS", "CORS"],
+    ["PhishStats", "Phishing database","https://phishstats.info/", "", "HTTPS", "Unknown"],
+    ["Privacy.com", "Generate merchant-specific and one-time use credit card numbers that link back to your bank", "https://privacy-com.readme.io/docs","apiKey", "HTTPS", "Unknown"],
+    ["Pulsedive", "Scan, search and collect threat intelligence data in real-time","https://pulsedive.com/api/", "apiKey", "HTTPS", "Unknown"],
+    ["SecurityTrails", "Domain and IP related information such as current and historical WHOIS and DNS records", "https://securitytrails.com/corp/apidocs","apiKey", "HTTPS", "Unknown"],
+    ["Shodan", "Search engine for Internet-connected devices","https://developer.shodan.io/", "apiKey", "HTTPS", "Unknown"],
+    ["Spyse", "Access data on all Internet assets and build powerful attack surface management applications", "https://spyse-dev.readme.io/reference/quick-start","apiKey", "HTTPS", "Unknown"],
+    ["Threat Jammer", "Risk scoring service from curated threat intelligence data","https://threatjammer.com/docs/index", "apiKey", "HTTPS", "Unknown"],
+    ["UK Police", "UK Police data","https://data.police.uk/docs/", "", "HTTPS", "Unknown"],
+    ["Virushee", "Virushee file/data scanning","https://api.virushee.com/", "", "HTTPS", "CORS"],
+    ["VulDB", "VulDB API allows initiating queries for one or more items along with transactional bots", "https://vuldb.com/?kb.api","apiKey", "HTTPS", "Unknown"]
 
     ];
 
@@ -5865,6 +5865,124 @@ class _ListScreenState extends State<ListScreen> {
              itemCount: data_40.length,
              itemBuilder: (BuildContext context, int index) {
                List<String> row = data_40[index];
+               return Card(
+                 child: Container(
+                   decoration: BoxDecoration(
+                     color: Colors.black,
+                     border: Border.all(
+                       color: Colors.grey.shade300,
+                       width: 0.5, // Set border width
+                     ),
+                     borderRadius: BorderRadius.all(
+                         Radius.circular(
+                             5.0) //                 <--- border radius here
+                     ),
+                   ),
+                   child: ListTile(
+                     title: Padding(
+                       padding: const EdgeInsets.only(top: 8.0),
+                       child: Text(row[0],
+                           style: GoogleFonts.openSans(textStyle: TextStyle(
+                             fontSize: 22,
+                             color: Colors.white,
+                             fontWeight: FontWeight.w800,))
+                       ),
+                     ), // Display item name
+                     subtitle: Column(
+                       mainAxisAlignment: MainAxisAlignment.start,
+                       crossAxisAlignment: CrossAxisAlignment.start,
+                       children: [
+                         Padding(
+                           padding: const EdgeInsets.only(top: 8.0, bottom: 8.0),
+                           child: Text(
+                               row[1],
+                               style: GoogleFonts.openSans(textStyle: TextStyle(
+                                 fontSize: 13,
+                                 color: Colors.grey,
+                                 fontWeight: FontWeight.w600,))
+                           ),
+                         ),
+                         Row(
+                           mainAxisAlignment: MainAxisAlignment.start,
+                           children: [
+                             if(row[3] !="")
+                               _buildChipOne(row[3], Color(0xff3f3f3f)) ,
+                             SizedBox(width: 5,),
+                             if(row[4] !="")
+                               _buildChipTwo(row[4], Color(0xff3f3f3f)),
+                             SizedBox(width: 5,),
+
+                             if(row[5] !="")
+                               _buildChipThree(row[5], Color(0xff3f3f3f)),
+                             SizedBox(width: 5,),
+
+                           ],
+                         ),
+                         SizedBox(height: 5,),
+
+
+
+                       ],
+                     ),
+                     trailing: Row(
+                       mainAxisSize: MainAxisSize.min,
+                       children: [
+                         IconButton(
+                           icon: Icon(
+                               Icons.launch, color: Colors.white, size: 22),
+                           onPressed: () {
+                             _open(row[2]);
+
+                           },
+                         ),
+
+                         IconButton(
+                           icon: Icon(
+                               Icons.bookmark_border, color: Colors.white,
+                               size: 22),
+                           onPressed: () {
+
+                           },
+                         ),
+                       ],
+                     ),
+                   ),
+                 ),
+               );
+             },
+           ),
+         ),
+         bottomNavigationBar: Row(
+           mainAxisAlignment: MainAxisAlignment.center,
+           children: [
+             if (_isBannerAdReady)
+               Container(
+                 width: _bannerAd.size.width.toDouble(),
+                 height: _bannerAd.size.height.toDouble(),
+                 child: AdWidget(ad: _bannerAd),
+               ),
+           ],
+         ),
+
+       );
+     }
+     else
+     if(widget.listIndex == 40) {
+       return Scaffold(
+         backgroundColor: Colors.black,
+         appBar: AppBar(
+           iconTheme: IconThemeData(
+             color: Colors.white, //change your color here
+           ),
+           backgroundColor: Colors.black,
+           title: Text('Security',style: TextStyle(color: Colors.white)),
+         ),
+         body: Padding(
+           padding: const EdgeInsets.all(8.0),
+           child: ListView.builder(
+             itemCount: data_41.length,
+             itemBuilder: (BuildContext context, int index) {
+               List<String> row = data_41[index];
                return Card(
                  child: Container(
                    decoration: BoxDecoration(
