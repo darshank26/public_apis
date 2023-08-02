@@ -491,7 +491,7 @@ class _ListScreenState extends State<ListScreen> {
   ["npm Registry", "Query information about your favorite Node.js libraries programatically", "https://github.com/npm/registry/blob/master/docs/REGISTRY-API.md","", "HTTPS", "Unknown"],
   ["OneSignal", "Self-serve customer engagement solution for Push Notifications, Email, SMS & In-App","https://documentation.onesignal.com/docs/onesignal-api", "apiKey", "HTTPS", "Unknown"],
   ["Open Page Rank", "API for calculating and comparing metrics of different websites using Page Rank algorithm","https://www.domcop.com/openpagerank/", "apiKey", "HTTPS", "Unknown"],
-  ["OpenAPIHub", "The All-in-one API Platform", "X-Mashape-Key","https://hub.openapihub.com/en-us/", "HTTPS", "Unknown"],
+  ["OpenAPIHub", "The All-in-one API Platform", "","https://hub.openapihub.com/en-us/", "HTTPS", "Unknown"],
   ["OpenGraphr", "Really simple API to retrieve Open Graph data from an URL", "https://opengraphr.com/docs/1.0/overview","apiKey", "HTTPS", "Unknown"],
   ["oyyi", "API for Fake Data, image/video conversion, optimization, pdf optimization and thumbnail generation","https://oyyi.xyz/docs/1.0", "", "HTTPS", "CORS"],
   ["PageCDN", "Public API for javascript, css and font libraries on PageCDN", "https://pagecdn.com/docs/public-api","apiKey", "HTTPS", "CORS"],
@@ -657,7 +657,7 @@ class _ListScreenState extends State<ListScreen> {
     ["Alpaca", "Realtime and historical market data on all US equities and ETFs", "https://alpaca.markets/docs/api-references/market-data-api/","apiKey", "HTTPS", "CORS"],
     ["Alpha Vantage", "Realtime and historical stock data","https://www.alphavantage.co/", "apiKey", "HTTPS", "Unknown"],
     ["apilayer marketstack", "Real-Time, Intraday & Historical Market Data API", "https://marketstack.com/","apiKey", "HTTPS", "Unknown"],
-    ["Banco do Brasil", "All Banco do Brasil financial transaction APIs", "OAuth", "https://marketstack.com/","HTTPS", "CORS"],
+    ["Banco do Brasil", "All Banco do Brasil financial transaction APIs",  "https://marketstack.com/","OAuth","HTTPS", "CORS"],
     ["Bank Data API", "Instant IBAN and SWIFT number validation across the globe", "https://apilayer.com/marketplace/bank_data-api","apiKey", "HTTPS", "Unknown"],
     ["Billplz", "Payment platform","https://www.billplz.com/api#introduction", "apiKey", "HTTPS", "Unknown"],
     ["Binlist", "Public access to a database of IIN/BIN information", "https://binlist.net/","", "HTTPS", "Unknown"],
@@ -774,7 +774,7 @@ class _ListScreenState extends State<ListScreen> {
     ["Guild Wars 2", "Guild Wars 2 Game Information",  "https://wiki.guildwars2.com/wiki/API:Main","apiKey", "HTTPS", "Unknown"],
     ["GW2Spidy", "GW2Spidy API, Items data on the Guild Wars 2 Trade Market",  "https://github.com/rubensayshi/gw2spidy/wiki","", "HTTPS", "Unknown"],
     ["Halo", "Halo 5 and Halo Wars 2 Information",  "https://developer.haloapi.com/","apiKey", "HTTPS", "Unknown"],
-    ["Hearthstone", "Hearthstone Cards Information", "X-Mashape-Key",  "https://hearthstoneapi.com/" ,"","HTTPS", "Unknown"],
+    ["Hearthstone", "Hearthstone Cards Information", "",  "https://hearthstoneapi.com/" ,"","HTTPS", "Unknown"],
     ["Humble Bundle", "Humble Bundle's current bundles",  "https://rapidapi.com/Ziggoto/api/humble-bundle","apiKey", "HTTPS", "Unknown"],
     ["Humor", "Humor, Jokes, and Memes",  "https://humorapi.com/","apiKey", "HTTPS", "Unknown"],
     ["Hypixel", "Hypixel player stats",  "https://api.hypixel.net/","apiKey", "HTTPS", "Unknown"],
@@ -817,7 +817,7 @@ class _ListScreenState extends State<ListScreen> {
     ["Steam", "Internal Steam Web API documentation", "https://github.com/Revadike/InternalSteamWebAPI/wiki", "", "HTTPS", ""],
     ["SuperHeroes", "All SuperHeroes and Villains data from all universes under a single API",  "https://superheroapi.com/","apiKey", "HTTPS", "Unknown"],
     ["TCGdex", "Multi languages Pokémon TCG Information",  "https://tcgdex.dev/","", "HTTPS", "CORS"],
-    ["Tebex", "Tebex API for information about game purchases", "X-Mashape-Key",  "https://docs.tebex.io/plugin/","","HTTPS", ""],
+    ["Tebex", "Tebex API for information about game purchases", "",  "https://docs.tebex.io/plugin/","","HTTPS", ""],
     ["TETR.IO", "TETR.IO Tetra Channel API", "https://tetr.io/about/api/", "", "HTTPS", "Unknown"],
     ["Tronald Dump", "The dumbest things Donald Trump has ever said",  "https://www.tronalddump.io/","", "HTTPS", "Unknown"],
     ["Universalis", "Final Fantasy XIV market board data",  "https://docs.universalis.app/", "HTTPS", "CORS"],
@@ -935,7 +935,7 @@ class _ListScreenState extends State<ListScreen> {
   ["City, New York Open Data", "New York (US) City Open Data","https://opendata.cityofnewyork.us/", "", "HTTPS", "Unknown"],
   ["City, Prague Open Data", "Prague(CZ) City Open Data", "https://opendata.praha.eu/en","", "", "Unknown"],
   ["City, Toronto Open Data", "Toronto (CA) City Open Data","https://open.toronto.ca/", "", "HTTPS", "CORS"],
-  ["Code.gov", "The primary platform for Open Source and code sharing for the U.S. Federal Government", "https://code.gov/","apiKey", " HTTPS", "Unknown"],
+  ["Code.gov", "The primary platform for Open Source and code sharing for the U.S. Federal Government", "https://code.gov/","apiKey", "HTTPS", "Unknown"],
   ["Colorado Information Marketplace", "Colorado State Government Open Data", "https://data.colorado.gov/","", "HTTPS", "Unknown"],
   ["Data USA", "US Public Data", "https://datausa.io/about/api/","", "HTTPS", "Unknown"],
   ["Data.gov", "US Government Data", "https://api.data.gov/","apiKey", "HTTPS", "Unknown"],
@@ -1030,7 +1030,7 @@ class _ListScreenState extends State<ListScreen> {
     ["Humanitarian Data Exchange", "Humanitarian Data Exchange (HDX) is an open platform for sharing data across crises and organizations", "https://data.humdata.org/","", "HTTPS", "Unknown"],
     ["Infermedica", "NLP based symptom checker and patient triage API for health diagnosis from text", "https://developer.infermedica.com/docs/introduction","apiKey", "HTTPS", "CORS"],
     ["LAPIS", "SARS-CoV-2 genomic sequences from public sources", "https://cov-spectrum.org/public","apiKey","", "HTTPS", "CORS"],
-    ["Lexigram", "NLP that extracts mentions of clinical concepts from text, gives access to the clinical ontology", "https://docs.lexigram.io/", "HTTPS", "Unknown"],
+    ["Lexigram", "NLP that extracts mentions of clinical concepts from text, gives access to the clinical ontology", "https://docs.lexigram.io/", "","HTTPS", "Unknown"],
     ["Makeup", "Makeup Information", "http://makeup-api.herokuapp.com/","", "HTTPS", "Unknown"],
     ["MyVaccination", "Vaccination data for Malaysia","https://documenter.getpostman.com/view/16605343/Tzm8GG7u", "", "HTTPS", "Unknown"],
     ["NPPES", "National Plan & Provider Enumeration System, info on healthcare providers registered in US", "https://npiregistry.cms.hhs.gov/search","", "HTTPS", "Unknown"],
@@ -1150,41 +1150,41 @@ class _ListScreenState extends State<ListScreen> {
 
   final List<List<String>> data_33 = [
 
-    ["18F", "Unofficial US Federal Government API Development", "http://18f.github.io/API-All-the-X/","No", "No", "Unknown"],
-    ["API Setu", "An Indian Government platform that provides a lot of APIS for KYC, business, education & employment", "https://www.apisetu.gov.in/","No", "Yes", "Yes"],
-    ["Archive.org", "The Internet Archive", "https://archive.readme.io/reference/getting-started","No", "Yes", "No"],
-    ["Black History Facts", "Contribute or search one of the largest black history fact databases on the web", "https://www.blackhistoryapi.io/docs","apiKey", "Yes", "Yes"],
-    ["BotsArchive", "JSON formatted details about Telegram Bots available in the database","https://botsarchive.com/docs.html", "No", "Yes", "Unknown"],
-    ["Callook.info", "United States ham radio callsigns", "https://callook.info/","No", "Yes", "Unknown"],
-    ["CARTO", "Location Information Prediction","https://carto.com/", "apiKey", "Yes", "Unknown"],
-    ["CollegeScoreCard.ed.gov", "Data on higher education institutions in the United States","https://collegescorecard.ed.gov/data/", "No", "Yes", "Unknown"],
-    ["Enigma Public", "Broadest collection of public data", "https://developers.enigma.com/docs","apiKey", "Yes", "Yes"],
-    ["French Address Search", "Address search via the French Government","https://adresse.data.gouv.fr/api-doc/adresse", "No", "Yes", "Unknown"],
-    ["GENESIS", "Federal Statistical Office Germany","https://www.destatis.de/EN/Service/OpenData/api-webservice.html", "OAuth", "Yes", "Unknown"],
-    ["Joshua Project", "People groups of the world with the fewest followers of Christ", "https://api.joshuaproject.net/","apiKey", "Yes", "Unknown"],
-    ["Kaggle", "Create and interact with Datasets, Notebooks, and connect with Kaggle","https://www.kaggle.com/docs/api", "apiKey", "Yes", "Unknown"],
-    ["LinkPreview", "Get JSON formatted summary with title, description and preview image for any requested URL","https://www.linkpreview.net/", "apiKey", "Yes", "Yes"],
-    ["Lowy Asia Power Index", "Get measure resources and influence to rank the relative power of states in Asia", "https://github.com/0x0is1/lowy-index-api-docs","No", "Yes", "Unknown"],
-    ["Microlink.io", "Extract structured data from any website", "https://microlink.io/","No", "Yes", "Yes"],
-    ["Nasdaq Data Link", "Stock market data", "https://docs.data.nasdaq.com/","apiKey", "Yes", "Unknown"],
-    ["Nobel Prize", "Open data about Nobel prizes and events", "https://www.nobelprize.org/about/developer-zone-2/","No", "Yes", "Yes"],
-    ["Open Data Minneapolis", "Spatial (GIS) and non-spatial city data for Minneapolis", "https://opendata.minneapolismn.gov/","No", "Yes", "No"],
-    ["openAFRICA", "Large datasets repository of African open data", "https://africaopendata.org/","No", "Yes", "Unknown"],
-    ["OpenCorporates", "Data on corporate entities and directors in many countries","http://api.opencorporates.com/documentation/API-Reference", "apiKey", "Yes", "Unknown"],
-    ["OpenSanctions", "Data on international sanctions, crime, and politically exposed persons","https://www.opensanctions.org/api/", "No", "Yes", "Yes"],
-    ["PeakMetrics", "News articles and public datasets", "https://rapidapi.com/peakmetrics-peakmetrics-default/api/peakmetrics-news","apiKey", "Yes", "Unknown"],
-    ["Recreation Information Database", "Recreational areas, federal lands, historic sites, museums, and other attractions/resources(US)", "https://ridb.recreation.gov/landing","apiKey", "Yes", "Unknown"],
-    ["Scoop.it", "Content Curation Service","https://www.scoop.it/dev", "apiKey", "No", "Unknown"],
-    ["Socrata", "Access to Open Data from Governments, Non-profits and NGOs around the world", "https://dev.socrata.com/","OAuth", "Yes", "Yes"],
-    ["Teleport", "Quality of Life Data", "https://developers.teleport.org/","Yes", "Unknown"],
-    ["Umeå Open Data", "Open data of the city Umeå in northern Sweden", "https://opendata.umea.se/api/explore/v2.1/console","No", "Yes", "Yes"],
-    ["Universities List", "University names, countries, and domains","https://github.com/Hipo/university-domains-list", "No", "Yes", "Unknown"],
-    ["University of Oslo", "Courses, lecture videos, detailed information for courses etc. for the University of Oslo (Norway)", "https://data.uio.no/","No", "Yes", "Unknown"],
-    ["UPC database", "More than 1.5 million barcode numbers from all around the world", "https://upcdatabase.org/api","apiKey", "Yes", "Unknown"],
-    ["Urban Observatory", "The largest set of publicly available real-time urban data in the UK", "https://newcastle.urbanobservatory.ac.uk/","No", "No", "No"],
-    ["Wikidata", "Collaboratively edited knowledge base operated by the Wikimedia Foundation", "https://www.wikidata.org/w/api.php?action=help","OAuth", "Yes", "Unknown"],
-    ["Wikipedia", "Mediawiki Encyclopedia", "https://www.mediawiki.org/wiki/API:Main_page","No", "Yes", "Unknown"],
-    ["Yelp", "Find Local Business", "https://docs.developer.yelp.com/docs/getting-started","OAuth", "Yes", "Unknown"]
+    ["18F", "Unofficial US Federal Government API Development", "http://18f.github.io/API-All-the-X/","", "", "Unknown"],
+    ["API Setu", "An Indian Government platform that provides a lot of APIS for KYC, business, education & employment", "https://www.apisetu.gov.in/","", "HTTPS", "CORS"],
+    ["Archive.org", "The Internet Archive", "https://archive.readme.io/reference/getting-started","", "HTTPS", ""],
+    ["Black History Facts", "Contribute or search one of the largest black history fact databases on the web", "https://www.blackhistoryapi.io/docs","apiKey", "HTTPS", "CORS"],
+    ["BotsArchive", "JSON formatted details about Telegram Bots available in the database","https://botsarchive.com/docs.html", "", "HTTPS", "Unknown"],
+    ["Callook.info", "United States ham radio callsigns", "https://callook.info/","", "HTTPS", "Unknown"],
+    ["CARTO", "Location Information Prediction","https://carto.com/", "apiKey", "HTTPS", "Unknown"],
+    ["CollegeScoreCard.ed.gov", "Data on higher education institutions in the United States","https://collegescorecard.ed.gov/data/", "", "HTTPS", "Unknown"],
+    ["Enigma Public", "Broadest collection of public data", "https://developers.enigma.com/docs","apiKey", "HTTPS", "CORS"],
+    ["French Address Search", "Address search via the French Government","https://adresse.data.gouv.fr/api-doc/adresse", "", "HTTPS", "Unknown"],
+    ["GENESIS", "Federal Statistical Office Germany","https://www.destatis.de/EN/Service/OpenData/api-webservice.html", "OAuth", "HTTPS", "Unknown"],
+    ["Joshua Project", "People groups of the world with the fewest followers of Christ", "https://api.joshuaproject.net/","apiKey", "HTTPS", "Unknown"],
+    ["Kaggle", "Create and interact with Datasets, Notebooks, and connect with Kaggle","https://www.kaggle.com/docs/api", "apiKey", "HTTPS", "Unknown"],
+    ["LinkPreview", "Get JSON formatted summary with title, description and preview image for any requested URL","https://www.linkpreview.net/", "apiKey", "HTTPS", "CORS"],
+    ["Lowy Asia Power Index", "Get measure resources and influence to rank the relative power of states in Asia", "https://github.com/0x0is1/lowy-index-api-docs","", "HTTPS", "Unknown"],
+    ["Microlink.io", "Extract structured data from any website", "https://microlink.io/","", "HTTPS", "CORS"],
+    ["Nasdaq Data Link", "Stock market data", "https://docs.data.nasdaq.com/","apiKey", "HTTPS", "Unknown"],
+    ["Nobel Prize", "Open data about Nobel prizes and events", "https://www.nobelprize.org/about/developer-zone-2/","", "HTTPS", "CORS"],
+    ["Open Data Minneapolis", "Spatial (GIS) and non-spatial city data for Minneapolis", "https://opendata.minneapolismn.gov/","", "HTTPS", ""],
+    ["openAFRICA", "Large datasets repository of African open data", "https://africaopendata.org/","", "HTTPS", "Unknown"],
+    ["OpenCorporates", "Data on corporate entities and directors in many countries","http://api.opencorporates.com/documentation/API-Reference", "apiKey", "HTTPS", "Unknown"],
+    ["OpenSanctions", "Data on international sanctions, crime, and politically exposed persons","https://www.opensanctions.org/api/", "", "HTTPS", "CORS"],
+    ["PeakMetrics", "News articles and public datasets", "https://rapidapi.com/peakmetrics-peakmetrics-default/api/peakmetrics-news","apiKey", "HTTPS", "Unknown"],
+    ["Recreation Information Database", "Recreational areas, federal lands, historic sites, museums, and other attractions/resources(US)", "https://ridb.recreation.gov/landing","apiKey", "HTTPS", "Unknown"],
+    ["Scoop.it", "Content Curation Service","https://www.scoop.it/dev", "apiKey", "", "Unknown"],
+    ["Socrata", "Access to Open Data from Governments, Non-profits and NGOs around the world", "https://dev.socrata.com/","OAuth", "HTTPS", "CORS"],
+    ["Teleport", "Quality of Life Data", "https://developers.teleport.org/", "","HTTPS", "Unknown"],
+    ["Umeå Open Data", "Open data of the city Umeå in northern Sweden", "https://opendata.umea.se/api/explore/v2.1/console","", "HTTPS", "CORS"],
+    ["Universities List", "University names, countries, and domains","https://github.com/Hipo/university-domains-list", "", "HTTPS", "Unknown"],
+    ["University of Oslo", "Courses, lecture videos, detailed information for courses etc. for the University of Oslo (Norway)", "https://data.uio.no/","", "HTTPS", "Unknown"],
+    ["UPC database", "More than 1.5 million barcode numbers from all around the world", "https://upcdatabase.org/api","apiKey", "HTTPS", "Unknown"],
+    ["Urban Observatory", "The largest set of publicly available real-time urban data in the UK", "https://newcastle.urbanobservatory.ac.uk/","", "", ""],
+    ["Wikidata", "Collaboratively edited knowledge base operated by the Wikimedia Foundation", "https://www.wikidata.org/w/api.php?action=help","OAuth", "HTTPS", "Unknown"],
+    ["Wikipedia", "Mediawiki Encyclopedia", "https://www.mediawiki.org/wiki/API:Main_page","", "HTTPS", "Unknown"],
+    ["Yelp", "Find Local Business", "https://docs.developer.yelp.com/docs/getting-started","OAuth", "HTTPS", "Unknown"]
   ];
 
   final List<List<String>> data_34 = [
@@ -1209,7 +1209,7 @@ class _ListScreenState extends State<ListScreen> {
   final List<List<String>> data_36 = [
 
   ["Advice Slip", "Generate random advice slips", "https://api.adviceslip.com/","", "HTTPS", "Unknown"],
-  ["Biriyani As A Service", "Biriyani images placeholder", "https://biriyani.anoram.com/","", "HTTPS", "No"],
+  ["Biriyani As A Service", "Biriyani images placeholder", "https://biriyani.anoram.com/","", "HTTPS", ""],
   ["Dev.to", "Access Forem articles, users and other resources via API", "https://developers.forem.com/api","apiKey", "HTTPS", "Unknown"],
   ["Dictum", "API to get access to the collection of the most inspiring expressions of mankind", "https://github.com/fisenkodv/dictum","", "HTTPS", "Unknown"],
   ["FavQs.com", "FavQs allows you to collect, discover and share your favorite quotes","https://favqs.com/api", "apiKey", "HTTPS", "Unknown"],
@@ -1270,7 +1270,7 @@ class _ListScreenState extends State<ListScreen> {
     ["Sirv", "Image management solutions like optimization, manipulation, hosting","https://apidocs.sirv.com/#getting-started", "apiKey", "HTTPS", "Unknown"],
     ["Unsplash", "Photography","https://unsplash.com/developers", "OAuth", "HTTPS", "Unknown"],
     ["Wallhaven", "Wallpapers", "https://wallhaven.cc/help/api","apiKey", "HTTPS", "Unknown"],
-    ["Webdam", "Images", "OAuth","https://www.damsuccess.com/hc/en-us/articles/202134055-REST-API", "HTTPS", "Unknown"]
+    ["Webdam", "Images", "OAuth","https://www.damsuccess.com/hc/en-us/articles/202134055-REST-API","", "HTTPS", "Unknown"]
   ];
 
   final List<List<String>> data_39 = [
@@ -1302,7 +1302,7 @@ class _ListScreenState extends State<ListScreen> {
     ["Ocean Facts", "Facts pertaining to the physical science of Oceanography","https://oceanfacts.herokuapp.com/",  "", "HTTPS", "Unknown"],
     ["Open Notify", "ISS astronauts, current location, etc", "http://open-notify.org/Open-Notify-API/", "", "", ""],
     ["Open Science Framework", "Repository and archive for study designs, research materials, data, manuscripts, etc","https://developer.osf.io/",  "", "HTTPS", "Unknown"],
-    ["Purple Air", "Real Time Air Quality Monitoring", "https://www2.purpleair.com/", "No", "HTTPS", "Unknown"],
+    ["Purple Air", "Real Time Air Quality Monitoring", "https://www2.purpleair.com/", "", "HTTPS", "Unknown"],
     ["Remote Calc", "Decodes base64 encoding and parses it to return a solution to the calculation in JSON", "https://github.com/elizabethadegbaju/remotecalc", "", "HTTPS", "CORS"],
     ["SHARE", "A free, open, dataset about research and scholarly activities", "https://share.osf.io/api/v2/", "", "HTTPS", ""],
     ["SpaceX", "Company, vehicle, launchpad and launch data", "https://github.com/r-spacex/SpaceX-API", "", "HTTPS", ""],
@@ -1360,6 +1360,353 @@ class _ListScreenState extends State<ListScreen> {
 
     ];
 
+  final List<List<String>> data_42 = [
+    ["Best Buy", "Products, Buying Options, Categories, Recommendations, Stores and Commerce", "https://bestbuyapis.github.io/api-documentation/#overview","apiKey", "HTTPS", "Unknown"],
+  ["Digi-Key", "Retrieve price and inventory of electronic components as well as place orders","https://www.digikey.com/en/resources/api-solutions", "OAuth", "HTTPS", "Unknown"],
+  ["Dummy Products", "An API to fetch dummy e-commerce products JSON data with placeholder images","https://dummyproducts-api.herokuapp.com/", "apiKey", "HTTPS", "CORS"],
+  ["eBay", "Sell and Buy on eBay", "https://developer.ebay.com/","OAuth", "HTTPS", "Unknown"],
+  ["Etsy", "Manage shop and interact with listings", "https://www.etsy.com/developers/documentation/getting_started/api_basics","OAuth", "HTTPS", "Unknown"],
+  ["Flipkart Marketplace", "Product listing management, Order Fulfillment in the Flipkart Marketplace", "https://seller.flipkart.com/api-docs/FMSAPI.html", "OAuth", "HTTPS", "CORS"],
+  ["Lazada", "Retrieve product ratings and seller performance metrics","https://open.lazada.com/apps/user/login?redirectURL=https%3A%2F%2Fopen.lazada.com%2Fdoc%2Fdoc.htm", "apiKey", "HTTPS", "Unknown"],
+  ["Mercadolibre", "Manage sales, ads, products, services and Shops","https://developers.mercadolibre.cl/es_ar/api-docs-es", "apiKey", "HTTPS", "Unknown"],
+  ["Octopart", "Electronic part data for manufacturing, design, and sourcing","https://octopart.com/api/v4/reference", "apiKey", "HTTPS", "Unknown"],
+  ["OLX Poland", "Integrate with local sites by posting, managing adverts and communicating with OLX users","https://developer.olx.pl/api/doc#section/", "apiKey", "HTTPS", "Unknown"],
+  ["Rappi", "Manage orders from Rappi's app","https://dev-portal.rappi.com/en/", "OAuth", "HTTPS", "Unknown"],
+  ["Shopee", "Shopee's official API for integration of various services from Shopee","https://open.shopee.com/developer-guide/12", "apiKey", "HTTPS", "Unknown"],
+  ["Tokopedia", "Tokopedia's Official API for integration of various services from Tokopedia","https://developer.tokopedia.com/openapi/guide/#/", "OAuth", "HTTPS", "Unknown"],
+  ["WooCommerce", "WooCommerce REST APIs to create, read, update, and delete data on WordPress website in JSON format","https://woocommerce.github.io/woocommerce-rest-api-docs/#introduction", "apiKey", "HTTPS", "CORS"]
+  ];
+
+  final List<List<String>> data_43 = [
+    ["4chan", "Simple image-based bulletin board dedicated to a variety of topics", "https://github.com/4chan/4chan-API","", "HTTPS", "CORS"],
+  ["Ayrshare", "Social media APIs to post, get analytics, and manage multiple users' social media accounts","https://www.ayrshare.com/", "apiKey", "HTTPS", "CORS"],
+  ["aztro", "Daily horoscope info for yesterday, today, and tomorrow", "https://aztro.sameerkumar.website/","", "HTTPS", "Unknown"],
+  ["Blogger", "The Blogger APIs allow client applications to view and update Blogger content","https://developers.google.com/blogger/", "OAuth", "HTTPS", "Unknown"],
+  ["Cisco Spark", "Team Collaboration Software", "https://developer.webex.com/","OAuth", "HTTPS", "Unknown"],
+  ["Dangerous Discord Database", "Database of malicious Discord accounts", "https://discord.riverside.rocks/docs/index.php","apiKey", "HTTPS", "Unknown"],
+  ["Discord", "Make bots for Discord, integrate Discord onto an external platform","https://discord.com/developers/docs/intro", "OAuth", "HTTPS", "Unknown"],
+  ["Disqus", "Communicate with Disqus data","https://disqus.com/api/docs/auth/", "OAuth", "HTTPS", "Unknown"],
+  ["Doge-Meme", "Top meme posts from r/dogecoin which include 'Meme' flair","http://ww6.api.doge-meme.lol/docs", "", "HTTPS", "CORS"],
+  ["Facebook", "Facebook Login, Share on FB, Social Plugins, Analytics, and more", "https://developers.facebook.com/","OAuth", "HTTPS", "Unknown"],
+  ["Foursquare", "Interact with Foursquare users and places (geolocation-based check-ins, photos, tips, events, etc)","https://location.foursquare.com/developer/", "OAuth", "HTTPS", "Unknown"],
+  ["Fuck Off as a Service", "Asks someone to fuck off","https://www.foaas.com/", "", "HTTPS", "Unknown"],
+  ["Full Contact", "Get Social Media profiles and contact Information", "https://docs.fullcontact.com/","OAuth", "HTTPS", "Unknown"],
+  ["HackerNews", "Social news for CS and entrepreneurship","https://github.com/HackerNews/API", "", "HTTPS", "Unknown"],
+  ["Hashnode", "A blogging platform built for developers","https://hashnode.com/", "", "HTTPS", "Unknown"],
+  ["Instagram", "Instagram Login, Share on Instagram, Social Plugins, and more", "https://developers.facebook.com/docs/instagram","OAuth", "HTTPS", "Unknown"],
+  ["Kakao", "Kakao Login, Share on KakaoTalk, Social Plugins, and more", "https://developers.kakao.com/","OAuth", "HTTPS", "Unknown"],
+  ["Lanyard", "Retrieve your presence on Discord through an HTTP REST API or WebSocket", "https://github.com/Phineas/lanyard","", "HTTPS", "CORS"],
+  ["Line", "Line Login, Share on Line, Social Plugins, and more","https://developers.line.biz/en/", "OAuth", "HTTPS", "Unknown"],
+  ["LinkedIn", "The foundation of all digital integrations with LinkedIn", "https://learn.microsoft.com/en-us/linkedin/?context=linkedin%2Fcontext","OAuth", "HTTPS", "Unknown"],
+  ["Meetup.com", "Data about Meetups from Meetup.com", "https://www.meetup.com/api/guide/","apiKey", "HTTPS", "Unknown"],
+  ["Microsoft Graph", "Access the data and intelligence in Microsoft 365, Windows 10, and Enterprise Mobility","https://learn.microsoft.com/en-us/graph/api/overview?view=graph-rest-1.0", "OAuth", "HTTPS", "Unknown"],
+  ["NAVER", "NAVER Login, Share on NAVER, Social Plugins, and more","https://developers.naver.com/main/", "OAuth", "HTTPS", "Unknown"],
+  ["Open Collective", "Get Open Collective data", "https://docs.opencollective.com/help/contributing/development/api","", "HTTPS", "Unknown"],
+  ["Pinterest", "The world's catalog of ideas","https://developers.pinterest.com/", "OAuth", "HTTPS", "Unknown"],
+  ["Product Hunt", "The best new products in tech","https://api.producthunt.com/v2/docs","OAuth", "HTTPS", "Unknown"],
+  ["Reddit", "Homepage of the internet", "https://www.reddit.com/dev/api","OAuth", "HTTPS", "Unknown"],
+  ["Revolt", "Revolt open-source Discord alternative","https://developers.revolt.chat/api/", "apiKey", "HTTPS", "Unknown"],
+  ["Saidit", "Open Source Reddit Clone", "https://www.saidit.net/dev/api","OAuth", "HTTPS", "Unknown"],
+  ["Slack", "Team Instant Messaging", "https://api.slack.com/","OAuth", "HTTPS", "Unknown"],
+  ["TamTam", "Bot API to interact with TamTam","https://dev.tamtam.chat/", "apiKey", "HTTPS", "Unknown"],
+  ["Telegram Bot", "Simplified HTTP version of the MTProto API for bots", "https://core.telegram.org/bots/api","apiKey", "HTTPS", "Unknown"],
+  ["Telegram MTProto", "Read and write Telegram data","https://core.telegram.org/api#getting-started", "OAuth", "HTTPS", "Unknown"],
+  ["Telegraph", "Create attractive blogs easily, to share", "https://telegra.ph/api","apiKey", "HTTPS", "Unknown"],
+  ["TikTok", "Fetches user info and user's video posts on the TikTok platform", "https://developers.tiktok.com/doc/login-kit-web","OAuth", "HTTPS", "Unknown"],
+  ["Trash Nothing", "A freecycling community with thousands of free items posted every day","https://trashnothing.com/developer", "OAuth", "HTTPS", "CORS"],
+  ["Tumblr", "Read and write Tumblr Data", "https://www.tumblr.com/docs/en/api/v2","OAuth", "HTTPS", "Unknown"],
+  ["Twitch", "Game Streaming API","https://dev.twitch.tv/docs", "OAuth", "HTTPS", "Unknown"],
+  ["Twitter", "Read and write Twitter data","https://developer.twitter.com/en/docs", "OAuth", "HTTPS", ""],
+  ["vk", "Read and write vk data", "https://vk.com/dev/sites","OAuth", "HTTPS", "Unknown"],
+  ];
+
+
+  final List<List<String>> data_44 = [
+
+    ["API-FOOTBALL", "Get information about Football Leagues & Cups", "https://www.api-football.com/documentation-v3","apiKey", "HTTPS", "CORS"],
+  ["ApiMedic", "ApiMedic offers a medical symptom checker API primarily for patients", "https://www.api-football.com/documentation-v3","apiKey", "HTTPS", "Unknown"],
+  ["balldontlie", "Balldontlie provides access to stats data from the NBA", "https://app.balldontlie.io/","", "HTTPS", "CORS"],
+  ["Canadian Football League (CFL)", "Official JSON API providing real-time league, team, and player statistics about the CFL", "http://api.cfl.ca/","apiKey", "HTTPS", ""],
+  ["City Bikes", "City Bikes around the world","https://api.citybik.es/v2/", "", "HTTPS", "Unknown"],
+  ["Cloudbet", "Official Cloudbet API provides real-time sports odds and betting API to place bets programmatically", "cloudbet.com/api/","apiKey", "HTTPS", "CORS"],
+  ["CollegeFootballData.com", "Unofficial detailed American college football statistics, records, and results API","https://collegefootballdata.com/", "apiKey", "HTTPS", "Unknown"],
+  ["Ergast F1", "F1 data from the beginning of the world championships in 1950","http://ergast.com/mrd/", "", "HTTPS", "Unknown"],
+  ["Fitbit", "Fitbit Information","https://dev.fitbit.com/", "OAuth", "HTTPS", "Unknown"],
+  ["Football", "A simple Open Source Football API to get squads’ stats, best scorers, and more", "https://rapidapi.com/GiulianoCrescimbeni/api/football98/", "", "HTTPS", "Unknown"],
+  ["Football (Soccer) Videos", "Embed codes for goals and highlights from Premier League, Bundesliga, Serie A, and many more", "https://www.scorebat.com/video-api/","", "HTTPS", "CORS"],
+  ["Football Standings", "Display football standings e.g EPL, La Liga, Serie A, etc. The data is based on ESPN site", "https://github.com/azharimm/football-standings-api","", "HTTPS", "CORS"],
+  ["Football-Data", "Football data with matches info, players, teams, and competitions", "https://www.football-data.org/","", "HTTPS", "Unknown"],
+  ["JCDecaux Bike", "JCDecaux's self-service bicycles","https://developer.jcdecaux.com/#/home", "apiKey", "HTTPS", "Unknown"],
+  ["MLB Records and Stats", "Current and historical MLB statistics","https://appac.github.io/mlb-data-api-docs/", "", "", "Unknown"],
+  ["NBA Data", "All NBA Stats DATA, Games, Livescore, Standings, Statistics","https://rapidapi.com/api-sports/api/api-nba/", "apiKey", "HTTPS", "Unknown"],
+  ["NBA Stats", "Current and historical NBA Statistics","https://any-api.com/nba_com/nba_com/docs/API_Description", "", "HTTPS", "Unknown"],
+  ["NHL Records and Stats", "NHL historical data and statistics","https://gitlab.com/dword4/nhlapi", "", "HTTPS", "Unknown"],
+  ["Oddsmagnet", "Odds history from multiple UK bookmakers", "https://oddsmagnet.com/oddsdata","", "HTTPS", "CORS"],
+  ["OpenLigaDB", "Crowd-sourced sports league results","https://www.openligadb.de/", "", "HTTPS", "CORS"],
+  ["Premier League Standings", "All Current Premier League Standings and Statistics", "https://rapidapi.com/heisenbug/api/premier-league-live-scores/","apiKey", "HTTPS", "Unknown"],
+  ["Sport Data", "Get sports data from all over the world", "https://sportdataapi.com/","apiKey", "HTTPS", "Unknown"],
+  ["Sport List & Data", "List of and resources related to sports","https://developers.decathlon.com/products/sports", "", "HTTPS", "CORS"],
+  ["Sport Places", "Crowd-source sports places around the world","https://developers.decathlon.com/products/sport-places", "", "HTTPS", ""],
+  ["Sport Vision", "Identify sport, brands, and gear in an image. Also does image sports captioning","https://developers.decathlon.com/products/sport-places", "apiKey", "HTTPS", "CORS"],
+  ["Sportmonks Cricket", "Live cricket score, player statistics, and fantasy API", "https://docs.sportmonks.com/cricket/","apiKey", "HTTPS", "Unknown"],
+  ["Sportmonks Football", "Football score/schedule, news API, TV channels, stats, history, display standing e.g. EPL, La Liga","https://docs.sportmonks.com/football/welcome/getting-started", "apiKey", "HTTPS", "Unknown"],
+  ["Squiggle", "Fixtures, results, and predictions for Australian Football League matches","https://api.squiggle.com.au/", "", "HTTPS", "CORS"],
+  ["SuredBits", "Query sports data, including teams, players, games, scores, and statistics", "https://suredbits.com/api/#lightning-api-v0-beta-documentation","", "", ""],
+  ["TheSportsDB", "Crowd-Sourced Sports Data and Artwork", "https://www.thesportsdb.com/api.php","apiKey", "HTTPS", "CORS"],
+  ["Tredict", "Get and set activities, health data, and more", "https://www.tredict.com/blog/oauth_docs/","OAuth", "HTTPS", "Unknown"],
+  ["Wger", "Workout manager data as exercises, muscles, or equipment","https://wger.de/en/software/api", "apiKey", "HTTPS", "Unknown"],
+
+  ];
+
+  final List<List<String>> data_45 = [
+
+    ["Bacon Ipsum", "A Meatier Lorem Ipsum Generator","https://baconipsum.com/json-api/",  "", "HTTPS", "Unknown"],
+  ["Dicebear Avatars", "Generate random pixel-art avatars", "https://avatars.dicebear.com/", "", "HTTPS", ""],
+  ["English Random Words", "Generate English Random Words with Pronunciation","https://random-words-api.vercel.app/word",  "", "HTTPS", ""],
+  ["FakeJSON", "Service to generate test and fake data", "https://fakejson.com/", "apiKey", "HTTPS", "CORS"],
+  ["FakerAPI", "APIs collection to get fake data", "https://fakerapi.it/en", "", "HTTPS", "CORS"],
+  ["FakeStoreAPI", "Fake store rest API for your e-commerce or shopping website prototype", "https://fakestoreapi.com/", "", "HTTPS", "Unknown"],
+  ["GeneradorDNI", "Data generator API. Profiles, vehicles, banks and cards, etc", "https://api.generadordni.es/", "apiKey", "HTTPS", "Unknown"],
+  ["ItsThisForThat", "Generate Random startup ideas","https://itsthisforthat.com/api.php",  "", "HTTPS", ""],
+  ["JSONPlaceholder", "Fake data for testing and prototyping", "http://jsonplaceholder.typicode.com/", "", "", "Unknown"],
+  ["Loripsum", "The \"lorem ipsum\" generator that doesn't suck", "http://loripsum.net/", "", "", "Unknown"],
+  ["Mailsac", "Disposable Email","http://loripsum.net/",  "apiKey", "HTTPS", "Unknown"],
+  ["Metaphorsum", "Generate demo paragraphs giving the number of words and sentences","https://metaphorpsum.com/",  "", "", "Unknown"],
+  ["Mockaroo", "Generate fake data to JSON, CSV, TXT, SQL, and XML","https://www.mockaroo.com/docs",  "apiKey", "HTTPS", "Unknown"],
+  ["QuickMocker", "API mocking tool to generate contextual, fake, or random data", "https://quickmocker.com/", "", "HTTPS", "CORS"],
+  ["Random Data", "Random data generator", "https://random-data-api.com/", "", "HTTPS", "Unknown"],
+  ["Randommer", "Random data generator","https://randommer.io/randommer-api",  "apiKey", "HTTPS", "CORS"],
+  ["RandomUser", "Generates and lists user data", "https://randomuser.me/", "", "HTTPS", "Unknown"],
+  ["RoboHash", "Generate random robot/alien avatars", "https://robohash.org/", "", "HTTPS", "Unknown"],
+  ["Spanish random names", "Generate Spanish names (with gender) randomly","https://random-names-api.herokuapp.com/public", "", "HTTPS", "Unknown"],
+  ["Spanish random words", "Generate Spanish words randomly", "https://palabras-aleatorias-public-api.herokuapp.com/","", "HTTPS", "Unknown"],
+  ["This Person Does not Exist", "Generates real-life faces of people who do not exist", "https://thispersondoesnotexist.com/","", "HTTPS", "Unknown"],
+  ["Toolcarton", "Generate random testimonial data", "https://testimonialapi.toolcarton.com/","", "HTTPS", "Unknown"],
+  ["UUID Generator", "Generate UUIDs","https://www.uuidtools.com/docs", "", "HTTPS", ""],
+  ["What The Commit", "Random commit message generator","http://whatthecommit.com/index.txt", "", "", "CORS"],
+  ["Yes No", "Generate yes or no randomly","https://yesno.wtf/api", "", "HTTPS", "Unknown"],
+  ];
+
+  final List<List<String>> data_46 = [
+
+    ["Code Detection API", "Detect, label, format, and enrich the code in your app or in your data pipeline", "https://codedetectionapi.runtime.dev/","OAuth", "HTTPS", "Unknown"],
+  ["apilayer languagelayer", "Language Detection JSON API supporting 173 languages", "https://languagelayer.com/","OAuth", "HTTPS", "Unknown"],
+  ["Aylien Text Analysis", "A collection of information retrieval and natural language APIs", "https://docs.aylien.com/textapi/#getting-started","apiKey", "HTTPS", "Unknown"],
+  ["Cloudmersive Natural Language Processing", "Natural language processing and text analysis","https://www.cloudmersive.com/nlp-api", "apiKey", "HTTPS", "CORS"],
+  ["Detect Language", "Detects text language", "https://detectlanguage.com/","apiKey", "HTTPS", "Unknown"],
+  ["ELI", "Natural Language Processing Tools for Thai Language", "https://nlp.insightera.co.th/docs/v1.0","apiKey", "HTTPS", "Unknown"],
+  ["Google Cloud Natural", "Natural language understanding technology, including sentiment, entity, and syntax analysis", "https://cloud.google.com/natural-language/docs/","apiKey", "HTTPS", "Unknown"],
+  ["Hirak OCR", "Image to text - text recognition - from an image in more than 100 languages, accurate, unlimited requests","https://ocr.hirak.site/", "apiKey", "HTTPS", "Unknown"],
+  ["Hirak Translation", "Translate between 21 of the most used languages, accurate, unlimited requests", "https://translate.hirak.site/","apiKey", "HTTPS", "Unknown"],
+  ["Lecto Translation", "Translation API with a free tier and reasonable prices", "https://rapidapi.com/lecto-lecto-default/api/lecto-translation/","apiKey", "HTTPS", "CORS"],
+  ["LibreTranslate", "Translation tool with 17 available languages", "https://libretranslate.com/docs","", "HTTPS", "Unknown"],
+  ["Semantria", "Text Analytics with sentiment analysis, categorization & named entity extraction", "https://semantria.readme.io/docs","OAuth", "HTTPS", "Unknown"],
+  ["Sentiment Analysis", "Multilingual sentiment analysis of texts from different sources","https://www.meaningcloud.com/developer/sentiment-analysis", "apiKey", "HTTPS", "CORS"],
+  ["Tisane", "Text Analytics with a focus on the detection of abusive content and law enforcement applications", "https://tisane.ai/","OAuth", "HTTPS", "CORS"],
+  ["Watson Natural Language Understanding", "Natural language processing for advanced text analysis", "https://cloud.ibm.com/apidocs/natural-language-understanding/natural-language-understanding","OAuth", "HTTPS", "Unknown"],
+  ];
+
+  final List<List<String>> data_47 = [
+
+  ["Aftership", "API to update, manage and track shipment efficiently", "https://www.aftership.com/docs/tracking/quickstart/api-quick-start","apiKey", "HTTPS", "CORS"],
+  ["Correios", "Integration to provide information and prepare shipments using Correio's services", "https://cws.correios.com.br/ajuda","apiKey", "HTTPS", "Unknown"],
+  ["Pixela", "API for recording and tracking habits or effort, routines","https://pixe.la/", "", "HTTPS", "CORS"],
+  ["PostalPinCode", "API for getting Pincode details in India","http://www.postalpincode.in/Api-Details", "", "HTTPS", "Unknown"],
+  ["Postmon", "An API to query Brazilian ZIP codes and orders easily, quickly and free", "https://postmon.com.br/","", "", "Unknown"],
+  ["PostNord", "Provides information about parcels in transport for Sweden and Denmark", "https://developer.postnord.com/api","apiKey", "", "Unknown"],
+  ["UPS", "Shipment and Address information","https://www.ups.com/upsdeveloperkit", "apiKey", "HTTPS", "Unknown"],
+  ["WeCanTrack", "Automatically place subids in affiliate links to attribute affiliate conversions to click data","https://docs.wecantrack.com/#/", "apiKey", "HTTPS", "CORS"],
+  ["WhatPulse", "Small application that measures your keyboard/mouse usage","https://whatpulse.org/help/api/intro/#web-api", "", "HTTPS", "Unknown"]
+  ];
+
+
+  final List<List<String>> data_48 = [
+
+    ["ADS-B Exchange", "Access real-time and historical data of any and all airborne aircraft", "https://www.adsbexchange.com/data/","", "HTTPS", "Unknown"],
+  ["airportsapi", "Get name and website-URL for airports by ICAO code", "https://airport-web.appspot.com/api/docs/","", "HTTPS", "Unknown"],
+  ["AIS Hub", "Real-time data of any marine and inland vessel equipped with AIS tracking system", "https://www.aishub.net/api","apiKey", "", "Unknown"],
+  ["Amadeus for Developers", "Travel Search - Limited usage","https://developers.amadeus.com/self-service", "OAuth", "HTTPS", "Unknown"],
+  ["apilayer aviationstack", "Real-time Flight Status & Global Aviation Data API", "https://aviationstack.com/","OAuth", "HTTPS", "Unknown"],
+  ["AviationAPI", "FAA Aeronautical Charts and Publications, Airport Information, and Airport Weather","https://docs.aviationapi.com/", "", "HTTPS", ""],
+  ["AZ511", "Access traffic data from the ADOT API", "https://www.az511.com/developers/doc","apiKey", "HTTPS", "Unknown"],
+  ["Bay Area Rapid Transit", "Stations and predicted arrivals for BART", "https://api.bart.gov/docs/overview/index.aspx","apiKey", "", "Unknown"],
+  ["BC Ferries", "Sailing times and capacities for BC Ferries", "https://www.bcferriesapi.ca/","", "HTTPS", "CORS"],
+  ["BIC-Boxtech", "Container technical detail for the global container fleet","https://docs.bic-boxtech.org/", "OAuth", "HTTPS", "Unknown"],
+  ["BlaBlaCar", "Search car sharing trips", "https://support.blablacar.com/hc/en-gb/categories/360002585239","apiKey", "HTTPS", "Unknown"],
+  ["Boston MBTA Transit", "Stations and predicted arrivals for MBTA", "https://www.mbta.com/developers/v3-api","apiKey", "HTTPS", "Unknown"],
+  ["Community Transit", "Transitland API","https://github.com/transitland/transitland-datastore/blob/master/README.md#api-endpoints", "", "HTTPS", "Unknown"],
+  ["Compare Flight Prices", "API for comparing flight prices across platforms", "https://rapidapi.com/obryan-software-obryan-software-default/api/compare-flight-prices/","apiKey", "HTTPS", "Unknown"],
+  ["CTS", "CTS Realtime API", "https://api.cts-strasbourg.eu/index.html","apiKey", "HTTPS", "CORS"],
+  ["Grab", "Track deliveries, ride fares, payments and loyalty points", "https://developer.grab.com/docs/","OAuth", "HTTPS", "Unknown"],
+  ["GraphHopper", "A-to-B routing with turn-by-turn instructions", "https://docs.graphhopper.com/","apiKey", "HTTPS", "Unknown"],
+  ["Icelandic APIs", "Open APIs that deliver services in or regarding Iceland", "https://docs.apis.is/","", "HTTPS", "Unknown"],
+  ["Impala Hotel Bookings", "Hotel content, rates and room bookings", "https://docs.impala.travel/docs/booking-api/","apiKey", "HTTPS", ""],
+  ["Izi", "Audio guide for travellers", "https://api-docs.izi.travel/","apiKey", "HTTPS", "Unknown"],
+  ["Land Transport Authority DataMall, Singapore", "Singapore transport information", "https://datamall.lta.gov.sg/content/dam/datamall/datasets/LTA_DataMall_API_User_Guide.pdf","apiKey", "", "Unknown"],
+  ["Metro Lisboa", "Delays in subway lines","https://app.metrolisboa.pt/status/getLinhas.php", "", "", ""],
+  ["Navitia", "The open API for building cool stuff with transport data", "https://doc.navitia.io/#getting-started","apiKey", "HTTPS", "Unknown"],
+  ["Open Charge Map", "Global public registry of electric vehicle charging locations", "https://openchargemap.org/site/develop/api#/","apiKey", "HTTPS", "CORS"],
+  ["OpenSky Network", "Free real-time ADS-B aviation data","https://openskynetwork.github.io/opensky-api/?ref=devresourc.es%3Fref%3Ddevresourc.es%3Fref%3Ddevresourc.es%3Fref%3Ddevresourc.es%3Fref%3Ddevresourc.es%3Fref%3Dhttps%3A%2F%2Fgithubhelp.com", "", "HTTPS", "Unknown"],
+  ["Railway Transport for France", "SNCF public API", "https://www.digital.sncf.com/startup/api","apiKey", "HTTPS", "Unknown"],
+  ["REFUGE Restrooms", "Provides safe restroom access for transgender, intersex and gender nonconforming individuals", "https://www.refugerestrooms.org/api/docs/#!/restrooms","", "HTTPS", "Unknown"],
+  ["Sabre for Developers", "Travel Search - Limited usage","https://developer.sabre.com/guides/travel-agency/quickstart/getting-started-in-travel", "apiKey", "HTTPS", "Unknown"],
+  ["Schiphol Airport", "Schiphol","https://developer.schiphol.nl/login", "apiKey", "HTTPS", "Unknown"],
+  ["Tankerkoenig", "German realtime gas/diesel prices","https://creativecommons.tankerkoenig.de/swagger/", "apiKey", "HTTPS", "CORS"],
+  ["TransitLand", "Transit Aggregation","https://www.transit.land/documentation/datastore/api-endpoints.html", "", "HTTPS", "Unknown"],
+  ["Transport for Atlanta, US", "Marta", "https://www.itsmarta.com/app-developer-resources.aspx","", "", "Unknown"],
+  ["Transport for Auckland, New Zealand", "Auckland Transport", "https://dev-portal.at.govt.nz/","", "HTTPS", "Unknown"],
+  ["Transport for Belgium", "The iRail API is a third-party API for Belgian public transport by train","https://docs.irail.be/", "", "HTTPS", "CORS"],
+  ["Transport for Berlin, Germany", "Third-party VBB API","https://github.com/derhuerst/vbb-rest/blob/3/docs/index.md", "", "HTTPS", "Unknown"],
+  ["Transport for Bordeaux, France", "Bordeaux Métropole public transport and more (France)", "https://opendata.bordeaux-metropole.fr/explore/?disjunctive.publisher&disjunctive.frequence&disjunctive.keyword&disjunctive.territoire&sort=title","apiKey", "HTTPS", "Unknown"],
+  ["Transport for Budapest, Hungary", "Budapest public transport API","https://bkkfutar.docs.apiary.io/#", "", "HTTPS", "Unknown"],
+  ["Transport for Chicago, US", "Chicago Transit Authority (CTA)", "https://www.transitchicago.com/developers/","apiKey", "", "Unknown"],
+  ["Transport for Czech Republic", "Czech transport API","https://www.chaps.cz/eng/products/idos-internet", "", "HTTPS", "Unknown"],
+  ["Transport for Denver, US", "RTD", "https://www.rtd-denver.com/business-center/open-data/gtfs-developer-guide","", "", "Unknown"],
+  ["Transport for Finland", "Finnish transport API", "https://digitransit.fi/en/developers/","", "HTTPS", "Unknown"],
+  ["Transport for Germany", "Deutsche Bahn (DB) API", "https://data.deutschebahn.com/dataset/api-fahrplan.html","apiKey", "", "Unknown"],
+  ["Transport for Grenoble, France", "Grenoble public transport", "https://www.mobilites-m.fr/pages/opendata/OpenDataApi.html","", "", ""],
+  ["Transport for Hessen, Germany", "RMV API (Public Transport in Hessen)", "https://opendata.rmv.de/site/start.html","", "HTTPS", "Unknown"],
+  ["Transport for Honolulu, US", "Honolulu Transportation Information", "http://hea.thebus.org/api_info.asp","apiKey", "", "Unknown"],
+  ["Transport for Lisbon, Portugal", "Data about buses routes, parking and traffic","https://emel.city-platform.com/opendata/", "apiKey", "HTTPS", "Unknown"],
+  ["Transport for London, England", "TfL API", "https://api.tfl.gov.uk/","apiKey", "HTTPS", "Unknown"],
+  ["Transport for Los Angeles, US", "Data about positions of Metro vehicles in real time and travel their routes","https://developer.metro.net/api/", "", "HTTPS", "Unknown"],
+  ["Transport for Manchester, England", "TfGM transport network data", "https://developer.tfgm.com/","apiKey", "HTTPS", ""],
+  ["Transport for Norway", "Transport APIs and dataset for Norway","https://developer.entur.org/", "", "HTTPS", "Unknown"],
+  ["Transport for Ottawa, Canada", "OC Transpo API","https://www.octranspo.com/en/plan-your-trip/travel-tools/developers", "apiKey", "HTTPS", "Unknown"],
+  ["Transport for Paris, France", "RATP Open Data API", "https://data.ratp.fr/api/v1/console/datasets/1.0/search/","", "", "Unknown"],
+  ["Transport for Philadelphia, US", "SEPTA APIs", "http://www3.septa.org/hackathon/","", "", "Unknown"],
+  ["Transport for Sao Paulo, Brazil", "SPTrans","https://www.sptrans.com.br/desenvolvedores/api-do-olho-vivo-guia-de-referencia/documentacao-api/", "OAuth", "", "Unknown"],
+  ["Transport for Spain", "Public trains of Spain", "https://data.renfe.com/api/1/util/snippet/api_info.html?resource_id=a2368cff-1562-4dde-8466-9635ea3a572a","", "HTTPS", "Unknown"],
+  ["Transport for Sweden", "Public Transport consumer", "https://www.trafiklab.se/api","OAuth", "HTTPS", "Unknown"],
+  ["Transport for Switzerland", "Official Swiss Public Transport Open Data","https://opentransportdata.swiss/en/", "apiKey", "HTTPS", "Unknown"],
+  ["Transport for Switzerland", "Swiss public transport API", "https://transport.opendata.ch/","", "HTTPS", "Unknown"],
+  ["Transport for The Netherlands", "NS, only trains","https://www.ns.nl/reisinformatie/ns-api", "apiKey", "", "Unknown"],
+  ["Transport for The Netherlands", "OVAPI, country-wide public transport","https://github.com/koch-t/KV78Turbo-OVAPI/wiki", "", "HTTPS", "Unknown"],
+  ["Transport for Toronto, Canada", "TTC", "https://myttc.ca/developers","", "HTTPS", "Unknown"],
+  ["Transport for UK", "Transport API and dataset for UK", "https://developer.transportapi.com/","apiKey", "HTTPS", "Unknown"],
+  ["Transport for United States", "NextBus API", "https://retro.umoiq.com/xmlFeedDocs/NextBusXMLFeed.pdf","", "", "Unknown"],
+  ["Transport for Vancouver, Canada", "TransLink", "https://www.translink.ca/about-us/doing-business-with-translink/app-developer-resources","OAuth", "HTTPS", "Unknown"],
+  ["Transport for Washington, US", "Washington Metro transport API", "https://developer.wmata.com/","OAuth", "HTTPS", "Unknown"],
+  ["transport.rest", "Community maintained, developer-friendly public transport API","https://transport.rest/", "", "HTTPS", "CORS"],
+  ["Tripadvisor", "Rating content for a hotel, restaurant, attraction or destination", "https://developer-tripadvisor.com/home/","apiKey", "HTTPS", "Unknown"],
+  ["Uber", "Uber ride requests and price estimation", "https://developer.uber.com/products","OAuth", "HTTPS", "CORS"],
+  ["Velib metropolis, Paris, France", "Velib Open Data API", "https://www.velib-metropole.fr/donnees-open-data-gbfs-du-service-velib-metropole", "","HTTPS", ""]
+  ];
+
+
+  final List<List<String>> data_49 = [
+
+    ["1pt", "A simple URL shortener","https://github.com/1pt-co/api/blob/main/README.md", "", "HTTPS", "CORS"],
+  ["Bitly", "URL shortener and link management","https://dev.bitly.com/", "OAuth", "HTTPS", "Unknown"],
+  ["CleanURI", "URL shortener service", "https://cleanuri.com/docs","", "HTTPS", "CORS"],
+  ["ClickMeter", "Monitor, compare, and optimize your marketing links", "https://support.clickmeter.com/hc/en-us/categories/201474986","apiKey", "HTTPS", "Unknown"],
+  ["Clico", "URL shortener service", "https://sedo.com/search/details/?domain=cli.com&campaignId=329145&origin=sales_lander_15","apiKey", "HTTPS", "Unknown"],
+  ["Cutt.ly", "URL shortener service", "https://cutt.ly/api-documentation/cuttly-links-api","apiKey", "HTTPS", "Unknown"],
+  ["Drivet URL Shortener", "Shorten a long URL easily and fast", "https://wiki.drivet.xyz/en/url-shortener/add-links","", "HTTPS", "Unknown"],
+  ["Free Url Shortener", "Free URL Shortener offers a powerful API to interact with other sites", "https://ulvis.net/developer.html","", "HTTPS", "Unknown"],
+  ["Git.io", "Git.io URL shortener", "https://github.blog/2011-11-10-git-io-github-url-shortener/","", "HTTPS", "Unknown"],
+  ["GoTiny", "A lightweight URL shortener, focused on ease-of-use for the developer and end-user", "https://github.com/robvanbakel/gotiny-api","", "HTTPS", "CORS"],
+  ["Kutt", "Free Modern URL Shortener","https://docs.kutt.it/", "apiKey", "HTTPS", "CORS"],
+  ["Mgnet.me", "Torrent URL shorten API", "http://mgnet.me/api.html","", "HTTPS", ""],
+  ["owo", "A simple link obfuscator/shortener","https://owo.vc/api", "", "HTTPS", "Unknown"],
+  ["Rebrandly", "Custom URL shortener for sharing branded links", "https://developers.rebrandly.com/docs","apiKey", "HTTPS", "Unknown"],
+  ["Short Link", "Short URLs support so many domains","https://github.com/FayasNoushad/Short-Link-API", "", "HTTPS", "Unknown"],
+  ["Shrtcode", "URL Shortener with multiple Domains","https://shrtco.de/docs", "", "HTTPS", "CORS"],
+  ["Shrtlnk", "Simple and efficient short link creation", "https://www.shrtlnk.dev/developer","apiKey", "HTTPS", "CORS"],
+  ["TinyURL", "Shorten long URLs", "https://tinyurl.com/app/dev","apiKey", "HTTPS", ""],
+  ["UrlBae", "Simple and efficient short link creation", "https://urlbae.com/developers","apiKey", "HTTPS", "CORS"]
+  ];
+
+  final List<List<String>> data_50 = [
+    ["Brazilian Vehicles and Prices", "Vehicles information from Fundação Instituto de Pesquisas Econômicas - Fipe","https://deividfortuna.github.io/fipe/", "", "HTTPS", ""],
+    ["Helipaddy sites", "Helicopter and passenger drone landing site directory, Helipaddy data and much more","https://helipaddy.com/api/", "apiKey", "HTTPS", "Unknown"],
+    ["Kelley Blue Book", "Vehicle info, pricing, configuration, plus much more", "http://developer.kbb.com/#!/data/1-Default","apiKey", "HTTPS", ""],
+    ["Mercedes-Benz", "Telematics data, remotely access vehicle functions, car configurator, locate service dealers", "https://developer.mercedes-benz.com/products","apiKey", "HTTPS", ""],
+    ["NHTSA", "NHTSA Product Information Catalog and Vehicle Listing", "https://vpic.nhtsa.dot.gov/api/","", "HTTPS", "Unknown"],
+    ["Smartcar", "Lock and unlock vehicles and get data like odometer reading and location. Works on most new cars", "https://smartcar.com/docs/","OAuth", "HTTPS", "CORS"]
+
+    ];
+
+  final List<List<String>> data_51 = [
+    ["An API of Ice And Fire", "Game Of Thrones API", "https://anapioficeandfire.com/","", "HTTPS", "Unknown"],
+    ["Bob's Burgers", "Bob's Burgers API", "https://bobs-burgers-api-ui.herokuapp.com/","", "HTTPS", "CORS"],
+    ["Breaking Bad", "Breaking Bad API", "https://breakingbadapi.com/documentation","", "HTTPS", "Unknown"],
+    ["Breaking Bad Quotes", "Some Breaking Bad quotes", "https://github.com/shevabam/breaking-bad-quotes","", "HTTPS", "Unknown"],
+    ["Catalogopolis", "Doctor Who API", "https://api.catalogopolis.xyz/docs/","", "HTTPS", "Unknown"],
+    ["Catch The Show", "REST API for next-episode.net", "https://catchtheshow.herokuapp.com/api/documentation","", "HTTPS", "Unknown"],
+    ["Czech Television", "TV programme of Czech TV", "https://www.ceskatelevize.cz/xml/tv-program/","", "", "Unknown"],
+    ["Dailymotion", "Dailymotion Developer API", "https://developers.dailymotion.com/","OAuth", "HTTPS", "Unknown"],
+    ["Dune", "A simple API which provides you with book, character, movie, and quotes JSON data", "https://github.com/ywalia01/dune-api","", "HTTPS", "CORS"],
+    ["Final Space", "Final Space API", "https://finalspaceapi.com/docs/","", "HTTPS", "CORS"],
+    ["Game of Thrones Quotes", "Some Game of Thrones quotes", "https://gameofthronesquotes.xyz/","", "HTTPS", "Unknown"],
+    ["Harry Potter Charactes", "Harry Potter Characters Data with imagery", "https://hp-api.herokuapp.com/","", "HTTPS", "Unknown"],
+    ["IMDb-API", "API for receiving movie, serial, and cast information","https://imdb-api.com/", "apiKey", "HTTPS", "Unknown"],
+    ["IMDbOT", "Unofficial IMDb Movie / Series Information", "https://github.com/SpEcHiDe/IMDbOT","", "HTTPS", "CORS"],
+    ["JSON2Video", "Create and edit videos programmatically: watermarks, resizing, slideshows, voice-over, text animations", "https://json2video.com/","apiKey", "HTTPS", ""],
+    ["Lucifer Quotes", "Returns Lucifer quotes","https://github.com/shadowoff09/lucifer-quotes", "", "HTTPS", "Unknown"],
+    ["MCU Countdown", "A Countdown to the next MCU Film","https://github.com/DiljotSG/MCU-Countdown", "", "HTTPS", "CORS"],
+    ["Motivational Quotes", "Random Motivational Quotes","https://github.com/DiljotSG/MCU-Countdown", "", "HTTPS", "Unknown"],
+    ["Movie Quote", "Random Movie and Series Quotes", "https://github.com/F4R4N/movie-quote/","", "HTTPS", "CORS"],
+    ["Open Movie Database", "Movie information", "https://owen-wilson-wow-api.herokuapp.com/","apiKey", "HTTPS", "Unknown"],
+    ["Owen Wilson Wow", "API for actor Owen Wilson's 'wow' exclamations in movies", "","", "HTTPS", "CORS"],
+    ["Ron Swanson Quotes", "Television","https://github.com/jamesseanwright/ron-swanson-quotes#ron-swanson-quotes-api", "", "HTTPS", "Unknown"],
+    ["Simkl", "Movie, TV, and Anime data", "https://github.com/jamesseanwright/ron-swanson-quotes#ron-swanson-quotes-api","apiKey", "HTTPS", "Unknown"],
+    ["STAPI", "Information on all things Star Trek", "https://stapi.co/","", "", ""],
+    ["Stranger Things Quotes", "Returns Stranger Things quotes","https://github.com/shadowoff09/strangerthings-quotes", "", "HTTPS", "Unknown"],
+    ["Stream", "Czech internet television, films, series, and online videos for free","https://api.stream.cz/graphiql", "", "HTTPS", ""],
+    ["Stromberg Quotes", "Returns Stromberg quotes and more", "https://www.stromberg-api.de/","", "HTTPS", "Unknown"],
+    ["SWAPI", "All the Star Wars data you've ever wanted","https://swapi.dev/", "", "HTTPS", "CORS"],
+    ["The Vampire Diaries", "TV Show Data", "https://vampire-diaries-api.netlify.app/","apiKey", "HTTPS", "CORS"],
+    ["ThronesApi", "Game Of Thrones Characters Data with imagery", "https://thronesapi.com/","", "HTTPS", "Unknown"],
+    ["TMDb", "Community-based movie data", "https://developer.themoviedb.org/docs","apiKey", "HTTPS", "Unknown"],
+    ["TrailerAddict", "Easily embed trailers from TrailerAddict", "https://www.traileraddict.com/trailerapi","apiKey", "", "Unknown"],
+    ["Trakt", "Movie and TV Data", "https://trakt.docs.apiary.io/#","apiKey", "HTTPS", "CORS"],
+    ["TVDB", "Television data", "https://thetvdb.com/api-information","apiKey", "HTTPS", "Unknown"],
+    ["TVMaze", "TV Show Data", "https://www.tvmaze.com/api","", "", "Unknown"],
+    ["uNoGS", "Unofficial Netflix Online Global Search, Search all Netflix regions in one place", "https://rapidapi.com/unogs/api/unogsng","apiKey", "HTTPS", "CORS"],
+    ["Vimeo", "Vimeo Developer API", "https://developer.vimeo.com/","OAuth", "HTTPS", "Unknown"],
+    ["Watchmode", "API for finding out the streaming availability of movies & shows","https://api.watchmode.com/", "apiKey", "HTTPS", "Unknown"],
+    ["Web Series Quotes Generator", "API generates various Web Series Quote Images", "https://github.com/yogeshwaran01/web-series-quotes","", "HTTPS", "CORS"],
+    ["YouTube", "Add YouTube functionality to your sites and apps", "https://developers.google.com/youtube/","OAuth", "HTTPS", "Unknown"]
+
+  ];
+
+  final List<List<String>> data_52 = [
+
+
+  ["7Timer!", "Weather, especially for Astroweather", "http://www.7timer.info/doc.php?lang=en","", "", "Unknown"],
+  ["AccuWeather", "Weather and forecast data", "https://developer.accuweather.com/apis","apiKey", "", "Unknown"],
+  ["Aemet", "Weather and forecast data from Spain", "https://opendata.aemet.es/centrodedescargas/inicio","apiKey", "HTTPS", "Unknown"],
+  ["apilayer weatherstack", "Real-Time & Historical World Weather Data API", "https://weatherstack.com/","apiKey", "HTTPS", "Unknown"],
+  ["APIXU", "Weather","https://weatherstack.com/", "apiKey", "HTTPS", "Unknown"],
+  ["AQICN", "Air Quality Index Data for over 1000 cities", "https://aqicn.org/api/","apiKey", "HTTPS", "Unknown"],
+  ["AviationWeather", "NOAA aviation weather forecasts and observations", "https://www.aviationweather.gov/dataserver","", "HTTPS", "Unknown"],
+  ["ColorfulClouds", "Weather", "https://open.caiyunapp.com/ColorfulClouds_Weather_API","apiKey", "HTTPS", "CORS"],
+  ["Euskalmet", "Meteorological data of the Basque Country", "https://opendata.euskadi.eus/api-euskalmet/-/api-de-euskalmet/","apiKey", "HTTPS", "Unknown"],
+  ["Foreca", "Weather", "https://developer.foreca.com/","OAuth", "HTTPS", "Unknown"],
+  ["HG Weather", "Provides weather forecast data for cities in Brazil", "https://hgbrasil.com/status/weather","apiKey", "HTTPS", "CORS"],
+  ["Hong Kong Obervatory", "Provide weather information, earthquake information, and climate data","https://www.hko.gov.hk/en/abouthko/opendata_intro.htm", "", "HTTPS", "Unknown"],
+  ["MetaWeather", "Weather", "https://www.metaweather.com/api/","", "HTTPS", ""],
+  ["Meteorologisk Institutt", "Weather and climate data", "https://api.met.no/weatherapi/documentation","Agent", "HTTPS", "Unknown"],
+  ["Micro Weather", "Real-time weather forecasts and historic data", "https://m3o.com/weather/api","apiKey", "HTTPS", "Unknown"],
+  ["ODWeather", "Weather and weather webcams","https://api.oceandrivers.com/static/docs.html", "", "", "Unknown"],
+  ["Oikolab", "70+ years of global, hourly historical and forecast weather data from NOAA and ECMWF","https://docs.oikolab.com/", "apiKey", "HTTPS", "CORS"],
+  ["Open-Meteo", "Global weather forecast API for non-commercial use", "https://open-meteo.com/","", "HTTPS", "CORS"],
+  ["openSenseMap", "Data from Personal Weather Stations called senseBoxes", "https://api.opensensemap.org/","", "HTTPS", "CORS"],
+  ["OpenUV", "Real-time UV Index Forecast","https://www.openuv.io/", "apiKey", "HTTPS", "Unknown"],
+  ["OpenWeatherMap", "Weather","https://openweathermap.org/api", "apiKey", "HTTPS", "Unknown"],
+  ["QWeather", "Location-based weather data","https://dev.qweather.com/en/", "apiKey", "HTTPS", "CORS"],
+  ["RainViewer", "Radar data collected from different websites across the Internet","https://www.rainviewer.com/api.html", "", "HTTPS", "Unknown"],
+  ["Storm Glass", "Global marine weather from multiple sources","https://stormglass.io/", "apiKey", "HTTPS", "CORS"],
+  ["Tomorrow", "Weather API Powered by Proprietary Technology", "https://docs.tomorrow.io/reference/welcome","apiKey", "HTTPS", "Unknown"],
+  ["US Weather", "US National Weather Service","https://www.weather.gov/documentation/services-web-api", "", "HTTPS", "CORS"],
+  ["Visual Crossing", "Global historical and weather forecast data", "https://www.visualcrossing.com/weather-api","apiKey", "HTTPS", "CORS"],
+  ["weather-api", "A RESTful free API to check the weather", "https://github.com/robertoduessmann/weather-api","", "Yes", ""],
+  ["WeatherAPI", "Weather API with other stuff like Astronomy and Geolocation API","https://www.weatherapi.com/", "apiKey", "HTTPS", "HTTPS"],
+  ["Weatherbit", "Weather", "https://www.weatherbit.io/api","apiKey", "HTTPS", "Unknown"],
+  ["Yandex.Weather", "Assesses weather condition in specific locations","https://yandex.com/dev/weather/", "apiKey", "HTTPS", ""]
+
+  ];
 
   @override
   Widget build(BuildContext context) {
@@ -6084,6 +6431,1305 @@ class _ListScreenState extends State<ListScreen> {
 
        );
      }
+     else
+     if(widget.listIndex == 41) {
+       return Scaffold(
+         backgroundColor: Colors.black,
+         appBar: AppBar(
+           iconTheme: IconThemeData(
+             color: Colors.white, //change your color here
+           ),
+           backgroundColor: Colors.black,
+           title: Text('Shopping',style: TextStyle(color: Colors.white)),
+         ),
+         body: Padding(
+           padding: const EdgeInsets.all(8.0),
+           child: ListView.builder(
+             itemCount: data_42.length,
+             itemBuilder: (BuildContext context, int index) {
+               List<String> row = data_42[index];
+               return Card(
+                 child: Container(
+                   decoration: BoxDecoration(
+                     color: Colors.black,
+                     border: Border.all(
+                       color: Colors.grey.shade300,
+                       width: 0.5, // Set border width
+                     ),
+                     borderRadius: BorderRadius.all(
+                         Radius.circular(
+                             5.0) //                 <--- border radius here
+                     ),
+                   ),
+                   child: ListTile(
+                     title: Padding(
+                       padding: const EdgeInsets.only(top: 8.0),
+                       child: Text(row[0],
+                           style: GoogleFonts.openSans(textStyle: TextStyle(
+                             fontSize: 22,
+                             color: Colors.white,
+                             fontWeight: FontWeight.w800,))
+                       ),
+                     ), // Display item name
+                     subtitle: Column(
+                       mainAxisAlignment: MainAxisAlignment.start,
+                       crossAxisAlignment: CrossAxisAlignment.start,
+                       children: [
+                         Padding(
+                           padding: const EdgeInsets.only(top: 8.0, bottom: 8.0),
+                           child: Text(
+                               row[1],
+                               style: GoogleFonts.openSans(textStyle: TextStyle(
+                                 fontSize: 13,
+                                 color: Colors.grey,
+                                 fontWeight: FontWeight.w600,))
+                           ),
+                         ),
+                         Row(
+                           mainAxisAlignment: MainAxisAlignment.start,
+                           children: [
+                             if(row[3] !="")
+                               _buildChipOne(row[3], Color(0xff3f3f3f)) ,
+                             SizedBox(width: 5,),
+                             if(row[4] !="")
+                               _buildChipTwo(row[4], Color(0xff3f3f3f)),
+                             SizedBox(width: 5,),
+
+                             if(row[5] !="")
+                               _buildChipThree(row[5], Color(0xff3f3f3f)),
+                             SizedBox(width: 5,),
+
+                           ],
+                         ),
+                         SizedBox(height: 5,),
+
+
+
+                       ],
+                     ),
+                     trailing: Row(
+                       mainAxisSize: MainAxisSize.min,
+                       children: [
+                         IconButton(
+                           icon: Icon(
+                               Icons.launch, color: Colors.white, size: 22),
+                           onPressed: () {
+                             _open(row[2]);
+
+                           },
+                         ),
+
+                         IconButton(
+                           icon: Icon(
+                               Icons.bookmark_border, color: Colors.white,
+                               size: 22),
+                           onPressed: () {
+
+                           },
+                         ),
+                       ],
+                     ),
+                   ),
+                 ),
+               );
+             },
+           ),
+         ),
+         bottomNavigationBar: Row(
+           mainAxisAlignment: MainAxisAlignment.center,
+           children: [
+             if (_isBannerAdReady)
+               Container(
+                 width: _bannerAd.size.width.toDouble(),
+                 height: _bannerAd.size.height.toDouble(),
+                 child: AdWidget(ad: _bannerAd),
+               ),
+           ],
+         ),
+
+       );
+     }
+     else
+     if(widget.listIndex == 42) {
+       return Scaffold(
+         backgroundColor: Colors.black,
+         appBar: AppBar(
+           iconTheme: IconThemeData(
+             color: Colors.white, //change your color here
+           ),
+           backgroundColor: Colors.black,
+           title: Text('Social',style: TextStyle(color: Colors.white)),
+         ),
+         body: Padding(
+           padding: const EdgeInsets.all(8.0),
+           child: ListView.builder(
+             itemCount: data_43.length,
+             itemBuilder: (BuildContext context, int index) {
+               List<String> row = data_43[index];
+               return Card(
+                 child: Container(
+                   decoration: BoxDecoration(
+                     color: Colors.black,
+                     border: Border.all(
+                       color: Colors.grey.shade300,
+                       width: 0.5, // Set border width
+                     ),
+                     borderRadius: BorderRadius.all(
+                         Radius.circular(
+                             5.0) //                 <--- border radius here
+                     ),
+                   ),
+                   child: ListTile(
+                     title: Padding(
+                       padding: const EdgeInsets.only(top: 8.0),
+                       child: Text(row[0],
+                           style: GoogleFonts.openSans(textStyle: TextStyle(
+                             fontSize: 22,
+                             color: Colors.white,
+                             fontWeight: FontWeight.w800,))
+                       ),
+                     ), // Display item name
+                     subtitle: Column(
+                       mainAxisAlignment: MainAxisAlignment.start,
+                       crossAxisAlignment: CrossAxisAlignment.start,
+                       children: [
+                         Padding(
+                           padding: const EdgeInsets.only(top: 8.0, bottom: 8.0),
+                           child: Text(
+                               row[1],
+                               style: GoogleFonts.openSans(textStyle: TextStyle(
+                                 fontSize: 13,
+                                 color: Colors.grey,
+                                 fontWeight: FontWeight.w600,))
+                           ),
+                         ),
+                         Row(
+                           mainAxisAlignment: MainAxisAlignment.start,
+                           children: [
+                             if(row[3] !="")
+                               _buildChipOne(row[3], Color(0xff3f3f3f)) ,
+                             SizedBox(width: 5,),
+                             if(row[4] !="")
+                               _buildChipTwo(row[4], Color(0xff3f3f3f)),
+                             SizedBox(width: 5,),
+
+                             if(row[5] !="")
+                               _buildChipThree(row[5], Color(0xff3f3f3f)),
+                             SizedBox(width: 5,),
+
+                           ],
+                         ),
+                         SizedBox(height: 5,),
+
+
+
+                       ],
+                     ),
+                     trailing: Row(
+                       mainAxisSize: MainAxisSize.min,
+                       children: [
+                         IconButton(
+                           icon: Icon(
+                               Icons.launch, color: Colors.white, size: 22),
+                           onPressed: () {
+                             _open(row[2]);
+
+                           },
+                         ),
+
+                         IconButton(
+                           icon: Icon(
+                               Icons.bookmark_border, color: Colors.white,
+                               size: 22),
+                           onPressed: () {
+
+                           },
+                         ),
+                       ],
+                     ),
+                   ),
+                 ),
+               );
+             },
+           ),
+         ),
+         bottomNavigationBar: Row(
+           mainAxisAlignment: MainAxisAlignment.center,
+           children: [
+             if (_isBannerAdReady)
+               Container(
+                 width: _bannerAd.size.width.toDouble(),
+                 height: _bannerAd.size.height.toDouble(),
+                 child: AdWidget(ad: _bannerAd),
+               ),
+           ],
+         ),
+
+       );
+     }
+     else
+     if(widget.listIndex == 43) {
+       return Scaffold(
+         backgroundColor: Colors.black,
+         appBar: AppBar(
+           iconTheme: IconThemeData(
+             color: Colors.white, //change your color here
+           ),
+           backgroundColor: Colors.black,
+           title: Text('Sports & Fitness',style: TextStyle(color: Colors.white)),
+         ),
+         body: Padding(
+           padding: const EdgeInsets.all(8.0),
+           child: ListView.builder(
+             itemCount: data_44.length,
+             itemBuilder: (BuildContext context, int index) {
+               List<String> row = data_44[index];
+               return Card(
+                 child: Container(
+                   decoration: BoxDecoration(
+                     color: Colors.black,
+                     border: Border.all(
+                       color: Colors.grey.shade300,
+                       width: 0.5, // Set border width
+                     ),
+                     borderRadius: BorderRadius.all(
+                         Radius.circular(
+                             5.0) //                 <--- border radius here
+                     ),
+                   ),
+                   child: ListTile(
+                     title: Padding(
+                       padding: const EdgeInsets.only(top: 8.0),
+                       child: Text(row[0],
+                           style: GoogleFonts.openSans(textStyle: TextStyle(
+                             fontSize: 22,
+                             color: Colors.white,
+                             fontWeight: FontWeight.w800,))
+                       ),
+                     ), // Display item name
+                     subtitle: Column(
+                       mainAxisAlignment: MainAxisAlignment.start,
+                       crossAxisAlignment: CrossAxisAlignment.start,
+                       children: [
+                         Padding(
+                           padding: const EdgeInsets.only(top: 8.0, bottom: 8.0),
+                           child: Text(
+                               row[1],
+                               style: GoogleFonts.openSans(textStyle: TextStyle(
+                                 fontSize: 13,
+                                 color: Colors.grey,
+                                 fontWeight: FontWeight.w600,))
+                           ),
+                         ),
+                         Row(
+                           mainAxisAlignment: MainAxisAlignment.start,
+                           children: [
+                             if(row[3] !="")
+                               _buildChipOne(row[3], Color(0xff3f3f3f)) ,
+                             SizedBox(width: 5,),
+                             if(row[4] !="")
+                               _buildChipTwo(row[4], Color(0xff3f3f3f)),
+                             SizedBox(width: 5,),
+
+                             if(row[5] !="")
+                               _buildChipThree(row[5], Color(0xff3f3f3f)),
+                             SizedBox(width: 5,),
+
+                           ],
+                         ),
+                         SizedBox(height: 5,),
+
+
+
+                       ],
+                     ),
+                     trailing: Row(
+                       mainAxisSize: MainAxisSize.min,
+                       children: [
+                         IconButton(
+                           icon: Icon(
+                               Icons.launch, color: Colors.white, size: 22),
+                           onPressed: () {
+                             _open(row[2]);
+
+                           },
+                         ),
+
+                         IconButton(
+                           icon: Icon(
+                               Icons.bookmark_border, color: Colors.white,
+                               size: 22),
+                           onPressed: () {
+
+                           },
+                         ),
+                       ],
+                     ),
+                   ),
+                 ),
+               );
+             },
+           ),
+         ),
+         bottomNavigationBar: Row(
+           mainAxisAlignment: MainAxisAlignment.center,
+           children: [
+             if (_isBannerAdReady)
+               Container(
+                 width: _bannerAd.size.width.toDouble(),
+                 height: _bannerAd.size.height.toDouble(),
+                 child: AdWidget(ad: _bannerAd),
+               ),
+           ],
+         ),
+
+       );
+     }
+     else
+     if(widget.listIndex == 44) {
+       return Scaffold(
+         backgroundColor: Colors.black,
+         appBar: AppBar(
+           iconTheme: IconThemeData(
+             color: Colors.white, //change your color here
+           ),
+           backgroundColor: Colors.black,
+           title: Text('Test Data',style: TextStyle(color: Colors.white)),
+         ),
+         body: Padding(
+           padding: const EdgeInsets.all(8.0),
+           child: ListView.builder(
+             itemCount: data_45.length,
+             itemBuilder: (BuildContext context, int index) {
+               List<String> row = data_45[index];
+               return Card(
+                 child: Container(
+                   decoration: BoxDecoration(
+                     color: Colors.black,
+                     border: Border.all(
+                       color: Colors.grey.shade300,
+                       width: 0.5, // Set border width
+                     ),
+                     borderRadius: BorderRadius.all(
+                         Radius.circular(
+                             5.0) //                 <--- border radius here
+                     ),
+                   ),
+                   child: ListTile(
+                     title: Padding(
+                       padding: const EdgeInsets.only(top: 8.0),
+                       child: Text(row[0],
+                           style: GoogleFonts.openSans(textStyle: TextStyle(
+                             fontSize: 22,
+                             color: Colors.white,
+                             fontWeight: FontWeight.w800,))
+                       ),
+                     ), // Display item name
+                     subtitle: Column(
+                       mainAxisAlignment: MainAxisAlignment.start,
+                       crossAxisAlignment: CrossAxisAlignment.start,
+                       children: [
+                         Padding(
+                           padding: const EdgeInsets.only(top: 8.0, bottom: 8.0),
+                           child: Text(
+                               row[1],
+                               style: GoogleFonts.openSans(textStyle: TextStyle(
+                                 fontSize: 13,
+                                 color: Colors.grey,
+                                 fontWeight: FontWeight.w600,))
+                           ),
+                         ),
+                         Row(
+                           mainAxisAlignment: MainAxisAlignment.start,
+                           children: [
+                             if(row[3] !="")
+                               _buildChipOne(row[3], Color(0xff3f3f3f)) ,
+                             SizedBox(width: 5,),
+                             if(row[4] !="")
+                               _buildChipTwo(row[4], Color(0xff3f3f3f)),
+                             SizedBox(width: 5,),
+
+                             if(row[5] !="")
+                               _buildChipThree(row[5], Color(0xff3f3f3f)),
+                             SizedBox(width: 5,),
+
+                           ],
+                         ),
+                         SizedBox(height: 5,),
+
+
+
+                       ],
+                     ),
+                     trailing: Row(
+                       mainAxisSize: MainAxisSize.min,
+                       children: [
+                         IconButton(
+                           icon: Icon(
+                               Icons.launch, color: Colors.white, size: 22),
+                           onPressed: () {
+                             _open(row[2]);
+
+                           },
+                         ),
+
+                         IconButton(
+                           icon: Icon(
+                               Icons.bookmark_border, color: Colors.white,
+                               size: 22),
+                           onPressed: () {
+
+                           },
+                         ),
+                       ],
+                     ),
+                   ),
+                 ),
+               );
+             },
+           ),
+         ),
+         bottomNavigationBar: Row(
+           mainAxisAlignment: MainAxisAlignment.center,
+           children: [
+             if (_isBannerAdReady)
+               Container(
+                 width: _bannerAd.size.width.toDouble(),
+                 height: _bannerAd.size.height.toDouble(),
+                 child: AdWidget(ad: _bannerAd),
+               ),
+           ],
+         ),
+
+       );
+     }
+     else
+     if(widget.listIndex == 45) {
+       return Scaffold(
+         backgroundColor: Colors.black,
+         appBar: AppBar(
+           iconTheme: IconThemeData(
+             color: Colors.white, //change your color here
+           ),
+           backgroundColor: Colors.black,
+           title: Text('Text Analysis',style: TextStyle(color: Colors.white)),
+         ),
+         body: Padding(
+           padding: const EdgeInsets.all(8.0),
+           child: ListView.builder(
+             itemCount: data_46.length,
+             itemBuilder: (BuildContext context, int index) {
+               List<String> row = data_46[index];
+               return Card(
+                 child: Container(
+                   decoration: BoxDecoration(
+                     color: Colors.black,
+                     border: Border.all(
+                       color: Colors.grey.shade300,
+                       width: 0.5, // Set border width
+                     ),
+                     borderRadius: BorderRadius.all(
+                         Radius.circular(
+                             5.0) //                 <--- border radius here
+                     ),
+                   ),
+                   child: ListTile(
+                     title: Padding(
+                       padding: const EdgeInsets.only(top: 8.0),
+                       child: Text(row[0],
+                           style: GoogleFonts.openSans(textStyle: TextStyle(
+                             fontSize: 22,
+                             color: Colors.white,
+                             fontWeight: FontWeight.w800,))
+                       ),
+                     ), // Display item name
+                     subtitle: Column(
+                       mainAxisAlignment: MainAxisAlignment.start,
+                       crossAxisAlignment: CrossAxisAlignment.start,
+                       children: [
+                         Padding(
+                           padding: const EdgeInsets.only(top: 8.0, bottom: 8.0),
+                           child: Text(
+                               row[1],
+                               style: GoogleFonts.openSans(textStyle: TextStyle(
+                                 fontSize: 13,
+                                 color: Colors.grey,
+                                 fontWeight: FontWeight.w600,))
+                           ),
+                         ),
+                         Row(
+                           mainAxisAlignment: MainAxisAlignment.start,
+                           children: [
+                             if(row[3] !="")
+                               _buildChipOne(row[3], Color(0xff3f3f3f)) ,
+                             SizedBox(width: 5,),
+                             if(row[4] !="")
+                               _buildChipTwo(row[4], Color(0xff3f3f3f)),
+                             SizedBox(width: 5,),
+
+                             if(row[5] !="")
+                               _buildChipThree(row[5], Color(0xff3f3f3f)),
+                             SizedBox(width: 5,),
+
+                           ],
+                         ),
+                         SizedBox(height: 5,),
+
+
+
+                       ],
+                     ),
+                     trailing: Row(
+                       mainAxisSize: MainAxisSize.min,
+                       children: [
+                         IconButton(
+                           icon: Icon(
+                               Icons.launch, color: Colors.white, size: 22),
+                           onPressed: () {
+                             _open(row[2]);
+
+                           },
+                         ),
+
+                         IconButton(
+                           icon: Icon(
+                               Icons.bookmark_border, color: Colors.white,
+                               size: 22),
+                           onPressed: () {
+
+                           },
+                         ),
+                       ],
+                     ),
+                   ),
+                 ),
+               );
+             },
+           ),
+         ),
+         bottomNavigationBar: Row(
+           mainAxisAlignment: MainAxisAlignment.center,
+           children: [
+             if (_isBannerAdReady)
+               Container(
+                 width: _bannerAd.size.width.toDouble(),
+                 height: _bannerAd.size.height.toDouble(),
+                 child: AdWidget(ad: _bannerAd),
+               ),
+           ],
+         ),
+
+       );
+     }
+     else
+     if(widget.listIndex == 46) {
+       return Scaffold(
+         backgroundColor: Colors.black,
+         appBar: AppBar(
+           iconTheme: IconThemeData(
+             color: Colors.white, //change your color here
+           ),
+           backgroundColor: Colors.black,
+           title: Text('Tracking',style: TextStyle(color: Colors.white)),
+         ),
+         body: Padding(
+           padding: const EdgeInsets.all(8.0),
+           child: ListView.builder(
+             itemCount: data_47.length,
+             itemBuilder: (BuildContext context, int index) {
+               List<String> row = data_47[index];
+               return Card(
+                 child: Container(
+                   decoration: BoxDecoration(
+                     color: Colors.black,
+                     border: Border.all(
+                       color: Colors.grey.shade300,
+                       width: 0.5, // Set border width
+                     ),
+                     borderRadius: BorderRadius.all(
+                         Radius.circular(
+                             5.0) //                 <--- border radius here
+                     ),
+                   ),
+                   child: ListTile(
+                     title: Padding(
+                       padding: const EdgeInsets.only(top: 8.0),
+                       child: Text(row[0],
+                           style: GoogleFonts.openSans(textStyle: TextStyle(
+                             fontSize: 22,
+                             color: Colors.white,
+                             fontWeight: FontWeight.w800,))
+                       ),
+                     ), // Display item name
+                     subtitle: Column(
+                       mainAxisAlignment: MainAxisAlignment.start,
+                       crossAxisAlignment: CrossAxisAlignment.start,
+                       children: [
+                         Padding(
+                           padding: const EdgeInsets.only(top: 8.0, bottom: 8.0),
+                           child: Text(
+                               row[1],
+                               style: GoogleFonts.openSans(textStyle: TextStyle(
+                                 fontSize: 13,
+                                 color: Colors.grey,
+                                 fontWeight: FontWeight.w600,))
+                           ),
+                         ),
+                         Row(
+                           mainAxisAlignment: MainAxisAlignment.start,
+                           children: [
+                             if(row[3] !="")
+                               _buildChipOne(row[3], Color(0xff3f3f3f)) ,
+                             SizedBox(width: 5,),
+                             if(row[4] !="")
+                               _buildChipTwo(row[4], Color(0xff3f3f3f)),
+                             SizedBox(width: 5,),
+
+                             if(row[5] !="")
+                               _buildChipThree(row[5], Color(0xff3f3f3f)),
+                             SizedBox(width: 5,),
+
+                           ],
+                         ),
+                         SizedBox(height: 5,),
+
+
+
+                       ],
+                     ),
+                     trailing: Row(
+                       mainAxisSize: MainAxisSize.min,
+                       children: [
+                         IconButton(
+                           icon: Icon(
+                               Icons.launch, color: Colors.white, size: 22),
+                           onPressed: () {
+                             _open(row[2]);
+
+                           },
+                         ),
+
+                         IconButton(
+                           icon: Icon(
+                               Icons.bookmark_border, color: Colors.white,
+                               size: 22),
+                           onPressed: () {
+
+                           },
+                         ),
+                       ],
+                     ),
+                   ),
+                 ),
+               );
+             },
+           ),
+         ),
+         bottomNavigationBar: Row(
+           mainAxisAlignment: MainAxisAlignment.center,
+           children: [
+             if (_isBannerAdReady)
+               Container(
+                 width: _bannerAd.size.width.toDouble(),
+                 height: _bannerAd.size.height.toDouble(),
+                 child: AdWidget(ad: _bannerAd),
+               ),
+           ],
+         ),
+
+       );
+     }
+     else
+     if(widget.listIndex == 47) {
+       return Scaffold(
+         backgroundColor: Colors.black,
+         appBar: AppBar(
+           iconTheme: IconThemeData(
+             color: Colors.white, //change your color here
+           ),
+           backgroundColor: Colors.black,
+           title: Text('Transportation',style: TextStyle(color: Colors.white)),
+         ),
+         body: Padding(
+           padding: const EdgeInsets.all(8.0),
+           child: ListView.builder(
+             itemCount: data_48.length,
+             itemBuilder: (BuildContext context, int index) {
+               List<String> row = data_48[index];
+               return Card(
+                 child: Container(
+                   decoration: BoxDecoration(
+                     color: Colors.black,
+                     border: Border.all(
+                       color: Colors.grey.shade300,
+                       width: 0.5, // Set border width
+                     ),
+                     borderRadius: BorderRadius.all(
+                         Radius.circular(
+                             5.0) //                 <--- border radius here
+                     ),
+                   ),
+                   child: ListTile(
+                     title: Padding(
+                       padding: const EdgeInsets.only(top: 8.0),
+                       child: Text(row[0],
+                           style: GoogleFonts.openSans(textStyle: TextStyle(
+                             fontSize: 22,
+                             color: Colors.white,
+                             fontWeight: FontWeight.w800,))
+                       ),
+                     ), // Display item name
+                     subtitle: Column(
+                       mainAxisAlignment: MainAxisAlignment.start,
+                       crossAxisAlignment: CrossAxisAlignment.start,
+                       children: [
+                         Padding(
+                           padding: const EdgeInsets.only(top: 8.0, bottom: 8.0),
+                           child: Text(
+                               row[1],
+                               style: GoogleFonts.openSans(textStyle: TextStyle(
+                                 fontSize: 13,
+                                 color: Colors.grey,
+                                 fontWeight: FontWeight.w600,))
+                           ),
+                         ),
+                         Row(
+                           mainAxisAlignment: MainAxisAlignment.start,
+                           children: [
+                             if(row[3] !="")
+                               _buildChipOne(row[3], Color(0xff3f3f3f)) ,
+                             SizedBox(width: 5,),
+                             if(row[4] !="")
+                               _buildChipTwo(row[4], Color(0xff3f3f3f)),
+                             SizedBox(width: 5,),
+
+                             if(row[5] !="")
+                               _buildChipThree(row[5], Color(0xff3f3f3f)),
+                             SizedBox(width: 5,),
+
+                           ],
+                         ),
+                         SizedBox(height: 5,),
+
+
+
+                       ],
+                     ),
+                     trailing: Row(
+                       mainAxisSize: MainAxisSize.min,
+                       children: [
+                         IconButton(
+                           icon: Icon(
+                               Icons.launch, color: Colors.white, size: 22),
+                           onPressed: () {
+                             _open(row[2]);
+
+                           },
+                         ),
+
+                         IconButton(
+                           icon: Icon(
+                               Icons.bookmark_border, color: Colors.white,
+                               size: 22),
+                           onPressed: () {
+
+                           },
+                         ),
+                       ],
+                     ),
+                   ),
+                 ),
+               );
+             },
+           ),
+         ),
+         bottomNavigationBar: Row(
+           mainAxisAlignment: MainAxisAlignment.center,
+           children: [
+             if (_isBannerAdReady)
+               Container(
+                 width: _bannerAd.size.width.toDouble(),
+                 height: _bannerAd.size.height.toDouble(),
+                 child: AdWidget(ad: _bannerAd),
+               ),
+           ],
+         ),
+
+       );
+     }
+     else
+     if(widget.listIndex == 48) {
+       return Scaffold(
+         backgroundColor: Colors.black,
+         appBar: AppBar(
+           iconTheme: IconThemeData(
+             color: Colors.white, //change your color here
+           ),
+           backgroundColor: Colors.black,
+           title: Text('URL Shorteners',style: TextStyle(color: Colors.white)),
+         ),
+         body: Padding(
+           padding: const EdgeInsets.all(8.0),
+           child: ListView.builder(
+             itemCount: data_49.length,
+             itemBuilder: (BuildContext context, int index) {
+               List<String> row = data_49[index];
+               return Card(
+                 child: Container(
+                   decoration: BoxDecoration(
+                     color: Colors.black,
+                     border: Border.all(
+                       color: Colors.grey.shade300,
+                       width: 0.5, // Set border width
+                     ),
+                     borderRadius: BorderRadius.all(
+                         Radius.circular(
+                             5.0) //                 <--- border radius here
+                     ),
+                   ),
+                   child: ListTile(
+                     title: Padding(
+                       padding: const EdgeInsets.only(top: 8.0),
+                       child: Text(row[0],
+                           style: GoogleFonts.openSans(textStyle: TextStyle(
+                             fontSize: 22,
+                             color: Colors.white,
+                             fontWeight: FontWeight.w800,))
+                       ),
+                     ), // Display item name
+                     subtitle: Column(
+                       mainAxisAlignment: MainAxisAlignment.start,
+                       crossAxisAlignment: CrossAxisAlignment.start,
+                       children: [
+                         Padding(
+                           padding: const EdgeInsets.only(top: 8.0, bottom: 8.0),
+                           child: Text(
+                               row[1],
+                               style: GoogleFonts.openSans(textStyle: TextStyle(
+                                 fontSize: 13,
+                                 color: Colors.grey,
+                                 fontWeight: FontWeight.w600,))
+                           ),
+                         ),
+                         Row(
+                           mainAxisAlignment: MainAxisAlignment.start,
+                           children: [
+                             if(row[3] !="")
+                               _buildChipOne(row[3], Color(0xff3f3f3f)) ,
+                             SizedBox(width: 5,),
+                             if(row[4] !="")
+                               _buildChipTwo(row[4], Color(0xff3f3f3f)),
+                             SizedBox(width: 5,),
+
+                             if(row[5] !="")
+                               _buildChipThree(row[5], Color(0xff3f3f3f)),
+                             SizedBox(width: 5,),
+
+                           ],
+                         ),
+                         SizedBox(height: 5,),
+
+
+
+                       ],
+                     ),
+                     trailing: Row(
+                       mainAxisSize: MainAxisSize.min,
+                       children: [
+                         IconButton(
+                           icon: Icon(
+                               Icons.launch, color: Colors.white, size: 22),
+                           onPressed: () {
+                             _open(row[2]);
+
+                           },
+                         ),
+
+                         IconButton(
+                           icon: Icon(
+                               Icons.bookmark_border, color: Colors.white,
+                               size: 22),
+                           onPressed: () {
+
+                           },
+                         ),
+                       ],
+                     ),
+                   ),
+                 ),
+               );
+             },
+           ),
+         ),
+         bottomNavigationBar: Row(
+           mainAxisAlignment: MainAxisAlignment.center,
+           children: [
+             if (_isBannerAdReady)
+               Container(
+                 width: _bannerAd.size.width.toDouble(),
+                 height: _bannerAd.size.height.toDouble(),
+                 child: AdWidget(ad: _bannerAd),
+               ),
+           ],
+         ),
+
+       );
+     }
+     else
+     if(widget.listIndex == 49) {
+       return Scaffold(
+         backgroundColor: Colors.black,
+         appBar: AppBar(
+           iconTheme: IconThemeData(
+             color: Colors.white, //change your color here
+           ),
+           backgroundColor: Colors.black,
+           title: Text('Vehicle',style: TextStyle(color: Colors.white)),
+         ),
+         body: Padding(
+           padding: const EdgeInsets.all(8.0),
+           child: ListView.builder(
+             itemCount: data_50.length,
+             itemBuilder: (BuildContext context, int index) {
+               List<String> row = data_50[index];
+               return Card(
+                 child: Container(
+                   decoration: BoxDecoration(
+                     color: Colors.black,
+                     border: Border.all(
+                       color: Colors.grey.shade300,
+                       width: 0.5, // Set border width
+                     ),
+                     borderRadius: BorderRadius.all(
+                         Radius.circular(
+                             5.0) //                 <--- border radius here
+                     ),
+                   ),
+                   child: ListTile(
+                     title: Padding(
+                       padding: const EdgeInsets.only(top: 8.0),
+                       child: Text(row[0],
+                           style: GoogleFonts.openSans(textStyle: TextStyle(
+                             fontSize: 22,
+                             color: Colors.white,
+                             fontWeight: FontWeight.w800,))
+                       ),
+                     ), // Display item name
+                     subtitle: Column(
+                       mainAxisAlignment: MainAxisAlignment.start,
+                       crossAxisAlignment: CrossAxisAlignment.start,
+                       children: [
+                         Padding(
+                           padding: const EdgeInsets.only(top: 8.0, bottom: 8.0),
+                           child: Text(
+                               row[1],
+                               style: GoogleFonts.openSans(textStyle: TextStyle(
+                                 fontSize: 13,
+                                 color: Colors.grey,
+                                 fontWeight: FontWeight.w600,))
+                           ),
+                         ),
+                         Row(
+                           mainAxisAlignment: MainAxisAlignment.start,
+                           children: [
+                             if(row[3] !="")
+                               _buildChipOne(row[3], Color(0xff3f3f3f)) ,
+                             SizedBox(width: 5,),
+                             if(row[4] !="")
+                               _buildChipTwo(row[4], Color(0xff3f3f3f)),
+                             SizedBox(width: 5,),
+
+                             if(row[5] !="")
+                               _buildChipThree(row[5], Color(0xff3f3f3f)),
+                             SizedBox(width: 5,),
+
+                           ],
+                         ),
+                         SizedBox(height: 5,),
+
+
+
+                       ],
+                     ),
+                     trailing: Row(
+                       mainAxisSize: MainAxisSize.min,
+                       children: [
+                         IconButton(
+                           icon: Icon(
+                               Icons.launch, color: Colors.white, size: 22),
+                           onPressed: () {
+                             _open(row[2]);
+
+                           },
+                         ),
+
+                         IconButton(
+                           icon: Icon(
+                               Icons.bookmark_border, color: Colors.white,
+                               size: 22),
+                           onPressed: () {
+
+                           },
+                         ),
+                       ],
+                     ),
+                   ),
+                 ),
+               );
+             },
+           ),
+         ),
+         bottomNavigationBar: Row(
+           mainAxisAlignment: MainAxisAlignment.center,
+           children: [
+             if (_isBannerAdReady)
+               Container(
+                 width: _bannerAd.size.width.toDouble(),
+                 height: _bannerAd.size.height.toDouble(),
+                 child: AdWidget(ad: _bannerAd),
+               ),
+           ],
+         ),
+
+       );
+     }
+     else
+     if(widget.listIndex == 50) {
+       return Scaffold(
+         backgroundColor: Colors.black,
+         appBar: AppBar(
+           iconTheme: IconThemeData(
+             color: Colors.white, //change your color here
+           ),
+           backgroundColor: Colors.black,
+           title: Text('Video',style: TextStyle(color: Colors.white)),
+         ),
+         body: Padding(
+           padding: const EdgeInsets.all(8.0),
+           child: ListView.builder(
+             itemCount: data_51.length,
+             itemBuilder: (BuildContext context, int index) {
+               List<String> row = data_51[index];
+               return Card(
+                 child: Container(
+                   decoration: BoxDecoration(
+                     color: Colors.black,
+                     border: Border.all(
+                       color: Colors.grey.shade300,
+                       width: 0.5, // Set border width
+                     ),
+                     borderRadius: BorderRadius.all(
+                         Radius.circular(
+                             5.0) //                 <--- border radius here
+                     ),
+                   ),
+                   child: ListTile(
+                     title: Padding(
+                       padding: const EdgeInsets.only(top: 8.0),
+                       child: Text(row[0],
+                           style: GoogleFonts.openSans(textStyle: TextStyle(
+                             fontSize: 22,
+                             color: Colors.white,
+                             fontWeight: FontWeight.w800,))
+                       ),
+                     ), // Display item name
+                     subtitle: Column(
+                       mainAxisAlignment: MainAxisAlignment.start,
+                       crossAxisAlignment: CrossAxisAlignment.start,
+                       children: [
+                         Padding(
+                           padding: const EdgeInsets.only(top: 8.0, bottom: 8.0),
+                           child: Text(
+                               row[1],
+                               style: GoogleFonts.openSans(textStyle: TextStyle(
+                                 fontSize: 13,
+                                 color: Colors.grey,
+                                 fontWeight: FontWeight.w600,))
+                           ),
+                         ),
+                         Row(
+                           mainAxisAlignment: MainAxisAlignment.start,
+                           children: [
+                             if(row[3] !="")
+                               _buildChipOne(row[3], Color(0xff3f3f3f)) ,
+                             SizedBox(width: 5,),
+                             if(row[4] !="")
+                               _buildChipTwo(row[4], Color(0xff3f3f3f)),
+                             SizedBox(width: 5,),
+
+                             if(row[5] !="")
+                               _buildChipThree(row[5], Color(0xff3f3f3f)),
+                             SizedBox(width: 5,),
+
+                           ],
+                         ),
+                         SizedBox(height: 5,),
+
+
+
+                       ],
+                     ),
+                     trailing: Row(
+                       mainAxisSize: MainAxisSize.min,
+                       children: [
+                         IconButton(
+                           icon: Icon(
+                               Icons.launch, color: Colors.white, size: 22),
+                           onPressed: () {
+                             _open(row[2]);
+
+                           },
+                         ),
+
+                         IconButton(
+                           icon: Icon(
+                               Icons.bookmark_border, color: Colors.white,
+                               size: 22),
+                           onPressed: () {
+
+                           },
+                         ),
+                       ],
+                     ),
+                   ),
+                 ),
+               );
+             },
+           ),
+         ),
+         bottomNavigationBar: Row(
+           mainAxisAlignment: MainAxisAlignment.center,
+           children: [
+             if (_isBannerAdReady)
+               Container(
+                 width: _bannerAd.size.width.toDouble(),
+                 height: _bannerAd.size.height.toDouble(),
+                 child: AdWidget(ad: _bannerAd),
+               ),
+           ],
+         ),
+
+       );
+     }
+     else
+     if(widget.listIndex == 51) {
+       return Scaffold(
+         backgroundColor: Colors.black,
+         appBar: AppBar(
+           iconTheme: IconThemeData(
+             color: Colors.white, //change your color here
+           ),
+           backgroundColor: Colors.black,
+           title: Text('Weather',style: TextStyle(color: Colors.white)),
+         ),
+         body: Padding(
+           padding: const EdgeInsets.all(8.0),
+           child: ListView.builder(
+             itemCount: data_52.length,
+             itemBuilder: (BuildContext context, int index) {
+               List<String> row = data_52[index];
+               return Card(
+                 child: Container(
+                   decoration: BoxDecoration(
+                     color: Colors.black,
+                     border: Border.all(
+                       color: Colors.grey.shade300,
+                       width: 0.5, // Set border width
+                     ),
+                     borderRadius: BorderRadius.all(
+                         Radius.circular(
+                             5.0) //                 <--- border radius here
+                     ),
+                   ),
+                   child: ListTile(
+                     title: Padding(
+                       padding: const EdgeInsets.only(top: 8.0),
+                       child: Text(row[0],
+                           style: GoogleFonts.openSans(textStyle: TextStyle(
+                             fontSize: 22,
+                             color: Colors.white,
+                             fontWeight: FontWeight.w800,))
+                       ),
+                     ), // Display item name
+                     subtitle: Column(
+                       mainAxisAlignment: MainAxisAlignment.start,
+                       crossAxisAlignment: CrossAxisAlignment.start,
+                       children: [
+                         Padding(
+                           padding: const EdgeInsets.only(top: 8.0, bottom: 8.0),
+                           child: Text(
+                               row[1],
+                               style: GoogleFonts.openSans(textStyle: TextStyle(
+                                 fontSize: 13,
+                                 color: Colors.grey,
+                                 fontWeight: FontWeight.w600,))
+                           ),
+                         ),
+                         Row(
+                           mainAxisAlignment: MainAxisAlignment.start,
+                           children: [
+                             if(row[3] !="")
+                               _buildChipOne(row[3], Color(0xff3f3f3f)) ,
+                             SizedBox(width: 5,),
+                             if(row[4] !="")
+                               _buildChipTwo(row[4], Color(0xff3f3f3f)),
+                             SizedBox(width: 5,),
+
+                             if(row[5] !="")
+                               _buildChipThree(row[5], Color(0xff3f3f3f)),
+                             SizedBox(width: 5,),
+
+                           ],
+                         ),
+                         SizedBox(height: 5,),
+
+
+
+                       ],
+                     ),
+                     trailing: Row(
+                       mainAxisSize: MainAxisSize.min,
+                       children: [
+                         IconButton(
+                           icon: Icon(
+                               Icons.launch, color: Colors.white, size: 22),
+                           onPressed: () {
+                             _open(row[2]);
+
+                           },
+                         ),
+
+                         IconButton(
+                           icon: Icon(
+                               Icons.bookmark_border, color: Colors.white,
+                               size: 22),
+                           onPressed: () {
+
+                           },
+                         ),
+                       ],
+                     ),
+                   ),
+                 ),
+               );
+             },
+           ),
+         ),
+         bottomNavigationBar: Row(
+           mainAxisAlignment: MainAxisAlignment.center,
+           children: [
+             if (_isBannerAdReady)
+               Container(
+                 width: _bannerAd.size.width.toDouble(),
+                 height: _bannerAd.size.height.toDouble(),
+                 child: AdWidget(ad: _bannerAd),
+               ),
+           ],
+         ),
+
+       );
+     }
+
 
      else
        {
